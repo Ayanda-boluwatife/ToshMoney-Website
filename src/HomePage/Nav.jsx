@@ -84,6 +84,11 @@ const Wrapper = styled.nav`
         border: none;
         border-radius: 10px;
     }
+    .app:hover{
+        color: #FB9B02;
+        background-color: white;
+        border: 1px solid #FB9B02;
+    }
     .toggle {
         border: none;
         background-color: transparent;

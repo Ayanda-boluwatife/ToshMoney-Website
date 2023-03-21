@@ -30,9 +30,12 @@ const Wrapper = styled.section`
 }
 p{
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 h1{
   font-size: 3vw;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 .line{
   background-color:linear-gradient(180deg, rgba(193, 45, 193, 0.31) 0%, rgba(206, 103, 206, 0) 100%);

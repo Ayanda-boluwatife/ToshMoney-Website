@@ -17,7 +17,7 @@ const Home = () => {
         <Hero />
         <Interact/>
         <Feature/>
-        <Courses/>
+        <Courses/> 
         <Footer />
         <BackToTop/>
       </section>
