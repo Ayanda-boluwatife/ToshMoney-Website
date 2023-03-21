@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Trainings = () => {
   return (
@@ -23,7 +24,9 @@ const Trainings = () => {
             <div><img src="/images/Group 21.png" alt="" /></div>
             <h1>Exceptional customer service</h1>
             <p>We are dedicated to providing exceptional customer service to each and every client. Their team is responsive, communicative, and always willing to go the extra mile to ensure that clients are satisfied with the final product.</p>
+            <div className='btn'><Link to={'/service'}><button>View All Services</button></Link></div>
         </div>
+        
     </Wrapper>
   )
 }
@@ -46,6 +49,18 @@ const Wrapper = styled.section`
     100%{
         transform: rotate(360deg);
     }
+   }
+   .btn button{
+    padding: 15px 30px;
+    background: linear-gradient(102.73deg, #C12DC1 40.79%, #D913D9 71.33%);
+    border-radius: 14px;
+    border: none;
+    float: right;
+    color: white;
+   }
+   .btn button:hover{
+    background: linear-gradient(102.73deg, #D913D9 71.33%,#C12DC1 40.79% );
+    cursor: pointer;
    }
 
    @media screen and (max-width:950px) {

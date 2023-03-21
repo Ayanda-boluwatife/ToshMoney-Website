@@ -1,4 +1,5 @@
 import React from 'react'
+import BackToTop from '../BackToTop'
 import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import CareerHeader from './CareerHeader'
@@ -11,6 +12,7 @@ const Career = () => {
         <CareerHeader/>
         <SecondCareerPage />
         <Footer/>
+        <BackToTop />
     </div>
   )
 }

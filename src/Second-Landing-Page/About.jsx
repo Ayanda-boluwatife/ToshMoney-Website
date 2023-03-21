@@ -10,6 +10,7 @@ import Trainings from './Trainings';
 import styled from 'styled-components';
 import Nav from '../HomePage/Nav';
 import Footer from '../HomePage/Footer';
+import BackToTop from '../BackToTop';
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
         <Testimony />
         <JoinToshConsult />
         <Footer />
+        <BackToTop />
       </div>
     </Wrapper>
   )

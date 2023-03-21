@@ -7,6 +7,7 @@ import Interact from './Interact';
 import Feature from './Feature';
 import Courses from './Courses';
 import BackToTop from '../BackToTop';
+import Testimony from '../Second-Landing-Page/Testimony';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Interact/>
         <Feature/>
         <Courses/>
+        <Testimony />
         <Footer />
         <BackToTop/>
       </section>

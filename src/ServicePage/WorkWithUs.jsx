@@ -29,9 +29,9 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding: 50px;
     width: 70%;
+    line-height: 100%;
    }
    button{
     padding: 10px 25px;

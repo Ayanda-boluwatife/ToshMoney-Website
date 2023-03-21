@@ -62,6 +62,7 @@ const Wrapper = styled.div`
     text-align: center;
     cursor: pointer;
     animation: animater 2s linear infinite;
+    z-index: 1000;
   }
   @keyframes animater {
     0%{transform: translateY(10px);}
