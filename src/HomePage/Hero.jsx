@@ -19,7 +19,7 @@ const Hero = () => {
                 <p>flexible learning and innovation to get started in tech.</p>
                 <div className="btn-group">
                     <Link>get in touch</Link>
-                    <Link>explore our course</Link>
+                    <Link to={'/courses'}>explore our course</Link>
                 </div>
             </div>
             <div className="second">
@@ -110,6 +110,11 @@ const Wrapper = styled.div`
         cursor: pointer;
         text-decoration: none;
     }
+    .btn-group a:nth-of-type(1):hover{
+        color: #FB9B02;
+        background-color: white;
+        border: 1px solid #FB9B02;
+    }
     .btn-group a:nth-of-type(2){
         background-color: white;
         border: 1px solid #C12DC1;
@@ -119,6 +124,10 @@ const Wrapper = styled.div`
         border-radius: 10px;
         text-decoration: none;
         cursor: pointer;
+    }
+    .btn-group a:nth-of-type(2):hover{
+        background-color: #C12DC1;
+        color: white;
     }
     .second{
         width: 100%;

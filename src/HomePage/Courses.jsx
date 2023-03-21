@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
 import {BsCheckLg} from 'react-icons/bs'
-import group19 from '../images/Rectangle 19.png'
-import group26 from '../images/Rectangle 26.png'
-import group27 from '../images/Rectangle 27.png'
-import group38 from '../images/Rectangle 38.png'
-import group32 from '../images/Rectangle 32.png'
+import group19 from '../images/Rectangle 19.png';
+import group26 from '../images/Rectangle 26.png';
+import group27 from '../images/Rectangle 27.png';
+import group38 from '../images/Rectangle 38.png';
+import group32 from '../images/Rectangle 32.png';
 import group33  from '../images/Rectangle 33 (2).png'
 import JoinToshConsult from './JoinToshConsult';
+import { Link } from 'react-router-dom';
+
 
 const Courses = () => {
   return (
@@ -59,7 +61,7 @@ const Courses = () => {
                                 <span>GIT & GITHUB</span>
                             </div>
                         </div>
-                        <button className='learn un'>Learn More</button>
+                        <Link to={'/front-end'}><button className='learn un'>Learn More</button></Link>
                     </div>
                 </div>
                 <div className='first second'>
@@ -104,7 +106,7 @@ const Courses = () => {
                                 <span>GIT & GITHUB</span>
                             </div>
                         </div>
-                        <button className='learn more un'>Learn More</button>
+                        <Link to={'/back-end'}><button className='learn more un'>Learn More</button></Link>
                     </div>
                 </div>
                 <div className='first'>
@@ -167,7 +169,7 @@ const Courses = () => {
                                 <span>Monroose</span>
                             </div>
                         </div>
-                        <button className='learn'>Learn More</button>
+                        <Link to={'/fullstack'}><button className='learn'>Learn More</button></Link>
                     </div>
                 </div>
                 <div className='first'>
@@ -212,7 +214,7 @@ const Courses = () => {
                                 <span>javascript</span>
                             </div>
                         </div>
-                        <button className='learn un'>Learn More</button>
+                        <Link to={'/python'}><button className='learn un'>Learn More</button></Link>
                     </div>
                 </div>
                 <div className='first second'>
@@ -253,7 +255,7 @@ const Courses = () => {
                                 <span>Wireframe</span>
                             </div>
                         </div>
-                        <button className='learn more un'>Learn More</button>
+                        <Link to={'/uiux'}><button className='learn more un'>Learn More</button></Link>
                     </div>
                 </div>
                 <div className='first'>
@@ -316,7 +318,7 @@ const Courses = () => {
                                 <span>Monroose</span>
                             </div>
                         </div>
-                        <button className='learn'>Learn More</button>
+                        <Link to={'/mobile-app'}><button className='learn'>Learn More</button></Link>
                     </div>
                 </div>
             </div>
@@ -410,8 +412,18 @@ const Wrapper = styled.div`
         border-radius: 20px;
         cursor: pointer;
     }
+    .learn:hover{
+        border: 1px solid #C12DC1;
+        background-color: white;
+        color: #C12DC1;
+    }
     .more{
         background-color: #FB9B02;
+    }
+    .more:hover{
+        color: #FB9B02;
+        background-color: white;
+        border: 1px solid #FB9B02;
     }
     .un{
         margin-top: 50px;

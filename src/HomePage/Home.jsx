@@ -18,8 +18,12 @@ const Home = () => {
         <Hero />
         <Interact/>
         <Feature/>
+<<<<<<< HEAD
         <Courses/>
         <Testimony />
+=======
+        <Courses/> 
+>>>>>>> 4ce367551f23c4e69656fcb2abb72efe9eac5c1d
         <Footer />
         <BackToTop/>
       </section>

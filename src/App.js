@@ -4,10 +4,19 @@ import About from './Second-Landing-Page/About';
 import Career from './Carrer-Landing-Page/Career';
 import Home from './HomePage/Home';
 import HomeTwo from './Courses page/HomeTwo'
+<<<<<<< HEAD
 import Service from './ServicePage/Service';
 import Contact from './ContactPage/Contact';
 import Faq from './faq/Faq';
 import Register from './RegisterPage/Register';
+=======
+import FrontEnd from './Courses page/FrontEnd';
+import BackEnd from './Courses page/BackEnd';
+import Python from './Courses page/Python';
+import Uiux from './Courses page/Uiux';
+import FullStack from './Courses page/FullStack';
+import MobileApp from './Courses page/MobileApp';
+>>>>>>> 4ce367551f23c4e69656fcb2abb72efe9eac5c1d
 
 function App() {
   return (
@@ -16,6 +25,12 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/courses' element={<HomeTwo />} />
+          <Route path='/front-end' element={<FrontEnd />} />
+          <Route path='/back-end' element={<BackEnd />} />
+          <Route path='/python' element={<Python />} />
+          <Route path='/uiux' element={<Uiux />} />
+          <Route path='/fullstack' element={<FullStack />} />
+          <Route path='/mobile-app' element={<MobileApp/>}/>
           <Route path='/about' element={<About />} />
           <Route path='/career' element={<Career />} />
           <Route path='/service' element={<Service/>}/>

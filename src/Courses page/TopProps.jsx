@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const CoursesTwo = () => {
+const TopProps = (props) => {
   return (
     <Wrapper>
         <div className="container">
             <div className="enclosure">
                 <div className="sub">
-                <h1>check all the courses available to take</h1>
+                <h1>{props.header}</h1>
                 <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
                 </div>
             </div>
@@ -67,4 +67,4 @@ const Wrapper = styled.div`
 
 `
 
-export default CoursesTwo;
+export default TopProps;

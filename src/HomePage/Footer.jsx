@@ -25,12 +25,12 @@ const Footer = () => {
                 <div className='set'>
                     <h3>Courses</h3>
                     <div className="linkers">
-                        <Link>front-end development</Link>
-                        <Link>back-end development</Link>
-                        <Link>mobile app development</Link>
-                        <Link>ui/uX Design</Link>
-                        <Link>python full-stack development</Link>
-                        <Link>javascript full-stack development</Link>
+                        <Link to={'/front-end'}>front-end development</Link>
+                        <Link to={'/back-end'}>back-end development</Link>
+                        <Link to={'/mobile-app'}>mobile app development</Link>
+                        <Link to={'/uiux'}>ui/uX Design</Link>
+                        <Link to={'/python'}>python full-stack development</Link>
+                        <Link to={'/fullstack'}>javascript full-stack development</Link>
                         <Link>WordPress Development</Link>
                         <Link>Digital Marketing</Link>
                     </div>
@@ -39,10 +39,10 @@ const Footer = () => {
                     <h3>services</h3>
                     <div className="linkers">
                         <Link>Website development</Link>
-                        <Link>mobile app development</Link>
+                        <Link to={'/mobile-app'}>mobile app development</Link>
                         <Link>digital marketing</Link>
                         <Link>software development</Link>
-                        <Link>uI/UX design</Link>
+                        <Link to={'/uiux'}>uI/UX design</Link>
                         <Link>SEO management</Link>
                     </div>
                 </div>
@@ -161,6 +161,9 @@ const Wrapper = styled.footer`
     }
     .first{
         color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .second{
         display: flex;

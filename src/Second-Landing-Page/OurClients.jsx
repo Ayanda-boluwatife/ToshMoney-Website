@@ -105,9 +105,11 @@ const Wrapper = styled.section`
     display: flex;
     gap: 100px;
    }
+
    span{
     padding: 40px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
    }
 
    @media screen and (max-width:950px) {

@@ -31,6 +31,14 @@ const Wrapper = styled.section`
     .mission{
         font-size: 3vw;
     }
+    h1{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+    }
+    p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
     .about{
         line-height: 200%;
     }
@@ -42,6 +50,7 @@ const Wrapper = styled.section`
     .advantages span{
         color: #FB9B02;
         font-weight: 600;
+        font-family: "Raleway", sans-serif;
     }
 
     @media screen and (max-width: 950px) {
