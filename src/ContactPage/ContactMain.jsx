@@ -43,6 +43,9 @@ const Wrapper = styled.section`
     color: #FB9B02;
     font-size: 700;
    }
+   div{
+        font-family: "Raleway", sans-serif;
+    }
    .main{
     width: 40%;
    }

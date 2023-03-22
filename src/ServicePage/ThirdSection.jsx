@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const ThirdSection = () => {
   return (
@@ -18,7 +19,7 @@ const ThirdSection = () => {
                 <h1>MOBILE APP DEVELOPMENT</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='two'>
@@ -28,7 +29,7 @@ const ThirdSection = () => {
                 <h1>WEBSITE DEVELOPMENT</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='one'>
@@ -38,7 +39,7 @@ const ThirdSection = () => {
                 <h1>UI/UX DESIGN</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='one'>
@@ -48,7 +49,7 @@ const ThirdSection = () => {
                 <h1 className='font'>SOCIAL MEDIA MANAGEMENT</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='two'>
@@ -58,7 +59,7 @@ const ThirdSection = () => {
                 <h1>SOFTWARE DEVELOPMENT</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='one'>
@@ -68,7 +69,7 @@ const ThirdSection = () => {
                 <h1>DIGITAL MARKETING</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
-                    <button>Hire us now</button>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
             <div className='three'>
@@ -79,7 +80,7 @@ const ThirdSection = () => {
                     <h1>SEO MANAGEMENT</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                     <div>
-                        <button>Hire us now</button>
+                        <Link to={'/contact'}><button>Hire us now</button></Link>
                     </div>
                 </div>
             </div>
