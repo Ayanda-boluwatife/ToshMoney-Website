@@ -1,4 +1,5 @@
 import React from 'react'
+import BackToTop from '../BackToTop'
 import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import FaqQuestion from './FaqQuestion'
@@ -13,6 +14,7 @@ const Faq = () => {
         <MainFaqPage />
         <LastPage />
         <Footer />
+        <BackToTop />
     </div>
   )
 }
