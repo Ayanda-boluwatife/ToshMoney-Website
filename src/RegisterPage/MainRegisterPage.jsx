@@ -86,6 +86,10 @@ const Wrapper = styled.section`
         justify-content: center;
         align-items: center;
     }
+    div{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+    }
     .register{
         padding: 10px 70px;
         width: 90%;

@@ -8,18 +8,26 @@ const WorkWithUS = () => {
         <div className="main">
             <h1>LIKE TO WORK WITH US? </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
-            <Link to={'/apply'}><button>Contact us</button></Link>
+            <Link to={'/contact'}><button>Contact us</button></Link>
         </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-   display: flex;
+  display: flex;
    justify-content: center;
    align-items: center;
-   padding: 60px;
+   height: 60vh;
+   width: 100%;
+   padding: 70px;
+   margin-top: 40px;
    h1{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+   }
+   p{
+    font-family: "Poppins", sans-serif;
    }
    .main{
     background: #C12DC1;
@@ -28,10 +36,12 @@ const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 30px;
     align-items: center;
-    gap: 20px;
-    padding: 50px;
-    width: 70%;
+    width: 100%;
+    height: 50vh;
+    line-height: 100%;
+    margin-bottom: 50px;
    }
    button{
     padding: 10px 25px;
@@ -51,8 +61,10 @@ const Wrapper = styled.section`
     color: #C12DC1;
    }
    @media screen and (max-width:950px) {
+    padding: 40px;
     .main{
         width: 100%;
+        text-align: center;
     }
    }
 `

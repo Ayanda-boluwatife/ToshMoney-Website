@@ -8,7 +8,7 @@ const JoinToshConsult = () => {
         <div className="main">
             <h1>Like to join us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
-            <Link to={'/apply'}><button>Apply Now</button></Link>
+            <Link to={'/contact'}><button>Apply Now</button></Link>
         </div>
     </Wrapper>
   )

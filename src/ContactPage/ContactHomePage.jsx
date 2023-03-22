@@ -23,5 +23,12 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
    }
+   h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+   }
+   p{
+    font-family: "Poppins", sans-serif;
+   }
 `
 export default ContactHomePage;

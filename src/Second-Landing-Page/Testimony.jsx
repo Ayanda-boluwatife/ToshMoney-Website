@@ -78,6 +78,14 @@ padding: 40px;
       border-radius: 14px;
       padding: 30px;
     }
+    h1{
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 35px;
+    }
+    p{
+      font-family: "Poppins", sans-serif;
+    }
     .word{
       display: flex;
       flex-direction: column;

@@ -18,7 +18,7 @@ const Hero = () => {
                 </h1>
                 <p>flexible learning and innovation to get started in tech.</p>
                 <div className="btn-group">
-                    <Link>get in touch</Link>
+                    <Link to={'/contact'}>get in touch</Link>
                     <Link to={'/courses'}>explore our course</Link>
                 </div>
             </div>

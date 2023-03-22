@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/Toshconsult Img 1.png';
-import {AiOutlineInstagram, AiOutlineLinkedin} from 'react-icons/ai'
-import {CiTwitter} from 'react-icons/ci'
-import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineInstagram, AiOutlineLinkedin} from 'react-icons/ai';
+import {CiTwitter} from 'react-icons/ci';
+import {FiFacebook} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
         <footer>
             <div className="logo-social">
                 <div className="logo">
-                    <Link><img src={logo} alt={logo} /></Link>
+                    <Link to={'/'}><img src={logo} alt={logo} /></Link>
                 </div>
                 <div className="social">
                     <span className='inst'><Link><AiOutlineInstagram/></Link></span>
@@ -49,9 +49,9 @@ const Footer = () => {
                 <div className='set'>
                     <h3>About</h3>
                     <div className="linkers">
-                        <Link>About us</Link>
-                        <Link>contact us</Link>
-                        <Link>FAQ</Link>
+                        <Link to={'/about'}>about us</Link>
+                        <Link to={'/contact'}>contact us</Link>
+                        <Link to={'/faq'}>FAQ</Link>
                         <Link>Privacy & Policy</Link>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                     <h3>resources</h3>
                     <div className="linkers">
                         <Link>docs</Link>
-                        <Link>career</Link>
+                        <Link to={'/career'}>career</Link>
                         <Link>blog</Link>
                     </div>
                 </div>

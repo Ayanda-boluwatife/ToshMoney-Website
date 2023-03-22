@@ -3,17 +3,19 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import About from './Second-Landing-Page/About';
 import Career from './Carrer-Landing-Page/Career';
 import Home from './HomePage/Home';
-import HomeTwo from './Courses page/HomeTwo'
+import HomeTwo from './Courses page/HomeTwo';
 import Service from './ServicePage/Service';
 import Contact from './ContactPage/Contact';
 import Faq from './faq/Faq';
 import Register from './RegisterPage/Register';
+
 import FrontEnd from './Courses page/FrontEnd';
 import BackEnd from './Courses page/BackEnd';
 import Python from './Courses page/Python';
 import Uiux from './Courses page/Uiux';
 import FullStack from './Courses page/FullStack';
 import MobileApp from './Courses page/MobileApp';
+
 
 function App() {
   return (
