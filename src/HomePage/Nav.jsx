@@ -30,12 +30,12 @@ const Nav = () => {
             </button>
         </nav>
         <ul className={`nav-mobile ${menu ? 'mobile-toggler' : 'nav-mobile'}`}>
-                <li className='nav-link'><Link id='active' to={'/'}>Home</Link></li>
-                <li className='nav-link'><Link to={'/about'}>About</Link></li>
+        <li className='nav-link'><Link id='active' to={'/'}>Home</Link></li>
+                <li className='nav-link'><Link to={"/about"}>About</Link></li>
                 <li className='nav-link'><Link to={'/courses'}>Courses</Link></li>
-                <li className='nav-link'><Link>Services</Link></li>
-                <li className='nav-link'><Link to={'/career'}>Career</Link></li>
-                <li className='nav-link'><Link>Contact</Link></li>
+                <li className='nav-link'><Link to={'/service'}>Services</Link></li>
+                <li className='nav-link'><Link to={"/career"}>Career</Link></li>
+                <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
                 <Link><button className="app">Apply Now</button></Link>
             </ul>
     </Wrapper>

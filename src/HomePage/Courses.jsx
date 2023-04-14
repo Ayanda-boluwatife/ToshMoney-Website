@@ -7,6 +7,7 @@ import group27 from '../images/Rectangle 27.png';
 import group38 from '../images/Rectangle 38.png';
 import group32 from '../images/Rectangle 32.png';
 import group33  from '../images/Rectangle 33 (2).png'
+// import
 import JoinToshConsult from './JoinToshConsult';
 import { Link } from 'react-router-dom';
 
@@ -112,7 +113,7 @@ const Courses = () => {
                 <div className='first'>
                     <img src={group27} alt={group27} />
                     <div className="shape">
-                        <h1>JAVASCRIPT FULL -STACK DEVELOPMENT</h1>
+                        <h1>FULL -STACK DEVELOPMENT</h1>
                         <div className='one'>
                             <div>
                                 <span><BsCheckLg/></span>
@@ -322,6 +323,9 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
+            <div className='viewcover'>
+                <a href={'/courses'}><button className='viewall'>View all Courses</button></a>
+            </div>
             <JoinToshConsult/>
         </div>
     </Wrapper>
@@ -420,10 +424,25 @@ const Wrapper = styled.div`
     .more{
         background-color: #FB9B02;
     }
-    .more:hover{
+    .more:hover, .viewall:hover{
         color: #FB9B02;
         background-color: white;
         border: 1px solid #FB9B02;
+    }
+    .viewcover{
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: 60px;
+    }
+    .viewall{
+        padding: 12px 25px;
+        color: white;
+        background-color: #FB9B02;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
     }
     .un{
         margin-top: 50px;

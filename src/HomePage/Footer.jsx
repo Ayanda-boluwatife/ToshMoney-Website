@@ -25,24 +25,24 @@ const Footer = () => {
                 <div className='set'>
                     <h3>Courses</h3>
                     <div className="linkers">
-                        <Link to={'/front-end'}>front-end development</Link>
-                        <Link to={'/back-end'}>back-end development</Link>
-                        <Link to={'/mobile-app'}>mobile app development</Link>
-                        <Link to={'/uiux'}>ui/uX Design</Link>
-                        <Link to={'/python'}>python full-stack development</Link>
-                        <Link to={'/fullstack'}>javascript full-stack development</Link>
-                        <Link>WordPress Development</Link>
-                        <Link>Digital Marketing</Link>
+                        <a href={'/front-end'}>front-end development</a>
+                        <a href={'/back-end'}>back-end development</a>
+                        <a href={'/mobile-app'}>mobile app development</a>
+                        <a href={'/uiux'}>ui/uX Design</a>
+                        <a href={'/python'}>python full-stack development</a>
+                        <a href={'/fullstack'}>javascript full-stack development</a>
+                        <a href={"/#"}>WordPress Development</a>
+                        <a href={"/#"}>Digital Marketing</a>
                     </div>
                 </div>
                 <div className='set'>
                     <h3>services</h3>
                     <div className="linkers">
                         <Link>Website development</Link>
-                        <Link to={'/mobile-app'}>mobile app development</Link>
+                        <a href={'/mobile-app'}>mobile app development</a>
                         <Link>digital marketing</Link>
                         <Link>software development</Link>
-                        <Link to={'/uiux'}>uI/UX design</Link>
+                        <a href={'/uiux'}>uI/UX design</a>
                         <Link>SEO management</Link>
                     </div>
                 </div>

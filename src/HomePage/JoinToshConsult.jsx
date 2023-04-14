@@ -6,20 +6,19 @@ const WorkWithUS = () => {
   return (
     <Wrapper>
         <div className="main">
-            <h1>LIKE TO WORK WITH US? </h1>
+            <h1>bECOME A PRO LEARNER.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
-            <Link to={'/contact'}><button>Contact us</button></Link>
+            <Link to={'/contact'}><button>Get Started</button></Link>
         </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-  display: flex;
+   display: flex;
    justify-content: center;
    align-items: center;
    height: 60vh;
    width: 100%;
-   padding: 70px;
    margin-top: 40px;
    h1{
     font-size: 25px;
@@ -30,24 +29,23 @@ const Wrapper = styled.section`
     font-family: "Poppins", sans-serif;
    }
    .main{
-    background: #C12DC1;
+    background: #f9e2f9;
     border-radius: 14px;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    align-items: center;
+    text-align: center;
     width: 100%;
     height: 50vh;
-    line-height: 100%;
-    margin-bottom: 50px;
+
+    text-transform: capitalize;
    }
    button{
     padding: 10px 25px;
-    background-color: white;
+    background-color: #C12DC1;
     border: none;
-    color:#C12DC1;
+    color: white;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 800;
@@ -61,7 +59,6 @@ const Wrapper = styled.section`
     color: #C12DC1;
    }
    @media screen and (max-width:950px) {
-    padding: 40px;
     .main{
         width: 100%;
         text-align: center;

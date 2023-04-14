@@ -15,7 +15,7 @@ const About = () => {
           <h3>about</h3>
           <h1>we’re building the future of technology</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
-          <Link><button>learn more</button></Link>
+          <Link to={'/service'}><button>learn more</button></Link>
         </div>
       </div>
     </Wrapper>
@@ -47,6 +47,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     gap: 30px;
     text-transform: capitalize;
+    overflow: hidden;
   }
   .second h3{
     font-weight: 600;
@@ -61,13 +62,36 @@ const Wrapper = styled.div`
   .second p{
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
+    padding: 15px 0;
+    line-height: 25px;
+  }
+  .second button{
+    padding: 12px 25px;
+    border: none;
+    background-color: #FB9B02;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .second button:hover{
+    background-color: white;
+    color: #FB9B02;
+    border: 1px solid #FB9B02;
   }
 
 
   @media screen and (max-width: 950px) {
     .container{
       flex-direction: column;
-    }    
+      padding: 40px;
+      margin-top: 60px;
+      gap: 30px;
+    }  
+    
+    .first img{
+      width: 100%;
+      height: 100%;
+    }
   }
 
 `

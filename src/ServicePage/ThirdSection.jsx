@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 const ThirdSection = () => {
   return (
     <Wrapper>
+        <div className="container">
+            <h3>All Services</h3>
         <div>
-            <span>All Services</span>
             <h1>Our Services</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan <br /> bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
@@ -74,34 +75,59 @@ const ThirdSection = () => {
             </div>
             <div className='three'>
                 <div>
-                    <div>
-                        <img src="/images/Rectangle 75.png" alt="" />
-                    </div>
-                    <h1>SEO MANAGEMENT</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                    <div>
-                        <Link to={'/contact'}><button>Hire us now</button></Link>
-                    </div>
+                    <img src="/images/Rectangle 75.png" alt="" />
+                </div>
+                <h1>SEO MANAGEMENT</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <div>
+                    <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
+        </div>
         </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-   padding: 40px;
 
-   span{
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 70px;
+        gap: 40px;
+        text-transform: capitalize;
+    }
+
+   h3{
     color: #FB9B02;
     font-size: 700;
   }
   .services{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
   }
+  h1, h3{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif; 
+    }
+    p{
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;  
+    }
   .one, .two, .three{
-    width: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   .one img, .two img, .three img{
     width: 100%;
@@ -123,13 +149,10 @@ const Wrapper = styled.section`
   h1{
     font-size: 20px;
   }
-  .three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   @media screen and (max-width:950px) {
+    .container{
+        padding: 40px;
+    }
     .services{
         grid-template-columns: 1fr;
     }

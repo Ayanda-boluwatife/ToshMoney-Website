@@ -5,28 +5,57 @@ import styled from 'styled-components';
 const CareerHeader = () => {
   return (
     <Wrapper>
-        <div className='boss'>
-            <h1>Search For Job</h1>
-            <p>Get to Know Our Team and Our Mission to Provide</p>
-            <p> Exceptional Service and Quality Products</p>
+        <div className="container">
+            <div className='boss'>
+                <h1>Search For Job</h1>
+                <div>
+                    <p>Get to Know Our Team and Our Mission to Provide</p>
+                    <p> Exceptional Service and Quality Products</p>
+                </div>
+            </div>
         </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(254, 243, 199, 0.5);
-    padding: 40px;
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(254, 243, 199, 0.5);
+        padding: 40px;
+        height: 70vh;
+        width: 100%;
+    }
+
+    h1{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif; 
+        font-size: 35px;
+    }
+    p{
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;  
+    }
     .boss{
         display: flex;
         flex-direction: column;
+        gap: 20px;
         align-items: center;
-        line-height: 10%;
     }
-    .boss h1{
-        font-size: 3vw;
+    @media screen and (max-width: 950px) {
+
+        .container{
+            height: 40vh;
+        }
+     
     }
+
 `
 export default CareerHeader;

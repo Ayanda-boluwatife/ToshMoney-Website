@@ -91,7 +91,7 @@ padding: 40px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      line-height: 2%;
+      /* line-height: 2%; */
     }
     .swipe{
       transition: ease-in-out .5s;
@@ -102,7 +102,7 @@ padding: 40px;
         gap: 30px;
       }
       .word{
-        line-height: 10%;
+        /* line-height: 10%; */
       }
     }
 `

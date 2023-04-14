@@ -16,7 +16,10 @@ const Hero = () => {
                 <h1>
                     access the dream courses of your career.
                 </h1>
-                <p>flexible learning and innovation to get started in tech.</p>
+                <div>
+                    <p>Become a Globally Certified, Sought-After, and Highly Paid Digital Software Developer.</p>
+                    <p>Position yourself to get a well-paid job and help boost any business sales faster.</p>
+                </div>
                 <div className="btn-group">
                     <Link to={'/contact'}>get in touch</Link>
                     <Link to={'/courses'}>explore our course</Link>

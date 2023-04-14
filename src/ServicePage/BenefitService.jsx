@@ -5,7 +5,7 @@ const BenefitService = () => {
   return (
     <Wrapper>
         <div>
-            <span>Benefits</span>
+            <h3>Benefits</h3>
             <h1>The purpose of hiring us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan <br /> bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
@@ -39,9 +39,11 @@ const BenefitService = () => {
 const Wrapper = styled.section`
   padding: 40px ;
 
-  span{
+  h3{
     color: #FB9B02;
     font-size: 700;
+    font-family: 'Raleway', sans-serif; 
+
   }
 
   .benefits{
@@ -53,6 +55,14 @@ const Wrapper = styled.section`
     border: 1px solid #F8E7F8;
     border-radius: 14px;
     padding: 20px;
+  }
+  h1, h3{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif; 
+  }
+  p{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;  
   }
   .two{
     background: rgba(255, 255, 255, 0.5);

@@ -7,6 +7,7 @@ import Rec2 from '../images/Rectangle 66 (2).png'
 import Rec3 from '../images/Rectangle 66 (3).png'
 import group27 from '../images/Rectangle 27.png';
 import group33  from '../images/Rectangle 33 (2).png'
+import group74 from '../images/Rectangle 74.png';
 
 const CoursesThree = () => {
   return (
@@ -119,6 +120,47 @@ const CoursesThree = () => {
                 btn="button-two"
                 link={"/mobile-app"}
             />
+            <Props
+                image={group74}
+                head="WordPress Development"
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                one=". WP Installation"
+                two=".  WP Settings"
+                three=". Plugins Installation"
+                four=". Themes Installation"
+                five=". Page Design"
+                six=". Theme Customization"
+                seven=". Express JS"
+                eight=". Passport JS"
+                nine=". socket IO"
+                ten=". MongoDB"
+                eleven=". GIT & GITHUB"
+                twleve=". Monroose"
+                button="Learn More"
+                btn="button-two"
+                link={"/mobile-app"}
+            />
+            <Props
+                image={group33}
+                head="Mobile-App-Development"
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                one=". Javascript"
+                two=". React JS"
+                three=". React Native"
+                four=". Expo"
+                five=". Node JS"
+                six=". Express JS"
+                seven=". Express JS"
+                eight=". Passport JS"
+                nine=". socket IO"
+                ten=". MongoDB"
+                eleven=". GIT & GITHUB"
+                twleve=". Monroose"
+                button="Learn More"
+                btn="button-two"
+                link={"/mobile-app"}
+            />
+            
         </div>
     </Wrapper>
   )

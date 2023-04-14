@@ -20,8 +20,8 @@ const Services = () => {
                         <img src={vector} alt={vector} />
                     </div>
                     <div className="content">
-                        <h3>FRONT-END DEVELOPMENT</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+                        <h3>Web Development </h3>
+                        <p>From custom designs to robust e-commerce solutions, we have the expertise to deliver a website that will set you apart from the competition.</p>
                     </div>
                 </div>
                 <div className="one">
@@ -29,8 +29,8 @@ const Services = () => {
                         <img src={vector} alt={vector} />
                     </div>
                     <div className="content">
-                        <h3>BACK-END DEVELOPMENT</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+                        <h3> Mobile App Development </h3>
+                        <p>With years of experience and a commitment to quality, we'll work closely with you to understand your unique needs and create an app that perfectly represents your brand.</p>
                     </div>
                 </div>
                 <div className="one">
@@ -38,8 +38,8 @@ const Services = () => {
                         <img src={vector} alt={vector} />
                     </div>
                     <div className="content">
-                        <h3>DIGITAL MARKETING</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+                        <h3> Software Development </h3>
+                        <p>Our team of skilled developers uses the latest technologies and frameworks to create high-performance software that looks great on any device.</p>
                     </div>
                 </div>
             </div>
