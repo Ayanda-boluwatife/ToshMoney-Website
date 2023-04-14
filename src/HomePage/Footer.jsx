@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/Toshconsult Img 1.png';
-import {AiOutlineInstagram, AiOutlineLinkedin} from 'react-icons/ai'
-import {CiTwitter} from 'react-icons/ci'
-import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineInstagram, AiOutlineLinkedin} from 'react-icons/ai';
+import {CiTwitter} from 'react-icons/ci';
+import {FiFacebook} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -52,6 +52,7 @@ const Footer = () => {
                         <Link to={'/about'}>about us</Link>
                         <Link to={'/contact'}>contact us</Link>
                         <Link to={'/faq'}>FAQ</Link>
+                        <Link>Privacy & Policy</Link>
                     </div>
                 </div>
                 <div className='set'>
@@ -60,7 +61,6 @@ const Footer = () => {
                         <Link>docs</Link>
                         <Link to={'/career'}>career</Link>
                         <Link>blog</Link>
-                        <Link>post</Link>
                     </div>
                 </div>
             </div>
