@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 
 const Props = (props) => {
@@ -27,7 +26,7 @@ const Props = (props) => {
                     <span>{props.twleve}</span>
                 </div>
                 <div className='btn-group'>
-                    <Link to={props.link}><button className={props.btn}>{props.button}</button></Link>
+                    <a href={props.link}><button className={props.btn}>{props.button}</button></a>
                 </div>
             </div>
 
@@ -51,7 +50,6 @@ const Wrapper = styled.div`
         width: 40%;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         justify-content: center;
         padding: 0 40px;
    }

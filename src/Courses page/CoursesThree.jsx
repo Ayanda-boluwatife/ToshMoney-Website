@@ -137,7 +137,7 @@ const CoursesThree = () => {
                 ten=". Using Custom scripts"
                 button="Learn More"
                 btn="button-one"
-                link={"/mobile-app"}
+                link={"/wordpress"}
             />
             <Props
                 image={group74}
@@ -152,7 +152,7 @@ const CoursesThree = () => {
                 seven=". Email Marketing "
                 button="Learn More"
                 btn="button-two"
-                link={"/mobile-app"}
+                link={"/digital-markting"}
             />
             
         </div>
