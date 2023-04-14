@@ -76,8 +76,9 @@ const Wrapper = styled.div`
    }
    .list{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+        column-gap: 10px;
    }
    .btn-group{
         width: 100%;

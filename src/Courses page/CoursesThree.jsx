@@ -8,6 +8,7 @@ import Rec3 from '../images/Rectangle 66 (3).png'
 import group27 from '../images/Rectangle 27.png';
 import group33  from '../images/Rectangle 33 (2).png'
 import group74 from '../images/Rectangle 74.png';
+import group101 from '../images/wordpress-tutorials (1).jpg';
 
 const CoursesThree = () => {
   return (
@@ -82,7 +83,7 @@ const CoursesThree = () => {
             />
             <Props
                 image={group27}
-                head="JAVASCRIPT FULL -STACK DEVELOPMENT"
+                head="FULL -STACK DEVELOPMENT"
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
                 one=". HTML"
                 two=". CSS"
@@ -121,7 +122,7 @@ const CoursesThree = () => {
                 link={"/mobile-app"}
             />
             <Props
-                image={group74}
+                image={group101}
                 head="WordPress Development"
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
                 one=". WP Installation"
@@ -130,32 +131,25 @@ const CoursesThree = () => {
                 four=". Themes Installation"
                 five=". Page Design"
                 six=". Theme Customization"
-                seven=". Express JS"
-                eight=". Passport JS"
-                nine=". socket IO"
-                ten=". MongoDB"
-                eleven=". GIT & GITHUB"
-                twleve=". Monroose"
+                seven=". Plugins Customization"
+                eight=". Working With Pg. Builders"
+                nine=".  Working With Cpanel"
+                ten=". Using Custom scripts"
                 button="Learn More"
-                btn="button-two"
+                btn="button-one"
                 link={"/mobile-app"}
             />
             <Props
-                image={group33}
-                head="Mobile-App-Development"
+                image={group74}
+                head="Digital Marketing"
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
-                one=". Javascript"
-                two=". React JS"
-                three=". React Native"
-                four=". Expo"
-                five=". Node JS"
-                six=". Express JS"
-                seven=". Express JS"
-                eight=". Passport JS"
-                nine=". socket IO"
-                ten=". MongoDB"
-                eleven=". GIT & GITHUB"
-                twleve=". Monroose"
+                one=". Digital Marketing Fundamentals "
+                two=". Social Media Marketing "
+                three=". Social Media Advertising "
+                four=". Mobile Graphics Design "
+                five=". Content Creation & Monetization"
+                six=". Google Advertising "
+                seven=". Email Marketing "
                 button="Learn More"
                 btn="button-two"
                 link={"/mobile-app"}

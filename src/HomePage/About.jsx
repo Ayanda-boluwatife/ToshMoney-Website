@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     .container{
       flex-direction: column;
       padding: 40px;
-      margin-top: 60px;
+      margin-top: 80px;
       gap: 30px;
     }  
     

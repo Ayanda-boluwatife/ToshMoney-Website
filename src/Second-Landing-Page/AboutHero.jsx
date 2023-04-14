@@ -5,52 +5,66 @@ const AboutHero = () => {
   return (
     <Wrapper>
       <div className='line'></div>
-        <div>
-          <h1>Discover Our Story. Who We <br /> Are and What We Stand For</h1>
+      <div className="container">
+        <div className="enclosure">
+            <div className="sub">
+            <h1>Discover Our Story. Who We Are and What We Stand For</h1>
+            <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
+            </div>
         </div>
-        <div>
-          <p>Get to Know Our Team and Our Mission to Provide Exceptional Service </p>
-          <p>and Quality Products</p>
-        </div>
+      </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  height: 80vh;
-  width: 100%;
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing:border-box;
-}
-p{
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-h1{
-  font-size: 3vw;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-.line{
-  background-color:linear-gradient(180deg, rgba(193, 45, 193, 0.31) 0%, rgba(206, 103, 206, 0) 100%);
-  filter: blur(100px);
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-@media screen and (max-width:950px) {
-  height: 40vh;
-  h1{
-    font-size: 6vw;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
+  .container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+  .enclosure{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+  }
+  .sub{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sub h1{
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .sub p{
+    font-family: 'Poppins', sans-serif;
+  }
+  @media screen and (max-width: 950px) {
+    .sub{
+      width: 100%;
+    }
+    .sub h1{
+      font-size: 25px;
+    }
+    .container{
+      height: 40vh;
+    }
+  }
+
 `
 export default AboutHero;

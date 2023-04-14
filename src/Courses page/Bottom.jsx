@@ -8,7 +8,7 @@ const Bottom = () => {
         <div className="main">
             <h1>REGISTER FOR OUR CLASS</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
-            <Link><button>Contact Us</button></Link>
+            <Link><button>Apply Now</button></Link>
         </div>
     </Wrapper>
   )

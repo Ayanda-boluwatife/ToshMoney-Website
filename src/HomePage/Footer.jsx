@@ -31,8 +31,8 @@ const Footer = () => {
                         <a href={'/uiux'}>ui/uX Design</a>
                         <a href={'/python'}>python full-stack development</a>
                         <a href={'/fullstack'}>javascript full-stack development</a>
-                        <a href={"/#"}>WordPress Development</a>
-                        <a href={"/#"}>Digital Marketing</a>
+                        <a href={"/wordpress"}>WordPress Development</a>
+                        <a href={"/digital-markting"}>Digital Marketing</a>
                     </div>
                 </div>
                 <div className='set'>
@@ -40,26 +40,25 @@ const Footer = () => {
                     <div className="linkers">
                         <Link>Website development</Link>
                         <a href={'/mobile-app'}>mobile app development</a>
-                        <Link>digital marketing</Link>
+                        <a href={"/digital-markting"}>Digital Marketing</a>
                         <Link>software development</Link>
                         <a href={'/uiux'}>uI/UX design</a>
-                        <Link>SEO management</Link>
                     </div>
                 </div>
                 <div className='set'>
                     <h3>About</h3>
                     <div className="linkers">
-                        <Link to={'/about'}>about us</Link>
-                        <Link to={'/contact'}>contact us</Link>
-                        <Link to={'/faq'}>FAQ</Link>
-                        <Link>Privacy & Policy</Link>
+                        <a href={'/about'}>about us</a>
+                        <a href={'/contact'}>contact us</a>
+                        <a href={'/faq'}>FAQ</a>
+                        <a href={'/privacy-policy'}>Privacy & Policy</a>
                     </div>
                 </div>
                 <div className='set'>
                     <h3>resources</h3>
                     <div className="linkers">
                         <Link>docs</Link>
-                        <Link to={'/career'}>career</Link>
+                        <a href={'/career'}>career</a>
                         <Link>blog</Link>
                     </div>
                 </div>
@@ -180,7 +179,7 @@ const Wrapper = styled.footer`
             display: flex;
             flex-direction: column;
             gap: 30px;
-            padding-bottom: 90px;
+            padding-bottom: 30px;
         }
         .logo-social{
             flex-direction: column;

@@ -60,6 +60,9 @@ const Wrapper = styled.div`
         .sub{
             width: 100%;
         }
+        .sub h1{
+            font-size: 25px;
+        }
         .container{
             height: 40vh;
         }

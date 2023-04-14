@@ -6,11 +6,10 @@ const CareerHeader = () => {
   return (
     <Wrapper>
         <div className="container">
-            <div className='boss'>
+            <div className="enclosure">
+                <div className="sub">
                 <h1>Search For Job</h1>
-                <div>
-                    <p>Get to Know Our Team and Our Mission to Provide</p>
-                    <p> Exceptional Service and Quality Products</p>
+                <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
                 </div>
             </div>
         </div>
@@ -19,42 +18,54 @@ const CareerHeader = () => {
 }
 const Wrapper = styled.section`
 
-    *{
+*{
         margin: 0;
-        padding:0;
+        padding: 0;
         box-sizing: border-box;
     }
     .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(254, 243, 199, 0.5);
-        padding: 40px;
         height: 70vh;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
     }
-
-    h1{
-        font-weight: 600;
-        font-family: 'Raleway', sans-serif; 
-        font-size: 35px;
+    .enclosure{
+        width: 100%;
+        height: 40vh;
+        background-color: #FEF3C7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
-    p{
-        font-weight: 300;
-        font-family: 'Poppins', sans-serif;  
-    }
-    .boss{
+    .sub{
+        width: 40%;
+        text-align: center;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        align-items: center;
+    }
+    .sub h1{
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .sub p{
+        font-family: 'Poppins', sans-serif;
     }
     @media screen and (max-width: 950px) {
-
+        .sub{
+            width: 100%;
+        }
+        .sub h1{
+            font-size: 25px;
+        }
         .container{
             height: 40vh;
         }
-     
     }
 
 `
