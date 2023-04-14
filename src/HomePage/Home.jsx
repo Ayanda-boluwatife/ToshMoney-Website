@@ -3,11 +3,13 @@ import Nav from './Nav';
 import Footer from './Footer'
 import Hero from './Hero';
 import styled from 'styled-components';
-import Interact from './Interact';
+// import Interact from './Interact';
+import About from './About';
 import Feature from './Feature';
 import Courses from './Courses';
 import BackToTop from '../BackToTop';
 import Testimony from '../Second-Landing-Page/Testimony';
+import Services from './Services';
 
 const Home = () => {
   return (
@@ -16,7 +18,9 @@ const Home = () => {
         <Nav />
         <div className='top-gradient'></div>
         <Hero />
-        <Interact/>
+        {/* <Interact/> */}
+        <About/>
+        <Services/>
         <Feature/>
         <Courses/>
         <Testimony />

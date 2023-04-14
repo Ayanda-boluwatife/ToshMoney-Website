@@ -23,15 +23,7 @@ const BackToTop = () => {
     }
 
 
-        // const handleClick = () => {
-        //     if (document.body.scrollTo) {
-        //         document.body.scrollTop === 0;
-        //     }
-        //     //   else{
-        //     //     document.querySelector('.back-to-top').classList.remove('active')
-          
-        //     //   }
-        // }
+
   return (
     <Wrapper>
         <button onClick={scrollToTop} className={`${visible ? "back-to-top active" : "back-to-top"}`}><FaArrowCircleUp /></button>
