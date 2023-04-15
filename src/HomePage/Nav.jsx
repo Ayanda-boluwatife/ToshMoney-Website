@@ -21,7 +21,7 @@ const Nav = () => {
                 <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
             </ul>
             <ul className="apply">
-                <Link to={'/register_now'}><button className="app">Apply Now</button></Link>
+                <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
             </ul>
             <button onClick={toggleMenu} className={`${menu ? 'toggle open' : 'toggle'}`}>
                 <div className="first"></div>
@@ -36,7 +36,7 @@ const Nav = () => {
                 <li className='nav-link'><Link to={'/service'}>Services</Link></li>
                 <li className='nav-link'><Link to={"/career"}>Career</Link></li>
                 <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
-                <Link><button className="app">Apply Now</button></Link>
+                <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
             </ul>
     </Wrapper>
   )

@@ -41,7 +41,7 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/contact' element={<Contact />}/>
           <Route path='/faq' element={<Faq />} />
-          <Route path='/register_now' element={<Register />} />
+          <Route path='/register-now' element={<Register />} />
         </Routes>
       </Router>
     </div>

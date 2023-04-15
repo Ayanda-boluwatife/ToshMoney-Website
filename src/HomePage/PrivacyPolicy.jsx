@@ -1,9 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import Nav from './Nav';
+import Footer from './Footer';
 
 const PrivacyPolicy = () => {
   return (
     <Wrapper>
+      <Nav/>
       <div className="container">
       <h1>Privacy Policy</h1>
       <p>Last updated: April 14, 2023</p>
@@ -210,6 +213,7 @@ const PrivacyPolicy = () => {
       </ul>
 
     </div>
+    <Footer/>
   </Wrapper>
   )
 }
@@ -225,6 +229,7 @@ const Wrapper = styled.div`
     .container{
       width: 100%;
       text-align: center;
+      padding: 20px;
     }
     h1, h2, h3, h4, h5, h6{
       font-weight: 600;
