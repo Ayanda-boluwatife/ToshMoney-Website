@@ -4,14 +4,14 @@ import styled from 'styled-components';
 const ContactHomePage = () => {
   return (
     <Wrapper>
-      <div className="container">
-        <div className="enclosure">
-          <div className="sub">
-            <h1>Contact us for more...</h1>
-            <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
+        <div className="container">
+          <div className="enclosure">
+              <div className="sub">
+                <h1>Contact us for more...</h1>
+                <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
+              </div>
           </div>
         </div>
-      </div>
     </Wrapper>
   )
 }

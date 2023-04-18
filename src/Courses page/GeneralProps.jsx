@@ -65,6 +65,10 @@ const Wrapper = styled.div`
         flex-direction: column;
         gap: 50px;
     }
+    .groove img{
+        height: 40vh;
+        width: 100%;
+    }
     .cover{
         width: 100%;
         min-height: 100vh;
