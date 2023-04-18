@@ -17,7 +17,7 @@ const Nav = () => {
                 <li className='nav-link'><Link to={"/about"}>About</Link></li>
                 <li className='nav-link'><Link to={'/courses'}>Courses</Link></li>
                 <li className='nav-link'><Link to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link to={"/career"}>Career</Link></li>
+                <li className='nav-link'><Link to={"/career"}>Testimonials</Link></li>
                 <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
             </ul>
             <ul className="apply">
@@ -34,7 +34,7 @@ const Nav = () => {
                 <li className='nav-link'><Link to={"/about"}>About</Link></li>
                 <li className='nav-link'><Link to={'/courses'}>Courses</Link></li>
                 <li className='nav-link'><Link to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link to={"/career"}>Career</Link></li>
+                <li className='nav-link'><Link to={"/career"}>Testimonials</Link></li>
                 <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
                 <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
             </ul>

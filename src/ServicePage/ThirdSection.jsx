@@ -45,16 +45,6 @@ const ThirdSection = () => {
             </div>
             <div className='one'>
                 <div>
-                    <img src="/images/Rectangle 72.png" alt="" />
-                </div>
-                <h1 className='font'>SOCIAL MEDIA MANAGEMENT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                <div>
-                    <Link to={'/contact'}><button>Hire us now</button></Link>
-                </div>
-            </div>
-            <div className='two'>
-                <div>
                     <img src="/images/Rectangle 73.png" alt="" />
                 </div>
                 <h1>SOFTWARE DEVELOPMENT</h1>
@@ -63,7 +53,7 @@ const ThirdSection = () => {
                     <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
-            <div className='one'>
+            <div className='two'>
                 <div>
                     <img src="/images/Rectangle 74.png" alt="" />
                 </div>
@@ -73,11 +63,11 @@ const ThirdSection = () => {
                     <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
             </div>
-            <div className='three'>
+            <div className='one'>
                 <div>
                     <img src="/images/Rectangle 75.png" alt="" />
                 </div>
-                <h1>SEO MANAGEMENT</h1>
+                <h1>Consulting</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                 <div>
                     <Link to={'/contact'}><button>Hire us now</button></Link>

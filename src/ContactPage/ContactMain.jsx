@@ -4,28 +4,48 @@ import styled from 'styled-components';
 const ContactMain = () => {
   return (
     <Wrapper>
+      <div className="container">
         <div className='main'>
-            <span>Contact</span>
-            <h1>send us your message.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
-        </div>
-
-        <div className="form-area">
-          <p>Fill The Below Form</p>
+              <span>Contact</span>
+              <h1>send us your message.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
 
         <div className='form'>
+        <div className="form-area">
+          <p>Fill The Below Form</p>
+        </div>
           <form action="">
-            <div>
-              FULL NAME: <br />
+            <div className='field'>
+              <label htmlFor="">Full Name:</label> 
               <input type="text" name="" id="" />
             </div>
-            <div>
-              EMAIL: <br />
+            <div className="field">
+              <label htmlFor="">Select your Services</label>
+              <select name="" id="">
+                <option value="">Mobile App Development</option>
+                <option value="">UIUX Design</option>
+                <option value="">Website Development</option>
+                <option value="">Software Development</option>
+                <option value="">Digital Marketing</option>
+              </select>
+            </div>
+            <div className='field'>
+              <label htmlFor="">Your Propose Budget:</label>
+              <select name="" id="">
+                <option value="">20,000 - 50,000</option>
+                <option value="">50,0000 - 80,000</option>
+                <option value="">80,000 - 100,000</option>
+                <option value="">100,000 - 150,000</option>
+                <option value="">150,000 - Above</option>
+              </select>
+            </div>
+            <div className='field'>
+              <label htmlFor="">Email:</label>
               <input type="email" name="" id="" />
             </div>
-            <div>
-              MESSAGE: <br />
+            <div className='field'>
+              <label htmlFor="">MESSAGE:</label>
               <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
           <div>
@@ -33,11 +53,28 @@ const ContactMain = () => {
           </div>
           </form>
         </div>
+      </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-   padding: 40px;
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container{
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      text-transform: capitalize;
+      padding: 0 30px;
+
+    }
 
    span{
     color: #FB9B02;
@@ -47,7 +84,7 @@ const Wrapper = styled.section`
         font-family: "Raleway", sans-serif;
     }
    .main{
-    width: 40%;
+    width: 100%;
    }
    .form-area{
     background: rgba(254, 243, 199, 0.7);
@@ -56,23 +93,35 @@ const Wrapper = styled.section`
     padding: 5px 70px;
     font-size: 1.5vw;
     font-weight: 700;
-    width: 80%;
+    width: 100%;
    }
-   input, textarea{
-    width: 50%;
-    background: #FFFFFF;
-    border: 1px solid #F8E7F8;
-    border-radius: 14px;  
-    outline-color: #FB9B02;
-    padding: 15px;
-    box-shadow: 0 4px 4px rgba(254, 243, 199, 0.7);
+   input, textarea, select, option{
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #F8E7F8;
+      border-radius: 14px;  
+      outline-color: #FB9B02;
+      padding: 15px;
+      box-shadow: 0 4px 4px rgba(254, 243, 199, 0.7);
    }
    .form{
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    row-gap: 20px;
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      width: 100%;
+      row-gap: 20px;
+   }
+   form{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+   .field{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 8px;
    }
    .form button{
     padding:10px 30px;
@@ -83,16 +132,11 @@ const Wrapper = styled.section`
     cursor: pointer;
    }
    @media screen and (max-width:950px) {
-    input, textarea{
-      width: 100%;
-    }
+
     .form-area{
       font-size: 3vw;
       padding: 5px 30px;
       width: 90%;
-    }
-    .main{
-      width: 100%;
     }
    }
 `

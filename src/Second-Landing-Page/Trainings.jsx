@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 const Trainings = () => {
   return (
@@ -39,7 +38,6 @@ const Trainings = () => {
                         <h1>Exceptional customer service</h1>
                         <p>We are dedicated to providing exceptional customer service to each and every client. Their team is responsive, communicative, and always willing to go the extra mile to ensure that clients are satisfied with the final product.</p>
                     </div>
-                    <div className='btn'><Link to={'/service'}><button>View All Services</button></Link></div>
                 </div>
             </div>
         </div>

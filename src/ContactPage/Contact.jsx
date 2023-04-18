@@ -4,7 +4,6 @@ import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import ContactHomePage from './ContactHomePage'
 import ContactMain from './ContactMain'
-import ReadOurFaq from './ReadOurFaq'
 
 const Contact = () => {
   return (
@@ -12,8 +11,9 @@ const Contact = () => {
         <Nav />
         <ContactHomePage />
         <ContactMain />
-        <ReadOurFaq />
-        <Footer />
+        <div style={{marginTop: '70px'}}>
+          <Footer />
+        </div>
         <BackToTop />
     </div>
   )

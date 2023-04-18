@@ -18,10 +18,10 @@ const About = () => {
       <div>
         <Nav />
         <AboutHero />
-        <OurClients />
         <OurMission />
         <Trainings />
         <ServiceAbout/>
+        <OurClients />
         <TeamsAbout />
         <Testimony />
         <JoinToshConsult />

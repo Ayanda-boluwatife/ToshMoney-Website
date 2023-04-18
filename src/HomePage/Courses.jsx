@@ -7,16 +7,15 @@ import group27 from '../images/Rectangle 27.png';
 import group38 from '../images/Rectangle 38.png';
 import group32 from '../images/Rectangle 32.png';
 import group33  from '../images/Rectangle 33 (2).png'
-import JoinToshConsult from './JoinToshConsult';
 
 
 const Courses = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3>courses</h3>
+            <h3>available courses</h3>
             <div className="top">
-                <h1>available courses</h1>
+                <h1>Become A Pro Learner.</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
                 </p>
@@ -324,7 +323,6 @@ const Courses = () => {
             <div className='viewcover'>
                 <a href={'/courses'}><button className='viewall'>View all Courses</button></a>
             </div>
-            <JoinToshConsult/>
         </div>
     </Wrapper>
   )

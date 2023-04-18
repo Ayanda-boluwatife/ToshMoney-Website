@@ -46,7 +46,7 @@ const CoursesThree = () => {
                 six=". MongoDB"
                 seven=". Mongoose"
                 eigth=". GIT & GITHUB"
-                button=". Learn More"
+                button=" Learn More"
                 btn="button-two"
                 link={"/back-end"}
             />

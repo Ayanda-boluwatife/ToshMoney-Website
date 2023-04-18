@@ -21,6 +21,14 @@ const Wrapper = styled.section`
    h1{
     font-size: 20px;
    }
+   h1, h3{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif; 
+    }
+    p{
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;  
+    }
    .main{
     background: #C12DC1;
     border-radius: 14px;

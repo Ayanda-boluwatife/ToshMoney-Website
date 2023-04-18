@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const ServiceAbout = () => {
   return (
     <Wrapper>
@@ -43,7 +44,9 @@ const ServiceAbout = () => {
                     </div>
                 </div>
             </div>
+        <div className='btn'><a href={'/service'}><button>View All Services</button></a></div>
         </div>
+
     </Wrapper>
   )
 }
@@ -114,6 +117,18 @@ const Wrapper = styled.section`
         padding: 20px;
         margin-top: 40px;
     }
+    .btn button{
+    padding: 15px 30px;
+    background: linear-gradient(102.73deg, #C12DC1 40.79%, #D913D9 71.33%);
+    border-radius: 14px;
+    border: none;
+    float: right;
+    color: white;
+   }
+   .btn button:hover{
+    background: linear-gradient(102.73deg, #D913D9 71.33%,#C12DC1 40.79% );
+    cursor: pointer;
+   }
     @media screen and (max-width:950px) {
         .container{
             padding: 40px;
