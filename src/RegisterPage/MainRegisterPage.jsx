@@ -18,11 +18,13 @@ const MainRegisterPage = () => {
         <div className="form-area">
             <form action="">
                 <div className='first'>
-                    <div>
-                        FULL NAME: <br /> <input type="text" />
+                    <div className='field'>
+                        <label htmlFor="">Full Name:</label>
+                        <input type="text" />
                     </div>
-                    <div className='second'>
-                        EMAIL: <br /> <input type="email" />
+                    <div className='field'>
+                        <label htmlFor="">Email:</label> 
+                        <input type="email" />
                     </div>
                 </div>
                 <div>
@@ -36,34 +38,34 @@ const MainRegisterPage = () => {
                         <span>Female</span>
                    </div>
                 </div>
-                <div>
-                    <div>
+                <div className='first'>
+                    <div className='field'>
                         <label htmlFor="">Date Of Birth</label>
                         <input type="date" name="" id="" />
                     </div>
-                    <div>
+                    <div className='field'>
                         <label htmlFor="">Phone Number</label>
                         <input type="number" name="" id="" />
                     </div>
                 </div>
-                <div>
+                <div className='field'>
                     <label htmlFor="">Contact Address</label>
                     <input type="text" name="" id="" />
                 </div>
-                <div>
-                    <div>
+                <div className='first'>
+                    <div className='field'>
                         <label htmlFor="">Street Address</label>
                         <input type="text" name="" id="" />
 
                     </div>
-                    <div>
+                    <div className='field'>
                         <label htmlFor="">State / Province / Region</label>
                         <input type="text" name="" id="" />
                     </div>
                 </div>
                 <div className="application">
                     <h3>Course Application</h3>
-                    <div>
+                    <div className='field'>
                         <label htmlFor="">CHOOSE COURSE:</label>
                         <select name="" id="">
                             <option value="">Frontend Development</option>
@@ -92,11 +94,11 @@ const MainRegisterPage = () => {
                         </select>
                     </div>
                     <div className='first'>
-                        <div>
+                        <div className='field'>
                             <label htmlFor="">CHOOSE YOUR LEVEL:</label>
                             <input type="text" />
                         </div>
-                        <div className='second'>
+                        <div className='field'>
                             <label htmlFor="">OTHERS:</label> 
                             <input type="text" />
                         </div>
@@ -167,19 +169,23 @@ const Wrapper = styled.section`
     }
     .first{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
         width: 100%;
     }
-    .first div{
+    .field{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
-    .first input{
+    form input{
         width: 100%;
     }
     .form-area{
         width: 80%;
     }
-    input, textarea{
+    input, textarea, select, option{
         width: 100%;
         padding: 10px;
         background: #FFFFFF;
