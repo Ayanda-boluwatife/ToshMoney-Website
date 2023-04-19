@@ -27,7 +27,7 @@ const MainRegisterPage = () => {
                         <input type="email" />
                     </div>
                 </div>
-                <div>
+                <div className='field'>
                    <h3>Gender</h3>
                    <div className='special'>
                         <input type="radio" name="" id="" />
@@ -64,7 +64,7 @@ const MainRegisterPage = () => {
                     </div>
                 </div>
                 <div className="application">
-                    <h3>Course Application</h3>
+                    <h3 className='header'>Course Application</h3>
                     <div className='field'>
                         <label htmlFor="">CHOOSE COURSE:</label>
                         <select name="" id="">
@@ -93,9 +93,9 @@ const MainRegisterPage = () => {
                             <option value="">Weekend</option>
                         </select>
                     </div>
-                    <div>
-                        WHY DO YOU WANT TO LEARN THIS COURSE? <br />
-                        the question is meant to help us familiarize with your interest  and specifics skills. <br />
+                    <div className='field'>
+                        <h3>WHY DO YOU WANT TO LEARN THIS COURSE?</h3>
+                        <p>the question is meant to help us familiarize with your interest  and specifics skills.</p>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
@@ -125,10 +125,6 @@ const MainRegisterPage = () => {
                     </div>
             )}
         </div>
-
-        <div><Link to={'/'}>Back To Home</Link></div>
-
-        
     </Wrapper>
   )
 }
@@ -174,6 +170,10 @@ const Wrapper = styled.section`
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .header{
+        color: #FB9B02;
+        font-size: 25px;
     }
     form{
         width: 100%;
