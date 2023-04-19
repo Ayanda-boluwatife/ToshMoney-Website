@@ -7,7 +7,7 @@ const WorkWithUS = () => {
     <Wrapper>
         <div className="main">
             <h1>LIKE TO WORK WITH US? </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
+            <p>You're sure to get exceptional service, quality products, and comprehensive training.</p>
             <Link to={'/contact'}><button>Contact us</button></Link>
         </div>
     </Wrapper>

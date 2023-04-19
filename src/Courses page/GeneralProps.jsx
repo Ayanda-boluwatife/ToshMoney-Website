@@ -7,9 +7,8 @@ const GeneralProps = (props) => {
   return (
    <Wrapper>
         <div className="cover">
-            <h3>courses</h3>
             <div className="top-header">
-                <h1>course details</h1>
+                <h1>Course Details</h1>
                 <p>{props.para}</p>
             </div>
             <div className="groove">

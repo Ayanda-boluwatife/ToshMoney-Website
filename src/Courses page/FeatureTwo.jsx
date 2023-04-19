@@ -35,7 +35,7 @@ const FeatureTwo = () => {
                     <img src={group11} alt={group11} />
                     <div className="set">
                         <h4>Collaborative Project</h4>
-                        <p>Our students learn and work co-operatively in pairs or groups. For example, brainstorming, group discussions, completing shared tasks in a pair or group, reaching an agreement about processes, analyzing problems, and finding solutions. This helps our students to develop higher-level thinking, oral communication, self-management, leadership skills, and  exposure to and an increase in understanding of diverse perspectives</p>
+                        <p>Our students learn and work co-operatively in pairs or groups. For example, brainstorming, group discussions, completing shared tasks in a pair or group, reaching an agreement about processes, analyzing problems, and finding solutions.</p>
                     </div>
                 </div>
                 <div className='one'>
