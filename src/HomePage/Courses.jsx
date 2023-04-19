@@ -13,12 +13,9 @@ const Courses = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3>available courses</h3>
+            <h3>Available Courses</h3>
             <div className="top">
                 <h1>Become A Pro Learner.</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
-                </p>
             </div>
             <div className="grid-section">
                 <div className='first'>

@@ -6,10 +6,8 @@ const ThirdSection = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3>All Services</h3>
         <div>
             <h1>Our Services</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan <br /> bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
 
         <div className='services'>

@@ -26,14 +26,54 @@ const MainRegisterPage = () => {
                     </div>
                 </div>
                 <div>
-                    CHOOSE COURSE: <br /> <input type="text" />
+                   <h3>Gender</h3>
+                   <div>
+                        <input type="radio" name="" id="" />
+                        <span>Male</span>
+                   </div>
+                   <div>
+                        <input type="radio" name="" id="" />
+                        <span>Female</span>
+                   </div>
+                </div>
+                <div>
+                    <div>
+                        <label htmlFor="">Date Of Birth</label>
+                        <input type="date" name="" id="" />
+                    </div>
+                    <div>
+                        <label htmlFor="">Phone Number</label>
+                        <input type="number" name="" id="" />
+                    </div>
+                </div>
+                <div>
+                    <label htmlFor="">Contact Address</label>
+                    <input type="text" name="" id="" />
+                </div>
+                <div>
+                    <div>
+                        <label htmlFor="">Street Address</label>
+                        <input type="text" name="" id="" />
+
+                    </div>
+                    <div>
+                        <label htmlFor="">State / Province / Region</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                </div>
+                <div className="application">
+                <div>
+                    <label htmlFor="">CHOOSE COURSE:</label>
+                    <input type="text" />
                 </div>
                 <div className='first'>
                     <div>
-                        CHOOSE YOUR LEVEL: <br /> <input type="text" />
+                        <label htmlFor="">CHOOSE YOUR LEVEL:</label>
+                        <input type="text" />
                     </div>
                     <div className='second'>
-                        OTHERS: <br /> <input type="text" />
+                        <label htmlFor="">OTHERS:</label> 
+                        <input type="text" />
                     </div>
                 </div>
 
@@ -42,6 +82,8 @@ const MainRegisterPage = () => {
                     the question is meant to help us familiarize with your interest  and specifics skills. <br />
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
+                </div>
+
 
             </form>
             <div className='submit'>

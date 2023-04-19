@@ -7,12 +7,8 @@ const Services = () => {
   return (
     <Wrapper>
         <div className="container-two">
-            <h3 className='header'>Services</h3>
             <div className="top">
                 <h1>our services</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
-                </p>
             </div>
             <div className="grid-system">
                 <div className="one">

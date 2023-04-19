@@ -5,11 +5,11 @@ const JoinToshConsult = () => {
   return (
     <Wrapper>
         <div className="main">
-            <h1>Like to join us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.</p>
+            <h1>Like To Work With Us</h1>
+            <p>You're sure to get exceptional service, quality products, and comprehensive training.</p>
             <div className="btn-group">
-              <a href={'/courses'}><button>Explore More</button></a>
-              <a href={'/contact'}><button>Get In Touch</button></a>
+              <a href={'/courses'}><button>Explore Our Courses</button></a>
+              <a href={'/service'}><button>View Our Services</button></a>
             </div>
         </div>
     </Wrapper>

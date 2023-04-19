@@ -14,7 +14,7 @@ const About = () => {
         <div className="second">
           <h3>about</h3>
           <h1>we’re building the future of technology</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>We are committed to delivering exceptional service and quality products in website design, web development, app development, and all aspects of software development, while also providing accessible and comprehensive training to help people transition to tech careers</p>
           <Link to={'/service'}><button>learn more</button></Link>
         </div>
       </div>

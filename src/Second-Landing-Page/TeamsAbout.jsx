@@ -6,9 +6,8 @@ const TeamsAbout = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3 className='header'>Team</h3>
             <div className='advantages'>
-                <h1>our teams</h1>
+                <h1>Our Teams</h1>
                 <p>Meet Our Team of Tech Visionaries Passionate about Innovation and Empowering Businesses.</p>
             </div>
             <div className='all-bg'>

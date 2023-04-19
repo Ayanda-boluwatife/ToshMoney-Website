@@ -5,9 +5,7 @@ const BenefitService = () => {
   return (
     <Wrapper>
         <div>
-            <h3>Benefits</h3>
-            <h1>The purpose of hiring us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan <br /> bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+            <h1>Why Choosing Us </h1>
         </div>
 
         <div className='benefits'>
@@ -15,22 +13,22 @@ const BenefitService = () => {
                 <div>
                     <img src="/images/Group 9.png" alt="" />
                 </div>
-                <h1>EXPERIENCE INSTRUCTORS</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                <h1>Experience Team</h1>
+                <p>Are you looking for professionals and experienced tech team to build your website, mobile app, software, and manage your marketing and advertising campaigns across all digital platforms? You have come to the right place. With over 10 years of experience touching all major professions, we are an end-to-end solution. Our experts and industry leaders are ready to take on your project.</p>
             </div>
             <div className='two'>
                 <div>
                     <img src="/images/Group 10.png" alt="" />
                 </div>
-                <h1>WORKING EXPERIENCE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                <h1>Technical Support </h1>
+                <p>We do not only solve our customer issues, but we also help you and/or your company grow by revealing the shortfalls and issues that can be modified and fixed. This not only improves your processes and makes your business better at what you do, but it can also help execute savings as you are reducing the number of customer pain points </p>
             </div>
             <div className='two'>
                 <div>
                     <img src="/images/Group 11.png" alt="" />
                 </div>
-                <h1>COLLABORATIVE PROJECT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                <h1>Long-term Project</h1>
+                <p>Whether you have a 6-month project, a year, or more, we are your digital partners before, during, and after your project. With our growing digital services and expertise - we operate as your outsourced team, working with you to grow the business.</p>
             </div>
         </div>
     </Wrapper>
