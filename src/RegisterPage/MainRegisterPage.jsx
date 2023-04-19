@@ -29,11 +29,11 @@ const MainRegisterPage = () => {
                 </div>
                 <div>
                    <h3>Gender</h3>
-                   <div>
+                   <div className='special'>
                         <input type="radio" name="" id="" />
                         <span>Male</span>
                    </div>
-                   <div>
+                   <div className='special'>
                         <input type="radio" name="" id="" />
                         <span>Female</span>
                    </div>
@@ -78,7 +78,7 @@ const MainRegisterPage = () => {
                         </select>
                     </div>
                     <div className="field">
-                        <label htmlFor="">Level</label>
+                        <label htmlFor="">Choose Your Level:</label>
                         <select name="" id="">
                             <option value="">Beginner</option>
                             <option value="">Intermediate</option>
@@ -93,17 +93,6 @@ const MainRegisterPage = () => {
                             <option value="">Weekend</option>
                         </select>
                     </div>
-                    <div className='first'>
-                        <div className='field'>
-                            <label htmlFor="">CHOOSE YOUR LEVEL:</label>
-                            <input type="text" />
-                        </div>
-                        <div className='field'>
-                            <label htmlFor="">OTHERS:</label> 
-                            <input type="text" />
-                        </div>
-                    </div>
-
                     <div>
                         WHY DO YOU WANT TO LEARN THIS COURSE? <br />
                         the question is meant to help us familiarize with your interest  and specifics skills. <br />
@@ -172,12 +161,19 @@ const Wrapper = styled.section`
         flex-direction: row;
         gap: 40px;
         width: 100%;
+        align-items: center;
     }
     .field{
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 3px;
+    }
+    .special{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     form{
         width: 100%;
@@ -190,6 +186,12 @@ const Wrapper = styled.section`
     }
     .form-area{
         width: 80%;
+    }
+    .application{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
     }
     input, textarea, select, option{
         width: 100%;
