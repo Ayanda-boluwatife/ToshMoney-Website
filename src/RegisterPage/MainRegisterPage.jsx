@@ -83,6 +83,14 @@ const MainRegisterPage = () => {
                             <option value="">Advance</option>
                         </select>
                     </div>
+                    <div className="field">
+                        <label htmlFor="">Preferred Time</label>
+                        <select name="" id="">
+                            <option value="">Morning</option>
+                            <option value="">Afternoon</option>
+                            <option value="">Weekend</option>
+                        </select>
+                    </div>
                     <div className='first'>
                         <div>
                             <label htmlFor="">CHOOSE YOUR LEVEL:</label>
