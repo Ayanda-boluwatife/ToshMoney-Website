@@ -169,7 +169,7 @@ const Wrapper = styled.section`
     }
     .first{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 40px;
         width: 100%;
     }
@@ -177,7 +177,13 @@ const Wrapper = styled.section`
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
     form input{
         width: 100%;
