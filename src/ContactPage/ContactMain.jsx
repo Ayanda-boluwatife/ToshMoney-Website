@@ -41,8 +41,12 @@ const ContactMain = () => {
               </select>
             </div>
             <div className='field'>
-              <label htmlFor="">Email:</label>
+              <label htmlFor="">Phone Number:</label>
               <input type="email" name="" id="" />
+            </div>
+            <div className='field'>
+              <label htmlFor="">Email:</label>
+              <input type="number" name="" id="" />
             </div>
             <div className='field'>
               <label htmlFor="">MESSAGE:</label>

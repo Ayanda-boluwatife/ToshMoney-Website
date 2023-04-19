@@ -62,26 +62,43 @@ const MainRegisterPage = () => {
                     </div>
                 </div>
                 <div className="application">
-                <div>
-                    <label htmlFor="">CHOOSE COURSE:</label>
-                    <input type="text" />
-                </div>
-                <div className='first'>
+                    <h3>Course Application</h3>
                     <div>
-                        <label htmlFor="">CHOOSE YOUR LEVEL:</label>
-                        <input type="text" />
+                        <label htmlFor="">CHOOSE COURSE:</label>
+                        <select name="" id="">
+                            <option value="">Frontend Development</option>
+                            <option value="">Backend Development</option>
+                            <option value="">Python Development</option>
+                            <option value="">Fullstack Development</option>
+                            <option value="">UIUX Design</option>
+                            <option value="">Digital Markrting</option>
+                            <option value="">WordPress Development</option>
+                        </select>
                     </div>
-                    <div className='second'>
-                        <label htmlFor="">OTHERS:</label> 
-                        <input type="text" />
+                    <div className="field">
+                        <label htmlFor="">Level</label>
+                        <select name="" id="">
+                            <option value="">Beginner</option>
+                            <option value="">Intermediate</option>
+                            <option value="">Advance</option>
+                        </select>
                     </div>
-                </div>
+                    <div className='first'>
+                        <div>
+                            <label htmlFor="">CHOOSE YOUR LEVEL:</label>
+                            <input type="text" />
+                        </div>
+                        <div className='second'>
+                            <label htmlFor="">OTHERS:</label> 
+                            <input type="text" />
+                        </div>
+                    </div>
 
-                <div>
-                    WHY DO YOU WANT TO LEARN THIS COURSE? <br />
-                    the question is meant to help us familiarize with your interest  and specifics skills. <br />
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
+                    <div>
+                        WHY DO YOU WANT TO LEARN THIS COURSE? <br />
+                        the question is meant to help us familiarize with your interest  and specifics skills. <br />
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
                 </div>
 
 
