@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Bottom = () => {
   return (
     <Wrapper>
-      <Link><button>Apply Now</button></Link>
+      <a href={'/register-now'}><button>Apply Now</button></a>
     </Wrapper>
   )
 }
