@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import About from './About';
 import Courses from './Courses';
 import BackToTop from '../BackToTop';
-import Testimony from '../Testimony';
+import Testimony from './Testimony';
 import Services from './Services';
 
 const Home = () => {
