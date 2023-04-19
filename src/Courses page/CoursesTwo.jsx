@@ -8,7 +8,7 @@ const CoursesTwo = () => {
             <div className="enclosure">
                 <div className="sub">
                 <h1>Become A Pro Learner</h1>
-                <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
+                <p>Become a Globally Certified, Sought-After, and Highly Tech Software Developer and Digital Marketing Expert </p>
                 </div>
             </div>
         </div>

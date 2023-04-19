@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 import vector from '../images/Vector.png';
-import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -40,7 +39,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="btn-group">
-                <Link to={'/service'}><button>view all services</button></Link>
+                <a href={'/service'}><button>view all services</button></a>
             </div>
         </div>
     </Wrapper>

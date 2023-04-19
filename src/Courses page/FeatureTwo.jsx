@@ -8,13 +8,12 @@ const FeatureTwo = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3>Features</h3>
             <div className="top">
                 <h1>
-                best place to learn growth
+                    Best place to learn & Grow 
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
+                    Get the most comprehensive theoretical and practical Training program during and after-training support
                 </p>
             </div>
             <div className="grid-section">
@@ -22,28 +21,28 @@ const FeatureTwo = () => {
                     <img src={group9} alt={group9} />
                     <div className="set">
                         <h4>Experience Instructors</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <p>With practical training, our instructor guides rather than direct the learning process where students are naturally interested in learning. Our instructors train, guide, and mentor you to achieve your tech or career goals.</p>
                     </div>
                 </div>
                 <div className='two'>
                     <img src={group10} alt={group10} />
                     <div className="set">
                         <h4>Working Experience</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <p>We train our students with work experience that enables them to take what they have learned off the page and put it into practice. Through practical opportunities, our students learn what it’s like to work as part of a team in a fast-paced business environment.</p>
                     </div>
                 </div>
                 <div className='two'>
                     <img src={group11} alt={group11} />
                     <div className="set">
-                        <h4>Ecollaborative Project</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <h4>Collaborative Project</h4>
+                        <p>Our students learn and work co-operatively in pairs or groups. For example, brainstorming, group discussions, completing shared tasks in a pair or group, reaching an agreement about processes, analyzing problems, and finding solutions. This helps our students to develop higher-level thinking, oral communication, self-management, leadership skills, and  exposure to and an increase in understanding of diverse perspectives</p>
                     </div>
                 </div>
                 <div className='one'>
                     <img src={group12} alt={group12} />
                     <div className="set">
-                        <h4>Network With Others Folks</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <h4>Job Opportunity</h4>
+                        <p>We provide internships, work placements, and part-time work to build their skills and try out a certain job or career. This will also help improve their understanding of a company’s culture and working practices.</p>
                     </div>
                 </div>
             </div >

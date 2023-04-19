@@ -14,15 +14,14 @@ const CoursesThree = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3>all courses</h3>
             <div className="top-head">
                 <h1>available courses</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+                <p>Choose a career to learn and position yourself to get a well-paid job, start your own business, and help boost any business sales and awareness faster. </p>
             </div>
             <Props
                 image={Rec6}
                 head="FRONT-END DEVELOPMENT"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn the development of the graphical user interface of a website so that users can view and interact with that website."
                 one=". HTML"
                 two=". CSS"
                 three=". Javascript"
@@ -37,7 +36,7 @@ const CoursesThree = () => {
             <Props
                 image={Rec1}
                 head="BACK-END DEVELOPMENT"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn to work on server-side software, which focuses on everything you can't see on a website."
                 one=". javascript"
                 two=". Node JS"
                 three=". Express JS"
@@ -53,7 +52,7 @@ const CoursesThree = () => {
             <Props
                 image={Rec2}
                 head="PYTHON FULL-STACK DEVELOPMENT"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn how to develop applications using the Python programming language."
                 one=". Python"
                 two=". Django"
                 three=". PostGrel"
@@ -69,7 +68,7 @@ const CoursesThree = () => {
             <Props
                 image={Rec3}
                 head="UI/UX DESIGN"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn to create the user interface for an app, website, or other interactive media."
                 one=". UI Design"
                 two=". Figma"
                 three=". UX Design"
@@ -84,7 +83,7 @@ const CoursesThree = () => {
             <Props
                 image={group27}
                 head="FULL -STACK DEVELOPMENT"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn how to develop both client and server software."
                 one=". HTML"
                 two=". CSS"
                 three=". Javascript"
@@ -104,7 +103,7 @@ const CoursesThree = () => {
             <Props
                 image={group33}
                 head="Mobile-App-Development"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn the act or process to develop mobile apps for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones. "
                 one=". Javascript"
                 two=". React JS"
                 three=". React Native"
@@ -124,7 +123,7 @@ const CoursesThree = () => {
             <Props
                 image={group101}
                 head="WordPress Development"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn to design and develop websites for companies using the WordPress creation tool."
                 one=". WP Installation"
                 two=".  WP Settings"
                 three=". Plugins Installation"
@@ -142,7 +141,7 @@ const CoursesThree = () => {
             <Props
                 image={group74}
                 head="Digital Marketing"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue."
+                paragraph="Learn to become a globally certified, sought-after, and highly-paid digital marketing professional."
                 one=". Digital Marketing Fundamentals "
                 two=". Social Media Marketing "
                 three=". Social Media Advertising "
