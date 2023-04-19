@@ -17,17 +17,19 @@ const Wrapper = styled.section`
    width: 100%;
    button{
     padding: 10px 25px;
-    background-color: white;
+    color: white;
     border: none;
-    color:#C12DC1;
+    background-color:#C12DC1;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 800;
     transition: ease-in-out .5s;
    }
    button:hover{
-    padding: 10px 70px;
     transition: ease-in-out .5s;
+    border: 1px solid #C12DC1;
+    background-color: white;
+    color: #C12DC1;
    }
    a{
     color: #C12DC1;
