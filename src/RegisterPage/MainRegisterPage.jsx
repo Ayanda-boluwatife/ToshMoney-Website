@@ -166,10 +166,8 @@ const Wrapper = styled.section`
         gap: 3px;
     }
     .special{
-        width: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
     .header{
         color: #FB9B02;
