@@ -8,7 +8,6 @@ const TopProps = (props) => {
             <div className="enclosure">
                 <div className="sub">
                 <h1>{props.header}</h1>
-                <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
                 </div>
             </div>
         </div>
