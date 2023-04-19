@@ -7,7 +7,7 @@ const CoursesTwo = () => {
         <div className="container">
             <div className="enclosure">
                 <div className="sub">
-                <h1>check all the courses available to take</h1>
+                <h1>Become A Pro Learner</h1>
                 <p>Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products</p>
                 </div>
             </div>
