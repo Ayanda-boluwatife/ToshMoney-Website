@@ -7,7 +7,7 @@ const TeamsAbout = () => {
     <Wrapper>
         <div className="container">
             <div className='advantages'>
-                <h1>Our Teams</h1>
+                <h1 className='header'>Our Teams</h1>
                 <p>Meet Our Team of Tech Visionaries Passionate about Innovation and Empowering Businesses.</p>
             </div>
             <div className='all-bg'>
@@ -54,6 +54,7 @@ const Wrapper = styled.section`
         color: #FB9B02;
         font-weight: 600;
         font-family: "Raleway", sans-serif;
+        font-size: 35px;;
     } 
     .advantages{
         width: 50%;

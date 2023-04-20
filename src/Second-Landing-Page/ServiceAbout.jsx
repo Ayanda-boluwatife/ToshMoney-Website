@@ -6,10 +6,9 @@ const ServiceAbout = () => {
   return (
     <Wrapper>
         <div className="container">
-            <h3 className='header'>services</h3>
             <div className='advantages'>
-                <h1>our services</h1>
-                <p>Transform Your Business with Comprehensive Tech Solutions <br /> and Expertise from Our Team</p>
+                <h1 className='header'>our services</h1>
+                <p>Transform Your Business with Comprehensive Tech Solutions and Expertise from Our Team</p>
             </div>
 
             <div className='one'>

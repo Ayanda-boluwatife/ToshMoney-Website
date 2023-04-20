@@ -5,10 +5,11 @@ const ContactMain = () => {
   return (
     <Wrapper>
       <div className="container">
-        <div className='main'>
-              <span>Contact</span>
-              <h1>send us your message.</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+        <div className="controller">
+          <div className='main'>
+                <h1>send us your message.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          </div>
         </div>
 
         <div className='form'>
@@ -87,8 +88,22 @@ const Wrapper = styled.section`
    div{
         font-family: "Raleway", sans-serif;
     }
+    .controller{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1{
+      color: #FB9B02;
+    }
    .main{
-    width: 100%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
    }
    .form-area{
     background: rgba(254, 243, 199, 0.7);
@@ -136,7 +151,9 @@ const Wrapper = styled.section`
     cursor: pointer;
    }
    @media screen and (max-width:950px) {
-
+    .main{
+      width: 100%;
+    }
     .form-area{
       font-size: 3vw;
       padding: 5px 30px;

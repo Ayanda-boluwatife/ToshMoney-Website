@@ -68,6 +68,10 @@ const Wrapper = styled.section`
     .main{
         width: 100%;
     }
+    .btn-group{
+      flex-direction: column;
+      gap: 10px;
+    }
    }
 `
 export default JoinToshConsult;

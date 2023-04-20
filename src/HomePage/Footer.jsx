@@ -39,10 +39,10 @@ const Footer = () => {
                     <h3>services</h3>
                     <div className="linkers">
                         <Link>Website development</Link>
-                        <a href={'/mobile-app'}>mobile app development</a>
-                        <a href={"/digital-markting"}>Digital Marketing</a>
+                        <Link>mobile app development</Link>
+                        <Link>Digital Marketing</Link>
                         <Link>software development</Link>
-                        <a href={'/uiux'}>uI/UX design</a>
+                        <Link>uI/UX design</Link>
                     </div>
                 </div>
                 <div className='set'>

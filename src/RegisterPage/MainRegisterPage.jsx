@@ -20,47 +20,47 @@ const MainRegisterPage = () => {
                 <div className='first'>
                     <div className='field'>
                         <label htmlFor="">Full Name:</label>
-                        <input type="text" />
+                        <input class="input"type="text" />
                     </div>
                     <div className='field'>
                         <label htmlFor="">Email:</label> 
-                        <input type="email" />
+                        <input class="input"type="email" />
                     </div>
                 </div>
                 <div className='field'>
                    <h3>Gender</h3>
                    <div className='special'>
-                        <input type="radio" name="" id="" />
                         <span>Male</span>
+                        <input class="radio" type="radio" name="" id="" />
                    </div>
                    <div className='special'>
-                        <input type="radio" name="" id="" />
                         <span>Female</span>
+                        <input class="radio" type="radio" name="" id="" />
                    </div>
                 </div>
                 <div className='first'>
                     <div className='field'>
                         <label htmlFor="">Date Of Birth</label>
-                        <input type="date" name="" id="" />
+                        <input class="input"type="date" name="" id="" />
                     </div>
                     <div className='field'>
                         <label htmlFor="">Phone Number</label>
-                        <input type="number" name="" id="" />
+                        <input class="input"type="number" name="" id="" />
                     </div>
                 </div>
                 <div className='field'>
                     <label htmlFor="">Contact Address</label>
-                    <input type="text" name="" id="" />
+                    <input class="input"type="text" name="" id="" />
                 </div>
                 <div className='first'>
                     <div className='field'>
                         <label htmlFor="">Street Address</label>
-                        <input type="text" name="" id="" />
+                        <input class="input"type="text" name="" id="" />
 
                     </div>
                     <div className='field'>
                         <label htmlFor="">State / Province / Region</label>
-                        <input type="text" name="" id="" />
+                        <input class="input"type="text" name="" id="" />
                     </div>
                 </div>
                 <div className="application">
@@ -168,6 +168,8 @@ const Wrapper = styled.section`
     .special{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        gap: 30px;
     }
     .header{
         color: #FB9B02;
@@ -179,19 +181,13 @@ const Wrapper = styled.section`
         flex-direction: column;
         gap: 15px;
     }
-    form input{
-        width: 100%;
-    }
-    .form-area{
-        width: 80%;
-    }
     .application{
         display: flex;
         flex-direction: column;
         gap: 15px;
         width: 100%;
     }
-    input, textarea, select, option{
+    .input, textarea, select, option{
         width: 100%;
         padding: 10px;
         background: #FFFFFF;

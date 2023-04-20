@@ -19,9 +19,7 @@ const Testimony = () => {
   return (
     <Wrapper>
       <div className='word'>
-        <h1>what people are saying</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <p>Eget aenean accumsan bibendum gravida maecenas augue.</p>
+        <h1>What Our Clients Are Saying</h1>
       </div>
         <Swiper {...params} className='swipe'>
           <SwiperSlide className='SwiperSlide'>
@@ -90,7 +88,7 @@ padding: 40px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      text-align: center;
       /* line-height: 2%; */
     }
     .swipe{
