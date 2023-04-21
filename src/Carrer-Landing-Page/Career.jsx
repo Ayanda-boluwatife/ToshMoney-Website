@@ -4,17 +4,27 @@ import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import CareerHeader from './CareerHeader'
 import SecondCareerPage from './SecondCareerPage'
+import styled from 'styled-components'
 
 const Career = () => {
   return (
-    <div>
-        <Nav/>
+    <Wrapper>
+      <section>
+        <Nav
+          careerLink='careerLink'
+        />
         <CareerHeader/>
         <SecondCareerPage />
         <Footer/>
         <BackToTop />
-    </div>
+      </section>
+    </Wrapper>
   )
 }
+const Wrapper = styled.section`
+  .careerLink{
+    color: #FB9B02 !important;
+  }
 
+`
 export default Career;

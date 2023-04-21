@@ -13,7 +13,9 @@ const Home = () => {
   return (
     <Wrapper>
       <section>
-        <Nav />
+        <Nav 
+          homeLink='homeLink'
+        />
         <div className='top-gradient'></div>
         <Hero />
         <About/>
@@ -37,6 +39,9 @@ const Wrapper = styled.section`
     left: 0;
     background: linear-gradient(180deg, rgba(193, 45, 193, 0.31) 0%, rgba(193, 45, 193, 0) 100%);
     filter: blur(100px);
+  }
+  .homeLink{
+    color: #FB9B02 !important;
   }
 
 `

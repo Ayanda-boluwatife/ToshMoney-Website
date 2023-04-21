@@ -4,19 +4,29 @@ import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import ContactHomePage from './ContactHomePage'
 import ContactMain from './ContactMain'
+import styled from 'styled-components'
 
 const Contact = () => {
   return (
-    <div>
-        <Nav />
+    <Wrapper>
+      <section>
+        <Nav
+          contactLink='contactLink' 
+        />
         <ContactHomePage />
         <ContactMain />
         <div style={{marginTop: '70px'}}>
           <Footer />
         </div>
         <BackToTop />
-    </div>
+      </section>
+    </Wrapper>
   )
 }
+const Wrapper = styled.section`
+  .contactLink{
+    color: #FB9B02 !important;
+  }
 
+`
 export default Contact

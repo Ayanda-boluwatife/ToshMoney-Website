@@ -95,8 +95,9 @@ const Wrapper = styled.section`
       align-items: center;
       justify-content: center;
     }
-    h1{
+    .main h1{
       color: #FB9B02;
+      font-size: 27px;
     }
    .main{
     width: 50%;

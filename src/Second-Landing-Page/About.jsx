@@ -16,7 +16,9 @@ const About = () => {
   return (
     <Wrapper>
       <div>
-        <Nav />
+        <Nav
+          aboutLink='aboutLink'
+        />
         <AboutHero />
         <OurMission />
         <Trainings />
@@ -33,5 +35,8 @@ const About = () => {
 }
 const Wrapper = styled.section`
   overflow: hidden;
+  .aboutLink{
+    color: #FB9B02 !important;
+  }
 `
 export default About

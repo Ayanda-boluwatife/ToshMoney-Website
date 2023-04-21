@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import logo from '../images/Toshconsult Img 1.png';
 import { Link } from 'react-router-dom';
-const Nav = () => {
+const Nav = (Props) => {
     const [menu, setMenu] = useState(false);
 
     const toggleMenu = () => {
@@ -13,12 +13,12 @@ const Nav = () => {
         <nav>
             <Link to={'/'}><img src={logo} alt={logo} /> </Link>
             <ul className="nav-desktop">
-                <li className='nav-link'><Link id='active' to={'/'}>Home</Link></li>
-                <li className='nav-link'><Link to={"/about"}>About</Link></li>
-                <li className='nav-link'><Link to={'/courses'}>Courses</Link></li>
-                <li className='nav-link'><Link to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link to={"/career"}>Testimonials</Link></li>
-                <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
+                <li className='nav-link'><Link className={Props.homeLink} to={'/'}>Home</Link></li>
+                <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
+                <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
+                <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
+                <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Testimonials</Link></li>
+                <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
             </ul>
             <ul className="apply">
                 <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
@@ -30,14 +30,14 @@ const Nav = () => {
             </button>
         </nav>
         <ul className={`nav-mobile ${menu ? 'mobile-toggler' : 'nav-mobile'}`}>
-        <li className='nav-link'><Link id='active' to={'/'}>Home</Link></li>
-                <li className='nav-link'><Link to={"/about"}>About</Link></li>
-                <li className='nav-link'><Link to={'/courses'}>Courses</Link></li>
-                <li className='nav-link'><Link to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link to={"/career"}>Testimonials</Link></li>
-                <li className='nav-link'><Link to={'/contact'}>Contact</Link></li>
-                <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
-            </ul>
+            <li className='nav-link'><Link className={Props.homeLink} to={'/'}>Home</Link></li>
+            <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
+            <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
+            <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
+            <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Testimonials</Link></li>
+            <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
+            <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
+        </ul>
     </Wrapper>
   )
 }
@@ -70,9 +70,9 @@ const Wrapper = styled.nav`
     .nav-link a:hover{
         color: #FB9B02;
     }
-    #active{
+    /* #active{
         color: #FB9B02 !important;
-    }
+    } */
     .nav-mobile{
         display: none;
     }
