@@ -5,11 +5,15 @@ import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
+import styled from 'styled-components';
 
 const MobileApp = () => {
   return (
-    <>
-        <Nav/>
+    <Wrapper>
+      <section>
+      <Nav
+          courseLink='courseLink'
+        />
         <TopProps
             header="MOBILE-APP-DEVELOPMENT"
         />
@@ -31,9 +35,14 @@ const MobileApp = () => {
         />
         <Footer/>
         <BackToTop/>
+      </section>
 
-    </>
+    </Wrapper>
   )
 }
-
+const Wrapper = styled.section`
+  .courseLink{
+    color: #FB9B02 !important;
+  }
+`
 export default MobileApp;

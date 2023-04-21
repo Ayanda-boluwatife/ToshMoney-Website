@@ -5,11 +5,14 @@ import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
+import styled from 'styled-components';
 
 const WordPress = () => {
   return (
-    <>
-        <Nav/>
+    <Wrapper>
+        <Nav
+          courseLink='courseLink'
+        />
         <TopProps
             header="WordPress Development"
         />
@@ -30,8 +33,12 @@ const WordPress = () => {
         <Footer/>
         <BackToTop/>
 
-    </>
+    </Wrapper>
   )
 }
-
+const Wrapper = styled.section`
+  .courseLink{
+    color: #FB9B02 !important;
+  }
+`
 export default WordPress;
