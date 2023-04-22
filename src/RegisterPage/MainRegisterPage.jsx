@@ -32,11 +32,11 @@ const MainRegisterPage = () => {
                     <h3>Gender</h3>
                     <div className='special'>
                             <span>Male</span>
-                            <input class="radio" type="radio" name="" id="" />
+                            <input class="radio" type="radio" name="radio-input" id="" />
                     </div>
                     <div className='special'>
                             <span>Female</span>
-                            <input class="radio" type="radio" name="" id="" />
+                            <input class="radio" type="radio" name="radio-input" id="" />
                     </div>
                     </div>
                     <div className='first'>
