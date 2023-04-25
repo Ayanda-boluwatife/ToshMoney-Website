@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import wordpressimg from '../images/wordpress3.jpg';
+import wordpressimg from '../images/wordpress-website (1).png';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import Recback from '../images/backend.png';
+import Recback from '../images/freelance-work-7308505_640.png';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

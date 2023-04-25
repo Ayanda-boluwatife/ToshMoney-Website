@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import mobileimg from '../images/mobileapp.jpg';
+import mobileimg from '../images/7-popular-business-applications-mobile-phones-2.png.webp';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

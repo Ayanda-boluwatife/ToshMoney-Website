@@ -83,7 +83,7 @@ const MainRegisterPage = () => {
                             <select name="" id="">
                                 <option value="">Beginner</option>
                                 <option value="">Intermediate</option>
-                                <option value="">Advance</option>git 
+                                <option value="">Advance</option>git    
                             </select>
                         </div>
                         <div className="field">

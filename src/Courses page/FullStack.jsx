@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import fullstackimg from '../images/fullstack.png';
+import fullstackimg from '../images/hero.png';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

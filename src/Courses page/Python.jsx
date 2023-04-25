@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import pythonimg from '../images/python.png';
+import pythonimg from '../images/How_to_Become_a_Back_End_Developer.jpg';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

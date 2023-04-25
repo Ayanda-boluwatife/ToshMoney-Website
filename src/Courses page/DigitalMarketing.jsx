@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import digitalimg from '../images/digitalmarketing.jpg';
+import digitalimg from '../images/1241416.jpg';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';

@@ -1,6 +1,6 @@
 import React from 'react'
 import GeneralProps from './GeneralProps';
-import uiuximg from '../images/uiux.jpg';
+import uiuximg from '../images/5f291f86223735.5da3c2a801a91.jpg';
 import Footer from '../HomePage/Footer';
 import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
