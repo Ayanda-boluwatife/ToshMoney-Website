@@ -3,55 +3,38 @@ import { FiMinus, FiPlus } from 'react-icons/fi'
 import styled from 'styled-components'
 
 const MainFaqPage = () => {
-    const serviceRef = useRef();
-    const trainRef = useRef();
-    const handleTraining = () => {
-        // setTab(!tab);
-        serviceRef.current.style.display= 'none';
-        trainRef.current.style.display = 'block'
-    }
-    const handleService = () => {
-        // setTab()
-        trainRef.current.style.display= 'none';
-        serviceRef.current.style.display = 'block'
-    }
+
     const items = [
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+          title: 'How much does it cost to own a company website?',
+          content: 'A standard company website starts from ₦150,000 and above. Although it all depends on the features you want on the website'
         },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+          title: ' Do I need a domain and hosting or you will provide them for me?',
+          content: 'We recommend buying and domain and hosting before we get started working on your project but in a situation whereby you don’t know how to” we can help out'
         },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+          title: 'Do I need a landing page or woo commerce website for my business?',
+          content: 'Kindly note that a landing page is not a functional website, it is only meant to showcase business or company details and people will be able to pick up some information from your website. But your woo commerce adds some extra features to allow users to interact with your website even when you are not online'        },
         {
-          title: 'hello',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+          title: 'What is a domain name?',
+          content: 'A domain name is a name your website bears online and which people can type into their browser to locate your website'        },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
-      ];
-    const itemsTwo = [
-        {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+          title: 'How fast can you work on a custom website?',
+          content: 'It takes our team of developers 4weeks or more to build a custom website from scratch'        
         },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+          title: 'How much does it cost to build a mobile application for my business?',
+          content: 'Mobile application prices depend on the technologies to be used. For Android mobile apps, it cost ₦500k or above. But make sure you contact us first before placing your order.'        
         },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+          title: 'Do I need to buy an Android/Apple developer account?',
+          content: 'Yes, it is recommended to have your own developer account with your company name.'        
+        },
         {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
-        {
-          title: 'When is the class taking place',
-          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+          title: 'How long does it take to build a mobile app?',
+          content: 'A Mobile app building process does take between 3 months and above but depends on the number of screens, the core features of the app and the technology to be used.'        
+        },
       ];
 
     const [activeIndex, setActiveIndex] = useState(-1);
@@ -72,48 +55,24 @@ const MainFaqPage = () => {
         </div>
 
         <div className='accordion'>
-            <div>
-                <button onclick={handleService}>Service</button>
-                <button onclick={handleTraining}>Training</button>
-            </div>
-            <div ref={serviceRef}>
-                {items.map((item, index) => (
-                    <div key={index} className="one">
-                        <div >
-                            <div className='plus' onClick={() => toggleAccordion(index)}>
-                                {item.title}
-                                {
-                                    activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
-                                }
-                            </div>
+
+            {items.map((item, index) => (
+                <div key={index} className="one">
+                    <div >
+                        <div className='plus' onClick={() => toggleAccordion(index)}>
+                            {item.title}
+                            {
+                                activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
+                            }
                         </div>
-                        {activeIndex === index && (
-                        <div className='content'>
-                            {item.content}
-                        </div>
-                        )}
+                    </div>
+                    {activeIndex === index && (
+                    <div className='content'>
+                        {item.content}
+                    </div>
+                    )}
                     </div>
                 ))}
-            </div>
-            <div ref={trainRef} className='train-sub'>
-                {itemsTwo.map((items, index) => (
-                    <div key={index} className="one">
-                        <div >
-                            <div className='plus' onClick={() => toggleAccordion(index)}>
-                                {items.title}
-                                {
-                                    activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
-                                }
-                            </div>
-                        </div>
-                        {activeIndex === index && (
-                        <div className='content'>
-                            {items.content}
-                        </div>
-                        )}
-                    </div>
-                ))}
-            </div>
         </div>
     </Wrapper>
   )
@@ -180,10 +139,16 @@ const Wrapper = styled.section`
     flex-direction: column;
     padding-top: 10px;
 }
-.train, .service{
+.train{
+    display: block;
+} 
+    .service{
         display: block;
     }
-    .train-sub, .service-sub{
+    .train-sub{
+        display: none;
+    } 
+    .service-sub{
         display: none;
     }
 
