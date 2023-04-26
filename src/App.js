@@ -18,6 +18,7 @@ import MobileApp from './Courses page/MobileApp';
 import DigitalMarketing from './Courses page/DigitalMarketing';
 import WordPress from './Courses page/WordPress';
 import PrivacyPolicy from './HomePage/PrivacyPolicy';
+import FaqRedo from './faq/FaqRedo';
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
           <Route path='/career' element={<Career />} />
           <Route path='/service' element={<Service/>}/>
           <Route path='/contact' element={<Contact />}/>
-          <Route path='/faq' element={<Faq />} />
+          <Route path='/faq1' element={<Faq />} />
+          <Route path='/faq2' element={<FaqRedo/>} />
           <Route path='/register-now' element={<Register />} />
         </Routes>
       </Router>

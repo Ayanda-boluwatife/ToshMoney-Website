@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const FaqQuestion = () => {
+const FaqQuestionTwo = () => {
   return (
     <Wrapper>
         <div className='main'>
-            <h1>Frequently asked questions for Service</h1>
+            <h1>Frequently asked questions for Training</h1>
         </div>
 
         
@@ -39,4 +39,4 @@ h1, h3{
     }
 }
 `
-export default FaqQuestion
+export default FaqQuestionTwo

@@ -16,7 +16,7 @@ const ThirdSection = () => {
                     <img src="/images/Rectangle 69.png" alt="" />
                 </div>
                 <h1>MOBILE APP DEVELOPMENT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <p>We build mobile application that will helps strengthen your business by building relevance, familiarity, trust and credibility through your business-customer relationship.</p>
                 <div>
                     <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
@@ -26,7 +26,7 @@ const ThirdSection = () => {
                     <img src="/images/Rectangle 70.png" alt="" />
                 </div>
                 <h1>WEBSITE DEVELOPMENT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <p>Our team of experts design and develop custom website can will help you generate long-term customer relationships, connect with your customers, generate leads, and boost sales.</p>
                 <div>
                     <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>
@@ -46,7 +46,7 @@ const ThirdSection = () => {
                     <img src="/images/Rectangle 73.png" alt="" />
                 </div>
                 <h1>SOFTWARE DEVELOPMENT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <p>Having software developed that meets the unique requirements of your business helps your employees work more efficiently and perform their job duties with greater confidence. Our software developers are here to help you.</p>
                 <div>
                     <Link to={'/contact'}><button>Hire us now</button></Link>
                 </div>

@@ -2,38 +2,38 @@ import {React, useState, useRef} from 'react'
 import { FiMinus, FiPlus } from 'react-icons/fi'
 import styled from 'styled-components'
 
-const MainFaqPage = () => {
+const FaqTwo = () => {
 
     const items = [
         {
-          title: 'How much does it cost to own a company website?',
-          content: 'A standard company website starts from ₦150,000 and above. Although it all depends on the features you want on the website'
+          title: 'How much is your course?',
+          content: 'The price for each course can be found in his book'
         },
         {
-          title: ' Do I need a domain and hosting or you will provide them for me?',
-          content: 'We recommend buying and domain and hosting before we get started working on your project but in a situation whereby you don’t know how to” we can help out'
+          title: ' when is your course starting?',
+          content: 'We don’t have a fixed starting date for students we normally attach each new student to their personal tutor upon registration'
         },
         {
-          title: 'Do I need a landing page or woo commerce website for my business?',
-          content: 'Kindly note that a landing page is not a functional website, it is only meant to showcase business or company details and people will be able to pick up some information from your website. But your woo commerce adds some extra features to allow users to interact with your website even when you are not online'        },
+          title: 'Will I get a certificate upon completion?',
+          content: ' Of course yes, there is a certificate for each verified student who daily commits and completes their requirement for certification as stated in our terms and condition upon completing their course'        },
         {
-          title: 'What is a domain name?',
-          content: 'A domain name is a name your website bears online and which people can type into their browser to locate your website'        },
+          title: 'Do you have kids coding classes?',
+          content: 'Yes we do train kids who are eager to become a software engineer '        },
         {
-          title: 'How fast can you work on a custom website?',
-          content: 'It takes our team of developers 4weeks or more to build a custom website from scratch'        
+          title: 'Do you provide free laptops for students?',
+          content: 'No, we always recommend each student should have their personal laptop'        
         },
         {
-          title: 'How much does it cost to build a mobile application for my business?',
-          content: 'Mobile application prices depend on the technologies to be used. For Android mobile apps, it cost ₦500k or above. But make sure you contact us first before placing your order.'        
+          title: 'What types of laptops do I need for programming?',
+          content: 'Any laptop with at least 4 GB ram, 1.5 processor (speed), and 120 GB ram'        
         },
         {
-          title: 'Do I need to buy an Android/Apple developer account?',
-          content: 'Yes, it is recommended to have your own developer account with your company name.'        
+          title: 'What time do you open?',
+          content: 'We open between 9: 00 am – 5:30 pm'        
         },
         {
-          title: 'How long does it take to build a mobile app?',
-          content: 'A Mobile app building process does take between 3 months and above but depends on the number of screens, the core features of the app and the technology to be used.'        
+          title: ' Do you have a weekend class',
+          content: 'es, we organize weekend class for special student between Saturday and Sunday only'        
         },
       ];
 
@@ -179,4 +179,4 @@ const Wrapper = styled.section`
 
    }
 `
-export default MainFaqPage
+export default FaqTwo;

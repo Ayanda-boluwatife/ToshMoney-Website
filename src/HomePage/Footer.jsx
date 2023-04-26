@@ -50,7 +50,8 @@ const Footer = () => {
                     <div className="linkers">
                         <a href={'/about'}>about us</a>
                         <a href={'/contact'}>contact us</a>
-                        <a href={'/faq'}>FAQ</a>
+                        <a href={'/faq1'}>Services Faq</a>
+                        <a href={'/faq2'}>Studentship Faq</a>
                         <a href={'/privacy-policy'}>Privacy & Policy</a>
                     </div>
                 </div>

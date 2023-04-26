@@ -7,7 +7,6 @@ const LastPage = () => {
     <Wrapper>
         <div className='main'>
             <h1>GET IN TOUCH</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
             <div>
                 <Link to={'/contact'}><button>Contact Us</button></Link>
             </div>
