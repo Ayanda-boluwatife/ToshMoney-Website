@@ -1,16 +1,40 @@
-import {React, useState} from 'react'
+import {React, useState, useRef} from 'react'
 import { FiMinus, FiPlus } from 'react-icons/fi'
 import styled from 'styled-components'
 
 const MainFaqPage = () => {
-    const [tab, setTab] = useState(false);
+    const serviceRef = useRef();
+    const trainRef = useRef();
     const handleTraining = () => {
-        setTab(!tab);
+        // setTab(!tab);
+        serviceRef.current.style.display= 'none';
+        trainRef.current.style.display = 'block'
     }
     const handleService = () => {
-
+        // setTab()
+        trainRef.current.style.display= 'none';
+        serviceRef.current.style.display = 'block'
     }
     const items = [
+        {
+          title: 'When is the class taking place',
+          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+        },
+        {
+          title: 'When is the class taking place',
+          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
+        },
+        {
+          title: 'When is the class taking place',
+          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+        {
+          title: 'hello',
+          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+        {
+          title: 'When is the class taking place',
+          content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'        },
+      ];
+    const itemsTwo = [
         {
           title: 'When is the class taking place',
           content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam sunt, fugiat dolorum incidunt minima provident saepe nulla a quam iure similique ad eius beatae modi temporibus dignissimos animi facere sapiente. Velit ipsa reprehenderit eos vitae nesciunt animi, a temporibus doloremque quos, molestiae, ducimus dignissimos in eaque quisquam ratione tempora repellat? Ipsa, architecto odit ut perspiciatis assumenda possimus tenetur porro voluptatem cum molestias, reiciendis sint perferendis quis, repudiandae nobis eveniet?.'
@@ -52,7 +76,7 @@ const MainFaqPage = () => {
                 <button onclick={handleService}>Service</button>
                 <button onclick={handleTraining}>Training</button>
             </div>
-            <div className={`${tab ? "" : ""}`}>
+            <div ref={serviceRef}>
                 {items.map((item, index) => (
                     <div key={index} className="one">
                         <div >
@@ -71,12 +95,12 @@ const MainFaqPage = () => {
                     </div>
                 ))}
             </div>
-            <div className={`${tab ? "" : "train-sub"}`}>
-                {items.map((item, index) => (
+            <div ref={trainRef} className='train-sub'>
+                {itemsTwo.map((items, index) => (
                     <div key={index} className="one">
                         <div >
                             <div className='plus' onClick={() => toggleAccordion(index)}>
-                                {item.title}
+                                {items.title}
                                 {
                                     activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
                                 }
@@ -84,7 +108,7 @@ const MainFaqPage = () => {
                         </div>
                         {activeIndex === index && (
                         <div className='content'>
-                            {item.content}
+                            {items.content}
                         </div>
                         )}
                     </div>
@@ -156,6 +180,12 @@ const Wrapper = styled.section`
     flex-direction: column;
     padding-top: 10px;
 }
+.train, .service{
+        display: block;
+    }
+    .train-sub, .service-sub{
+        display: none;
+    }
 
    @media screen and (max-width:950px) {
     .main{
@@ -166,12 +196,7 @@ const Wrapper = styled.section`
         padding: 5px 40px;
         font-size: 3vw;
     }
-    .train, .service{
-        display: block;
-    }
-    .train-sub, .service-sub{
-        display: none;
-    }
+
    }
 `
 export default MainFaqPage
