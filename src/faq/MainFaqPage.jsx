@@ -3,7 +3,13 @@ import { FiMinus, FiPlus } from 'react-icons/fi'
 import styled from 'styled-components'
 
 const MainFaqPage = () => {
-    
+    const [tab, setTab] = useState(false);
+    const handleTraining = () => {
+        setTab(!tab);
+    }
+    const handleService = () => {
+
+    }
     const items = [
         {
           title: 'When is the class taking place',
@@ -42,23 +48,48 @@ const MainFaqPage = () => {
         </div>
 
         <div className='accordion'>
-            {items.map((item, index) => (
-                <div key={index} className="one">
-                    <div >
-                        <div className='plus' onClick={() => toggleAccordion(index)}>
-                            {item.title}
-                            {
-                                activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
-                            }
+            <div>
+                <button onclick={handleService}>Service</button>
+                <button onclick={handleTraining}>Training</button>
+            </div>
+            <div className={`${tab ? "" : ""}`}>
+                {items.map((item, index) => (
+                    <div key={index} className="one">
+                        <div >
+                            <div className='plus' onClick={() => toggleAccordion(index)}>
+                                {item.title}
+                                {
+                                    activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
+                                }
+                            </div>
                         </div>
+                        {activeIndex === index && (
+                        <div className='content'>
+                            {item.content}
+                        </div>
+                        )}
                     </div>
-                    {activeIndex === index && (
-                    <div className='content'>
-                        {item.content}
+                ))}
+            </div>
+            <div className={`${tab ? "" : "train-sub"}`}>
+                {items.map((item, index) => (
+                    <div key={index} className="one">
+                        <div >
+                            <div className='plus' onClick={() => toggleAccordion(index)}>
+                                {item.title}
+                                {
+                                    activeIndex ? <span><FiPlus /></span> : <span><FiMinus /></span>
+                                }
+                            </div>
+                        </div>
+                        {activeIndex === index && (
+                        <div className='content'>
+                            {item.content}
+                        </div>
+                        )}
                     </div>
-                    )}
-                </div>
-             ))}
+                ))}
+            </div>
         </div>
     </Wrapper>
   )
@@ -134,6 +165,12 @@ const Wrapper = styled.section`
         width: 80%;
         padding: 5px 40px;
         font-size: 3vw;
+    }
+    .train, .service{
+        display: block;
+    }
+    .train-sub, .service-sub{
+        display: none;
     }
    }
 `
