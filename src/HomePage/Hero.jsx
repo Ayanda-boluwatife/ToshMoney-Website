@@ -194,7 +194,7 @@ const Wrapper = styled.div`
             gap: 10px;
         }
         .image{
-            padding-top: 85px;
+            padding-top: 90px;
         }
         .btn-group{
             flex-direction: column;

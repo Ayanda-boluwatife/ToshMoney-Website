@@ -37,7 +37,6 @@ const Wrapper = styled.div`
     padding: 70px;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
   }
   .first{
     width: 100%;
@@ -85,7 +84,7 @@ const Wrapper = styled.div`
     .container{
       flex-direction: column;
       padding: 40px;
-      margin-top: 80px;
+      margin-top: 110px;
       gap: 30px;
     }  
     
