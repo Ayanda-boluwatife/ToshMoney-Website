@@ -191,19 +191,18 @@ const Wrapper = styled.footer`
             grid-gap: 30px;
         }
         .social{
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
         }
         .logo{
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
         }
         .base{
             flex-direction: column-reverse;
         }
         .set{
-            align-items: center;
             text-align: center;
         }
     }
