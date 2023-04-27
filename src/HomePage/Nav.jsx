@@ -17,7 +17,7 @@ const Nav = (Props) => {
                 <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
                 <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
                 <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Testimonials</Link></li>
+                <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Blog</Link></li>
                 <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
             </ul>
             <ul className="apply">
@@ -34,7 +34,7 @@ const Nav = (Props) => {
             <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
             <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
             <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
-            <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Testimonials</Link></li>
+            <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Blog</Link></li>
             <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
             <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
         </ul>
