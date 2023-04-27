@@ -464,6 +464,9 @@ const Wrapper = styled.div`
         .container{
             padding: 40px;
         }
+        .one span {
+            font-size: 15px;
+        }
     }
 
 `

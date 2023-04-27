@@ -38,26 +38,6 @@ const Hero = () => {
             </div>
         </div>
         <div className="top-gradient"></div>
-        {/* <div className="subsiquent">
-            <div className='one'>
-                <div><img src={vector} alt={vector} /></div>
-                <div>
-                    <h3>highly expectation</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
-                    </p>
-                </div>
-            </div>
-            <div className='one'>
-                <div><img src={vec} alt={vec} /></div>
-                <div>
-                    <h3>highly expectation</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
-                    </p>
-                </div>
-            </div>
-        </div> */}
     </Wrapper>
   )
 }
@@ -97,6 +77,7 @@ const Wrapper = styled.div`
     .first p{
         color:  rgba(0, 0, 0, 0.5);
         font-family: 'Raleway', sans-serif;
+        line-height: 10px;
     }
     .btn-group{
         display: flex;

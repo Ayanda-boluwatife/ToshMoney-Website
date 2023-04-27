@@ -55,7 +55,7 @@ const Testimony = () => {
             <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Mr Adams</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>“Toshconsult is the best Web agency. They handle<br/> project with good mindset to help brands grow”</em></p>
             </div>
           </SwiperSlide>
         </Swiper>
