@@ -16,14 +16,14 @@ const ServiceAbout = () => {
                         <div className='image'><img src="/images/Group 23.png" alt="" /></div>
                         <div>
                             <h1>MOBILE APP DEVELOPMENT</h1>
-                            <p>Expert Mobile App Development to Enhance User Experience and Drive Business Growth</p>
+                            <p>We build mobile application that will helps strengthen your business by building relevance, familiarity, trust and credibility through your business-customer relationship.</p>
                         </div>
                 </div>
                 <div className='inner-inner-1'>
                         <div className='image'><img src="/images/Group 25.png" alt="" /></div>
                         <div>
                             <h1>WEBSITE DEVELOPMENT</h1>
-                            <p>Transform Your Business with Comprehensive Tech Solutions and Expertise from Our Team</p>
+                            <p>Our team of experts design and develop custom website can will help you generate long-term customer relationships, connect with your customers, generate leads, and boost sales.</p>
                         </div>
                 </div>
             </div>
@@ -32,14 +32,14 @@ const ServiceAbout = () => {
                     <div className='image'><img src="/images/Group 27.png" alt="" /></div>
                     <div>
                         <h1>DIGITAL MARKETING</h1>
-                        <p>Transform Your Business with Comprehensive Tech Solutions and Expertise from Our Team</p>
+                        <p>With our professional digital marketing services, your business can establish brand credibility across a larger market.</p>
                     </div>
                 </div>
                 <div className='inner-inner-2'>
                     <div className='image'><img src="/images/Group 29.png" alt="" /></div>
                     <div>
                         <h1>UI/UX DESIGN</h1>
-                        <p>Transform Your Business with Comprehensive Tech Solutions and Expertise from Our Team</p>
+                        <p>Our experienced UI/UX designers will help you create a perfect user interface and user experience to keep your website clean, modern, and up-to-date.</p>
                     </div>
                 </div>
             </div>

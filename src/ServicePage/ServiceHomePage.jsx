@@ -57,6 +57,7 @@ const Wrapper = styled.section`
     @media screen and (max-width: 950px) {
       .sub{
         width: 100%;
+        padding: 0 10px;
       }
       .sub h1{
         font-size: 25px;

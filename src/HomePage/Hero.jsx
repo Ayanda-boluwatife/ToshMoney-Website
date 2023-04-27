@@ -185,7 +185,7 @@ const Wrapper = styled.div`
             text-align: center;
         }
         .first p{
-            line-height: 35px;
+            line-height: 30px;
         }
         .first h1{
             font-size: 27px;

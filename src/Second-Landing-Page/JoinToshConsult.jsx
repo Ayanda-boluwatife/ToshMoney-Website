@@ -67,6 +67,7 @@ const Wrapper = styled.section`
    @media screen and (max-width:950px) {
     .main{
         width: 100%;
+        padding: 0 15px;
     }
     .btn-group{
       flex-direction: column;
