@@ -28,7 +28,8 @@ background: rgba(254, 243, 199, 0.5);
 }
 h1, h3{
         font-weight: 600;
-        font-family: 'Raleway', sans-serif; 
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
     }
 
 

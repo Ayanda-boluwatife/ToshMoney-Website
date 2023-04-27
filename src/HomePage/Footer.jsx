@@ -202,6 +202,10 @@ const Wrapper = styled.footer`
         .base{
             flex-direction: column-reverse;
         }
+        .set{
+            align-items: center;
+            text-align: center;
+        }
     }
 
 
