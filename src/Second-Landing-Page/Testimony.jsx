@@ -43,20 +43,20 @@ const Testimony = () => {
             <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Alfa Taofeeq</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"ToshConsult is the best website developer, website designer. They provide the best quality services"</em></p>
             </div>
           </SwiperSlide>
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
               <h1>Mr Faruk</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"Toshconsult Technologies Inc gave us the best software<br/> for our hauling and logistics company. I’d recommend them always"</em></p>
             </div>
-            <div className='one'>
+            {/* <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Mr Adams</h1>
               <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
-            </div>
+            </div> */}
           </SwiperSlide>
         </Swiper>
     </Wrapper>

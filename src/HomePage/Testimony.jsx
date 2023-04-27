@@ -21,43 +21,43 @@ const Testimony = () => {
       <div className='word'>
         <h1>What Our Client Are Saying</h1>
       </div>
-        <Swiper {...params} className='swipe'>
+      <Swiper {...params} className='swipe'>
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
-              <h1>Idiagbon Abdulrahman</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <h1>Mr Faruk</h1>
+              <p><em>"Toshconsult Technologies Inc gave us the best software<br/> for our hauling and logistics company. I’d recommend them always"</em></p>
             </div>
-            <div className='one'>
+            {/* <div className='one'>
               <img src="/images/Elip.png" alt="" />
-              <h1>Ayanda Boluwatife</h1>
+              <h1>Mr Adams</h1>
               <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
-            </div>
+            </div> */}
           </SwiperSlide>
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
               <h1>Mubarak</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"Toshconsuit agency did an excellent job by providing me with a speedy and SEO responsive website for my business;<br/> I recommended anyone who needs a website for all kinds of business; trust me, you won't regret it"</em></p>
             </div>
             <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Alfa Taofeeq</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"ToshConsult is the best website developer, website designer. They provide the best quality services"</em></p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className='SwiperSlide'>
-            <div className='one'>
-              <img src="/images/Eli.png" alt="" />
-              <h1>Mr Faruk</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
-            </div>
-            <div className='one'>
-              <img src="/images/Elip.png" alt="" />
-              <h1>Mr Adams</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
-            </div>
-          </SwiperSlide>
+            <SwiperSlide className='SwiperSlide'>
+              <div className='one'>
+                <img src="/images/Eli.png" alt="" />
+                <h1>Idiagbon Abdulrahman</h1>
+                <p><em>"ToshConsult is the best web agency. I repeat again, they are the best!! They developed<br /> Elpakonnect.com.ng for us and we’re happy with their work. I’ll always recommend them"</em></p>
+              </div>
+              <div className='one'>
+                <img src="/images/Elip.png" alt="" />
+                <h1>Ayanda Boluwatife</h1>
+                <p><em>"The best software development company. I’m currently learning programming at Toshconsult Inc.<br/>If you want to learning web Development, app development, then I’d recommend Toshconsult Inc for you"</em></p>
+              </div>
+            </SwiperSlide>
         </Swiper>
     </Wrapper>
   )
