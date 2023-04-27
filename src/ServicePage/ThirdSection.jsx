@@ -100,7 +100,8 @@ const Wrapper = styled.section`
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
   }
   h1, h3{
         font-weight: 600;

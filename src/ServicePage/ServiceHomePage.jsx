@@ -7,8 +7,8 @@ const ServiceHomePage = () => {
       <div className="container">
         <div className="enclosure">
           <div className="sub">
-            <h1>Inventing solution to businessEnterprises</h1>
-            <p>Get to Know Our Team and Our Mission to Provide Exceptional ServiceAnd Quality Products</p>
+            <h1>Inventing solution to business Enterprises</h1>
+            <p>Our Mission Is To Provide Exceptional Service And Quality Products</p>
           </div>
         </div>
       </div>
