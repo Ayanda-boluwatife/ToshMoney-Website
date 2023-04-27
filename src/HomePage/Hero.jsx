@@ -77,7 +77,6 @@ const Wrapper = styled.div`
     .first p{
         color:  rgba(0, 0, 0, 0.5);
         font-family: 'Raleway', sans-serif;
-        line-height: 10px;
     }
     .btn-group{
         display: flex;
@@ -184,6 +183,9 @@ const Wrapper = styled.div`
         }
         .first{
             text-align: center;
+        }
+        .first p{
+            line-height: 35px;
         }
         .first h1{
             font-size: 27px;
