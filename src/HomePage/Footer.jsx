@@ -58,7 +58,6 @@ const Footer = () => {
                 <div className='set'>
                     <h3>resources</h3>
                     <div className="linkers">
-                        <Link>docs</Link>
                         <a href={'/career'}>career</a>
                         <Link>blog</Link>
                     </div>
@@ -70,7 +69,7 @@ const Footer = () => {
                 </div>
                 <div className='second'>
                     <div><h4>address:</h4> <span>block 20 ibrahim taiwo road, ilorin, kwara, NG</span></div>
-                    <div><h4>phone no.:</h4> <span>08103856846</span></div>
+                    <div><h4>phone no.:</h4> <span>+2348103856846</span></div>
                     <div><h4>email:</h4> <span style={{textTransform: 'lowercase'}}>info@toshconsultinc.com</span></div>
                 </div>
             </div>

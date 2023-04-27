@@ -12,7 +12,11 @@ const Faq = () => {
         <Nav />
         <FaqQuestion />
         <MainFaqPage />
-        <LastPage />
+        <LastPage
+          head="Get in Touch"
+          link={'/service'}
+          button="Contact Us"
+        />
         <Footer />
         <BackToTop />
     </div>

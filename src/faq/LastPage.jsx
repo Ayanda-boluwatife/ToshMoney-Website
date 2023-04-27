@@ -2,13 +2,13 @@ import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-const LastPage = () => {
+const LastPage = (Props) => {
   return (
     <Wrapper>
         <div className='main'>
-            <h1>GET IN TOUCH</h1>
+            <h1>{Props.head}</h1>
             <div>
-                <Link to={'/contact'}><button>Contact Us</button></Link>
+                <Link to={Props.link}><button>{Props.button}</button></Link>
             </div>
         </div>
     </Wrapper>

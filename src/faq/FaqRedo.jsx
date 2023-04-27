@@ -12,7 +12,11 @@ const FaqRedo = () => {
         <Nav/>
         <FaqQuestionTwo/>
         <FaqTwo/>
-        <LastPage/>
+        <LastPage
+          head="Become A Pro Learner"
+          link={'/courses'}
+          button="Enroll In Our Courses"
+        />
         <Footer/>
         <BackToTop/>
     </div>
