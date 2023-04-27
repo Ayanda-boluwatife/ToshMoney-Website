@@ -26,19 +26,19 @@ const Testimony = () => {
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
               <h1>Idiagbon Abdulrahman</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"ToshConsult is the best web agency. I repeat again, they are the best!! They developed<br /> Elpakonnect.com.ng for us and we’re happy with their work. I’ll always recommend them"</em></p>
             </div>
             <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Ayanda Boluwatife</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"The best software development company. I’m currently learning programming at Toshconsult Inc.<br/>If you want to learning web Development, app development, then I’d recommend Toshconsult Inc for you"</em></p>
             </div>
           </SwiperSlide>
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
               <h1>Mubarak</h1>
-              <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
+              <p><em>"Toshconsuit agency did an excellent job by providing me with a speedy and SEO responsive website for my business;<br/> I recommended anyone who needs a website for all kinds of business; trust me, you won't regret it"</em></p>
             </div>
             <div className='one'>
               <img src="/images/Elip.png" alt="" />

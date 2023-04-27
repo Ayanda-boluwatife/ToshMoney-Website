@@ -54,7 +54,7 @@ const ContactMain = () => {
               <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
           <div>
-            <button>Send Now</button>
+            <a href={"/service"}><button type='submit'>Send Now</button></a>
           </div>
           </form>
         </div>
@@ -78,7 +78,7 @@ const Wrapper = styled.section`
       justify-content: center;
       text-transform: capitalize;
       padding: 0 30px;
-
+      margin-top: 50px;
     }
 
    span{
@@ -115,6 +115,7 @@ const Wrapper = styled.section`
     font-weight: 700;
     width: 100%;
    }
+
    input, textarea, select, option{
       width: 100%;
       background: #FFFFFF;
@@ -160,6 +161,9 @@ const Wrapper = styled.section`
       padding: 5px 30px;
       width: 90%;
     }
+    .form-area p{
+    text-align: center;
+   }
    }
 `
 export default ContactMain;
