@@ -427,7 +427,7 @@ const Wrapper = styled.div`
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .viewall{
         padding: 12px 25px;

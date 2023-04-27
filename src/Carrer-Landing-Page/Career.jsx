@@ -3,7 +3,6 @@ import BackToTop from '../BackToTop'
 import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import CareerHeader from './CareerHeader'
-import SecondCareerPage from './SecondCareerPage'
 import styled from 'styled-components'
 
 const Career = () => {
@@ -14,7 +13,6 @@ const Career = () => {
           careerLink='careerLink'
         />
         <CareerHeader/>
-        <SecondCareerPage />
         <Footer/>
         <BackToTop />
       </section>

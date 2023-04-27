@@ -16,9 +16,9 @@ const Footer = () => {
                 </div>
                 <div className="social">
                     <span className='inst'><Link><AiOutlineInstagram/></Link></span>
-                    <span className='twit'><Link><CiTwitter/></Link></span>
-                    <span className='twit'><Link><AiOutlineLinkedin/></Link></span>
-                    <span className='inst'><Link><FiFacebook/></Link></span>
+                    <span className='twit'><a href='https://twitter.com/toshconsult '><CiTwitter/></a></span>
+                    <span className='twit'><a href='https://www.linkedin.com/company/81878183'><AiOutlineLinkedin/></a></span>
+                    <span className='inst'><a href='https://web.facebook.com/toshconsult'><FiFacebook/></a></span>
                 </div>
             </div>
             <div className="grid-section">
@@ -184,6 +184,7 @@ const Wrapper = styled.footer`
         }
         .logo-social{
             flex-direction: column;
+            margin-top: 50px;
             gap: 10px;
         }
         .grid-section{
