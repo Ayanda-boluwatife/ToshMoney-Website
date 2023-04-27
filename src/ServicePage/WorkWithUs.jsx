@@ -38,7 +38,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     padding: 50px;
-    width: 85%;
+    width: 90%;
     line-height: 100%;
    }
    button{

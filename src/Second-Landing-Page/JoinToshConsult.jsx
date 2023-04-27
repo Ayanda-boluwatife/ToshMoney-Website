@@ -28,7 +28,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 70%;
+    width: 90%;
     height: 50vh;
    }
    h1, h3{

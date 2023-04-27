@@ -128,6 +128,8 @@ const Wrapper = styled.section`
     background: #C12DC1;
     border-radius: 14px;
     color: white;
+    cursor: pointer;
+
   }
   .two button, .three button{
     padding: 15px 25px;
@@ -135,6 +137,8 @@ const Wrapper = styled.section`
     background: #FB9B02;
     border-radius: 14px;
     color: white;
+    cursor: pointer;
+
   }
   h1{
     font-size: 20px;
