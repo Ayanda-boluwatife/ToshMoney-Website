@@ -66,7 +66,6 @@ const Wrapper = styled.div`
    }
    .first{
         width: 60%;
-        /* height: 30vh; */
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -94,7 +93,7 @@ const Wrapper = styled.div`
         .first{
             width: 100%;
             margin-top: 30px;
-        
+            text-align: center;
         }
         .first h2{
             font-size: 20px;
@@ -107,6 +106,10 @@ const Wrapper = styled.div`
         }
         .list{
             grid-template-columns: repeat(1, 1fr);
+            text-align: center;
+        }
+        .btn-group{
+            justify-content: center;
         }
     }
 
