@@ -8,7 +8,7 @@ const ContactMain = () => {
         <div className="controller">
           <div className='main'>
                 <h1>send us your message.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+                <p>Get in Touch with us by filling the below form</p>
           </div>
         </div>
 
