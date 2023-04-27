@@ -28,11 +28,11 @@ const Testimony = () => {
               <h1>Mr Faruk</h1>
               <p><em>"Toshconsult Technologies Inc gave us the best software<br/> for our hauling and logistics company. I’d recommend them always"</em></p>
             </div>
-            {/* <div className='one'>
+            <div className='one'>
               <img src="/images/Elip.png" alt="" />
               <h1>Mr Adams</h1>
               <p><em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget <br /> aenean accumsan bibendum gravida maecenas augue.”</em></p>
-            </div> */}
+            </div>
           </SwiperSlide>
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
