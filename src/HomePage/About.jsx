@@ -37,6 +37,7 @@ const Wrapper = styled.div`
     padding: 70px;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
   }
   .first{
     width: 100%;
