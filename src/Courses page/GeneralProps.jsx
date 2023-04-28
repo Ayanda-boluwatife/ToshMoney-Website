@@ -130,6 +130,13 @@ const Wrapper = styled.div`
     h3{
         color: #FB9B02;
     }
+    h4{
+        background-color: rgb(239,248,248);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     .second h2, .head-d{
         color: #C12DC1;
         background-color: #F8E7F8;
