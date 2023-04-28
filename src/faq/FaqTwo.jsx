@@ -7,7 +7,7 @@ const FaqTwo = () => {
     const items = [
         {
           title: 'How much is your course?',
-          content: 'The price for each course can be found in his book'
+          content: 'The price for each courses has been attached under each courses and can be found in this link {`${"/courses"}`}'
         },
         {
           title: ' when is your course starting?',
@@ -33,7 +33,7 @@ const FaqTwo = () => {
         },
         {
           title: ' Do you have a weekend class',
-          content: 'es, we organize weekend class for special student between Saturday and Sunday only'        
+          content: 'Yes, we organize weekend class for special student between Saturday and Sunday only'        
         },
       ];
 

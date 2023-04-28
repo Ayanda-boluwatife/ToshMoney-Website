@@ -32,6 +32,14 @@ const GeneralProps = (props) => {
 
                         </div>
                     </div>
+                    <div className="middle">
+                        <div className="middle-one">
+                            <h2>Course Price</h2>
+                        </div>
+                        <div className="middle-two">
+                            <h2>Course Duration</h2>
+                        </div>
+                    </div>
                     <div className="second">
                         <h2>COURSE BENEFITS</h2>
                         <div className="items">
@@ -82,6 +90,13 @@ const Wrapper = styled.div`
         gap: 20px;
         width: 50%;
     }
+    .middle{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
     .flex-group{
         width: 100%;
         display: flex;
@@ -94,7 +109,7 @@ const Wrapper = styled.div`
         flex-direction: column;
         gap: 10px;
     }
-    .first h2{
+    .first h2, h2{
         color: #FB9B02;
         background-color: #FEF3C7;
         border-radius: 10px;
