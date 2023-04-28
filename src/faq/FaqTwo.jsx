@@ -7,7 +7,7 @@ const FaqTwo = () => {
     const items = [
         {
           title: 'How much is your course?',
-          content: 'The price for each courses has been attached under each courses and can be found in this link {`${"/courses"}`}'
+          content: 'The price for each courses has been attached under each courses and can be found in this link'
         },
         {
           title: ' when is your course starting?',
@@ -65,6 +65,7 @@ const FaqTwo = () => {
                     {activeIndex === index && (
                     <div className='content'>
                         {item.content}
+                        <button> {`${"/courses"}`}</button>
                     </div>
                     )}
                     </div>
