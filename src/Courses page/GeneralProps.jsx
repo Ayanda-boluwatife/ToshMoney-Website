@@ -136,6 +136,8 @@ const Wrapper = styled.div`
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-top: 10px;
+        border-radius: 10px;
     }
     .second h2, .head-d{
         color: #C12DC1;
