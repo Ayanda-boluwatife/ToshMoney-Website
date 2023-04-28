@@ -7,7 +7,8 @@ const FaqTwo = () => {
     const items = [
         {
           title: 'How much is your course?',
-          content: 'The price for each courses has been attached under each courses and can be found in this link'
+          content: 'The price for each courses has been attached under each courses and can be found in this link',
+          link: 'courses'
         },
         {
           title: ' when is your course starting?',
@@ -18,7 +19,8 @@ const FaqTwo = () => {
           content: ' Of course yes, there is a certificate for each verified student who daily commits and completes their requirement for certification as stated in our terms and condition upon completing their course'        },
         {
           title: 'Do you have kids coding classes?',
-          content: 'Yes we do train kids who are eager to become a software engineer '        },
+          content: 'Yes we do train kids who are eager to become a software engineer '        
+        },
         {
           title: 'Do you provide free laptops for students?',
           content: 'No, we always recommend each student should have their personal laptop'        
@@ -65,7 +67,7 @@ const FaqTwo = () => {
                     {activeIndex === index && (
                     <div className='content'>
                         {item.content}
-                        <button> {`${"/courses"}`}</button>
+                        <button> {item.link}</button>
                     </div>
                     )}
                     </div>
