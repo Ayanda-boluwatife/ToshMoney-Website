@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {BsCheckLg} from 'react-icons/bs';
+import {TbCurrencyNaira} from 'react-icons/tb'
 import Bottom from '../Courses page/Bottom';
 
 const GeneralProps = (props) => {
@@ -15,11 +16,11 @@ const GeneralProps = (props) => {
                 <img src={props.picture} alt={props.picture} />
                 <div className="middle">
                     <div className="middle-one">
-                        <h2>Course Price</h2>
-                        <h4>{props.price}</h4>
+                        <h2 className='head-p'>Course Price</h2>
+                        <h4><TbCurrencyNaira/>{props.price}</h4>
                     </div>
                     <div className="middle-two">
-                        <h2>Course Duration</h2>
+                        <h2 className='head-d'>Course Duration</h2>
                         <h4>{props.duration}</h4>
                     </div>
                 </div>
@@ -93,7 +94,7 @@ const Wrapper = styled.div`
         width: 50%;
     }
     .middle{
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -111,7 +112,7 @@ const Wrapper = styled.div`
         flex-direction: column;
         gap: 10px;
     }
-    .first h2, h2{
+    .first h2, .head-p{
         color: #FB9B02;
         background-color: #FEF3C7;
         border-radius: 10px;
@@ -120,7 +121,7 @@ const Wrapper = styled.div`
     h3{
         color: #FB9B02;
     }
-    .second h2{
+    .second h2, .head-d{
         color: #C12DC1;
         background-color: #F8E7F8;
         border-radius: 10px;
@@ -159,6 +160,9 @@ const Wrapper = styled.div`
         }
         .cover{
             padding: 40px;
+        }
+        .middle{
+            width: 100%;
         }
     }
 `
