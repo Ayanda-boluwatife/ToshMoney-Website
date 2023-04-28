@@ -18,6 +18,8 @@ const WordPress = () => {
         />
         <GeneralProps
             picture={wordpressimg}
+            price="12 Weeks"
+            duration="70,000"
             para="You will learn to be responsible for both front-end and back-end development, including the implementation of themes and plugins. Your goal here is to learn to create attractive and user-friendly websites (using WordPress) according to client specifications."
             one="✔ WP Installation"
             two="✔  WP Settings"

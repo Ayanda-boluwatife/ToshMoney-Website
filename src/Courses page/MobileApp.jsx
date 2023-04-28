@@ -19,6 +19,8 @@ const MobileApp = () => {
         />
         <GeneralProps
             picture={mobileimg}
+            price="150,000"
+            duration="24 Weeks"
             para="As a mobile app developer, you will learn how to use programming languages and development skills to create, test, and develop applications on mobile devices. You will learn how to work in popular operating systems environments like iOS and Android and often take into account UI and UX principles when creating applications.!"
             one="✔ Javascript"
             two="✔ React JS"

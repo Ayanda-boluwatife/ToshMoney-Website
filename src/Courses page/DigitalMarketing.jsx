@@ -19,6 +19,8 @@ const DigitalMarketing = () => {
         />
         <GeneralProps
             picture={digitalimg}
+            price="65,000"
+            duration="12 Weeks"
             para="Learn the required skills you would need to secure a high-paying job, scale your business or start your own agency."
             one="✔ Digital Marketing Fundamentals "
             two="✔ Social Media Marketing "

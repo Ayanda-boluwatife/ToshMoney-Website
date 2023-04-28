@@ -19,6 +19,8 @@ const BackEnd = () => {
         />
         <GeneralProps
             picture={Recback}
+            price="80,000"
+            duration="12 Weeks"
             para="As a Back-end developer, you will learn how to ensure a website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers."
             one="✔ javascript"
             two="✔ Node JS"

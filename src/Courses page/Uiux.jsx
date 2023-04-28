@@ -19,6 +19,8 @@ const Uiux = () => {
         />
         <GeneralProps
             picture={uiuximg}
+            price="50,000"
+            duration="12 Weeks"
             para="Learn how to work and collaborate with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. You will learn also how to process flows or sitemaps."
             one="✔ UI Design"
             two="✔ Figma"

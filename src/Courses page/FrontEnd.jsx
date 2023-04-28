@@ -19,6 +19,8 @@ const FrontEnd = () => {
         />
         <GeneralProps
             picture={Rec83}
+            price="75,000"
+            duration="12 Weeks"
             para=" Learn to build the front-end portion of websites and web applications—the part users see and interact with"
             one="✔ HTML"
             two="✔ CSS"

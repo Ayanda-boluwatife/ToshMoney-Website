@@ -13,6 +13,16 @@ const GeneralProps = (props) => {
             </div>
             <div className="groove">
                 <img src={props.picture} alt={props.picture} />
+                <div className="middle">
+                    <div className="middle-one">
+                        <h2>Course Price</h2>
+                        <h4>{props.price}</h4>
+                    </div>
+                    <div className="middle-two">
+                        <h2>Course Duration</h2>
+                        <h4>{props.duration}</h4>
+                    </div>
+                </div>
                 <div className="flex-group">
                     <div className="first">
                         <h2>WHAT YOU’LL LEARN</h2>
@@ -30,14 +40,6 @@ const GeneralProps = (props) => {
                             <p>{props.eleven}</p>
                             <p>{props.twelve}</p>
 
-                        </div>
-                    </div>
-                    <div className="middle">
-                        <div className="middle-one">
-                            <h2>Course Price</h2>
-                        </div>
-                        <div className="middle-two">
-                            <h2>Course Duration</h2>
                         </div>
                     </div>
                     <div className="second">
