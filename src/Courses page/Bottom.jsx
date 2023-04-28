@@ -23,6 +23,16 @@ const Wrapper = styled.section`
     cursor: pointer;
     font-weight: 800;
     transition: ease-in-out .5s;
+    animation: zoom 1s linear infinite;
+   }
+   @keyframes zoom {
+    from{
+      transform: scale(95%);
+    }
+    to{
+      transform: scale(105%);
+
+    }
    }
    button:hover{
     transition: ease-in-out .5s;
