@@ -118,6 +118,15 @@ const Wrapper = styled.div`
         border-radius: 10px;
         padding: 12px;
     }
+    .head-d{
+        width: 100%;
+    }
+    .head-p{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     h3{
         color: #FB9B02;
     }
@@ -127,7 +136,7 @@ const Wrapper = styled.div`
         border-radius: 10px;
         padding: 12px;
     }
-    h1, h2, h3{
+    h1, h2, h3, h4{
         font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
