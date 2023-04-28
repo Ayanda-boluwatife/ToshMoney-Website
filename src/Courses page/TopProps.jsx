@@ -7,7 +7,7 @@ const TopProps = (props) => {
         <div className="container">
             <div className="enclosure">
                 <div className="sub">
-                <h1>{props.header}</h1>
+                    <h1>{props.header}</h1>
                 </div>
             </div>
         </div>
@@ -47,6 +47,7 @@ const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
     .sub h1{
         font-size: 35px;
