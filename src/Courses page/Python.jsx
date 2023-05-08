@@ -19,8 +19,8 @@ const Python = () => {
         />
         <GeneralProps
             picture={pythonimg}
-            price="12 Weeks"
-            duration="75,000"
+            price="75,000"
+            duration="12 Weeks"
             para="As a Python full-stack developer, you will be responsible for designing, coding, testing, and deploying software solutions. Our experienced instructors will take you through the whole process."
             one="✔ Python"
             two="✔ Django"

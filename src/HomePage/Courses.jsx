@@ -161,7 +161,7 @@ const Courses = () => {
                             </div>
                             <div>
                                 <span><BsCheckLg/></span>
-                                <span>Monroose</span>
+                                <span>Mongoose</span>
                             </div>
                         </div>
                         <a href={'/fullstack'}><button className='learn'>Learn More</button></a>
