@@ -7,10 +7,15 @@ import ServiceHomePage from './ServiceHomePage';
 import ThirdSection from './ThirdSection';
 import WorkWithUS from './WorkWithUs';
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 const Service = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products"/>
+        <title>Toshconsult inc || About Page</title>
+      </Helmet>
       <section>
         <Nav
           serviceLink='serviceLink'
