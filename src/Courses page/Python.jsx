@@ -6,6 +6,7 @@ import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 const Python = () => {
   return (
