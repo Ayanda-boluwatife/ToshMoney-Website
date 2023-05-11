@@ -11,10 +11,15 @@ import styled from 'styled-components';
 import Nav from '../HomePage/Nav';
 import Footer from '../HomePage/Footer';
 import BackToTop from '../BackToTop';
+import {Helmet} from 'react-helmet';
 
 const About = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products"/>
+        <title>Toshconsult inc || About Page</title>
+      </Helmet>
       <div>
         <Nav
           aboutLink='aboutLink'

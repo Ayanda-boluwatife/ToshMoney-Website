@@ -4,11 +4,16 @@ import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import ContactHomePage from './ContactHomePage'
 import ContactMain from './ContactMain'
-import styled from 'styled-components'
+import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 const Contact = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="Get in Touch with us by filling the below form"/>
+        <title>Toshconsult inc || Contact Page</title>
+      </Helmet>
       <section>
         <Nav
           contactLink='contactLink' 
