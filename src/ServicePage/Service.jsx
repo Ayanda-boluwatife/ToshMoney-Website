@@ -13,8 +13,8 @@ const Service = () => {
   return (
     <Wrapper>
       <Helmet>
-        <meta name="description" content="Get to Know Our Team and Our Mission to Provide Exceptional Service and Quality Products"/>
-        <title>Toshconsult inc || About Page</title>
+        <meta name="description" content="Our Mission Is To Provide Exceptional Service And Quality Products"/>
+        <title>Toshconsult inc || Service Page</title>
       </Helmet>
       <section>
         <Nav
