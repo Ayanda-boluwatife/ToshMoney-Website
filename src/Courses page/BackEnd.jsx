@@ -12,6 +12,7 @@ const BackEnd = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="As a Back-end developer, you will learn how to ensure a website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers."/>
         <title>Backend Development course | Become a Backend Developer </title>
       </Helmet>

@@ -11,6 +11,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="Get in Touch with Toshconsult Technologies Inc by filling the below form"/>
         <title>Toshconsult Technologies Inc || Contact Page</title>
       </Helmet>

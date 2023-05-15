@@ -12,6 +12,7 @@ const FrontEnd = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content=" Learn to build the front-end portion of websites and web applications—the part users see and interact with"/>
         <title>Frontend Development Course | Become a Front Developer</title>
       </Helmet>

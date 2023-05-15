@@ -12,6 +12,7 @@ const DigitalMarketing = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="Learn the required skills you would need to secure a high-paying job, scale your business or start your own agency."/>
         <title>Digital Marketing course | Become an Expert Digital Marketer</title>
       </Helmet>

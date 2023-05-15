@@ -11,6 +11,7 @@ const HomeTwo = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="Become a Globally Certified, Sought-After, and Highly Tech Software Developer and Digital Marketing Expert "/>
         <title>Toshconsult inc || Course Page</title>
       </Helmet>

@@ -12,6 +12,7 @@ const Uiux = () => {
   return (
     <Wrapper>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="Learn how to work and collaborate with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. You will learn also how to process flows or sitemaps."/>
         <title>UIUX Design course | Become a UIUX Designer</title>
       </Helmet>
