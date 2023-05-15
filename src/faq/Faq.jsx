@@ -11,6 +11,7 @@ const Faq = () => {
   return (
     <div>
       <Helmet>
+        <link rel="icon" href="./tosh logo.jpg" />
         <meta name="description" content="Get to know our Frequently Asked Question"/>
         <title>Toshconsult Inc Service Faq | Frequently Asked Question</title>
       </Helmet>
