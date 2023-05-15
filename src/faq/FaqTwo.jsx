@@ -8,7 +8,6 @@ const FaqTwo = () => {
         {
           title: 'How much is your course?',
           content: 'The price for each courses has been attached under each courses and can be found in this link',
-          link: 'courses'
         },
         {
           title: ' when is your course starting?',
@@ -67,7 +66,6 @@ const FaqTwo = () => {
                     {activeIndex === index && (
                     <div className='content'>
                         {item.content}
-                        <button> {item.link}</button>
                     </div>
                     )}
                     </div>
