@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import logo from '../images/Toshconsult Img 1.png';
-import { Link } from 'react-router-dom';
 const Nav = (Props) => {
     const [menu, setMenu] = useState(false);
 
@@ -11,17 +10,17 @@ const Nav = (Props) => {
   return (
     <Wrapper>
         <nav>
-            <Link to={'/'}><img src={logo} alt={logo} /> </Link>
+            <a href={'/'}><img src={logo} alt={logo} /> </a>
             <ul className="nav-desktop">
-                <li className='nav-link'><Link className={Props.homeLink} to={'/'}>Home</Link></li>
-                <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
-                <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
-                <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
-                <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Blog</Link></li>
-                <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
+                <li className='nav-link'><a className={Props.homeLink} href={'/'}>Home</a></li>
+                <li className='nav-link'><a className={Props.aboutLink} href={"/about"}>About</a></li>
+                <li className='nav-link'><a className={Props.courseLink} href={'/courses'}>Courses</a></li>
+                <li className='nav-link'><a className={Props.serviceLink} href={'/service'}>Services</a></li>
+                <li className='nav-link'><a className={Props.careerLink} href={"/career"}>Blog</a></li>
+                <li className='nav-link'><a className={Props.contactLink} href={'/contact'}>Contact</a></li>
             </ul>
             <ul className="apply">
-                <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
+                <a href={'/register-now'}><button className="app">Apply Now</button></a>
             </ul>
             <button onClick={toggleMenu} className={`${menu ? 'toggle open' : 'toggle'}`}>
                 <div className="first"></div>
@@ -30,13 +29,13 @@ const Nav = (Props) => {
             </button>
         </nav>
         <ul className={`nav-mobile ${menu ? 'mobile-toggler' : 'nav-mobile'}`}>
-            <li className='nav-link'><Link className={Props.homeLink} to={'/'}>Home</Link></li>
-            <li className='nav-link'><Link className={Props.aboutLink} to={"/about"}>About</Link></li>
-            <li className='nav-link'><Link className={Props.courseLink} to={'/courses'}>Courses</Link></li>
-            <li className='nav-link'><Link className={Props.serviceLink} to={'/service'}>Services</Link></li>
-            <li className='nav-link'><Link className={Props.careerLink} to={"/career"}>Blog</Link></li>
-            <li className='nav-link'><Link className={Props.contactLink} to={'/contact'}>Contact</Link></li>
-            <Link to={'/register-now'}><button className="app">Apply Now</button></Link>
+            <li className='nav-link'><a className={Props.homeLink} href={'/'}>Home</a></li>
+            <li className='nav-link'><a className={Props.aboutLink} href={"/about"}>About</a></li>
+            <li className='nav-link'><a className={Props.courseLink} href={'/courses'}>Courses</a></li>
+            <li className='nav-link'><a className={Props.serviceLink} href={'/service'}>Services</a></li>
+            <li className='nav-link'><a className={Props.careerLink} href={"/career"}>Blog</a></li>
+            <li className='nav-link'><a className={Props.contactLink} href={'/contact'}>Contact</a></li>
+            <a href={'/register-now'}><button className="app">Apply Now</button></a>
         </ul>
     </Wrapper>
   )

@@ -14,7 +14,7 @@ const Service = () => {
     <Wrapper>
       <Helmet>
         <meta name="description" content="Our Mission Is To Provide Exceptional Service And Quality Products"/>
-        <title>Toshconsult inc || Service Page</title>
+        <title>Toshconsult Technologies inc | Service Page</title>
       </Helmet>
       <section>
         <Nav

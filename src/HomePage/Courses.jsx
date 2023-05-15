@@ -56,7 +56,7 @@ const Courses = () => {
                                 <span>GIT & GITHUB</span>
                             </div>
                         </div>
-                        <a href={'/front-end'}><button className='learn un'>Learn More</button></a>
+                        <a href={'/course/front-end'}><button className='learn un'>Learn More</button></a>
                     </div>
                 </div>
                 <div className='first second'>
@@ -101,7 +101,7 @@ const Courses = () => {
                                 <span>GIT & GITHUB</span>
                             </div>
                         </div>
-                        <a href={'/back-end'}><button className='learn more un'>Learn More</button></a>
+                        <a href={'/course/back-end'}><button className='learn more un'>Learn More</button></a>
                     </div>
                 </div>
                 <div className='first'>
@@ -164,7 +164,7 @@ const Courses = () => {
                                 <span>Mongoose</span>
                             </div>
                         </div>
-                        <a href={'/fullstack'}><button className='learn'>Learn More</button></a>
+                        <a href={'/course/fullstack'}><button className='learn'>Learn More</button></a>
                     </div>
                 </div>
                 <div className='first'>
@@ -209,7 +209,7 @@ const Courses = () => {
                                 <span>javascript</span>
                             </div>
                         </div>
-                        <a href={'/python'}><button className='learn un'>Learn More</button></a>
+                        <a href={'/coures/python'}><button className='learn un'>Learn More</button></a>
                     </div>
                 </div>
                 <div className='first second'>
@@ -250,7 +250,7 @@ const Courses = () => {
                                 <span>Wireframe</span>
                             </div>
                         </div>
-                        <a href={'/uiux'}><button className='learn more un'>Learn More</button></a>
+                        <a href={'/course/uiux'}><button className='learn more un'>Learn More</button></a>
                     </div>
                 </div>
                 <div className='first'>
@@ -313,7 +313,7 @@ const Courses = () => {
                                 <span>Monroose</span>
                             </div>
                         </div>
-                        <a href={'/mobile-app'}><button className='learn'>Learn More</button></a>
+                        <a href={'/course/mobile-app'}><button className='learn'>Learn More</button></a>
                     </div>
                 </div>
             </div>

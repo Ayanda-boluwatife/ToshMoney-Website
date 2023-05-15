@@ -16,7 +16,7 @@ const ContactMain = () => {
         <div className="form-area">
           <p>Fill The Below Form</p>
         </div>
-          <form action="">
+          <form >
             <div className='field'>
               <label htmlFor="">Full Name:</label> 
               <input type="text" name="" id="" />
@@ -43,11 +43,15 @@ const ContactMain = () => {
             </div>
             <div className='field'>
               <label htmlFor="">Phone Number:</label>
-              <input type="email" name="" id="" />
+              <input type="tel" name="" id="" />
+            </div>
+            <div className='field'>
+              <label htmlFor="">WhatsApp Number:</label>
+              <input type="tel" name="" id="" />
             </div>
             <div className='field'>
               <label htmlFor="">Email:</label>
-              <input type="number" name="" id="" />
+              <input type="email" name="" id="" />
             </div>
             <div className='field'>
               <label htmlFor="">MESSAGE:</label>

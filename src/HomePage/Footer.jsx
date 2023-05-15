@@ -25,14 +25,14 @@ const Footer = () => {
                 <div className='set'>
                     <h3>Courses</h3>
                     <div className="linkers">
-                        <a href={'/front-end'}>front-end development</a>
-                        <a href={'/back-end'}>back-end development</a>
-                        <a href={'/mobile-app'}>mobile app development</a>
-                        <a href={'/uiux'}>ui/uX Design</a>
-                        <a href={'/python'}>python full-stack development</a>
-                        <a href={'/fullstack'}>javascript full-stack development</a>
-                        <a href={"/wordpress"}>WordPress Development</a>
-                        <a href={"/digital-markting"}>Digital Marketing</a>
+                        <a href={'/course/front-end'}>front-end development</a>
+                        <a href={'/course/back-end'}>back-end development</a>
+                        <a href={'/course/mobile-app'}>mobile app development</a>
+                        <a href={'/course/uiux'}>ui/uX Design</a>
+                        <a href={'/course/python'}>python full-stack development</a>
+                        <a href={'/course/fullstack'}>javascript full-stack development</a>
+                        <a href={"/course/wordpress"}>WordPress Development</a>
+                        <a href={"/course/digital-markting"}>Digital Marketing</a>
                     </div>
                 </div>
                 <div className='set'>

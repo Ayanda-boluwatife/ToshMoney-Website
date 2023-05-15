@@ -6,10 +6,15 @@ import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 const BackEnd = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="As a Back-end developer, you will learn how to ensure a website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers."/>
+        <title>Backend Development course | Become a Backend Developer </title>
+      </Helmet>
       <section>
         <Nav
           courseLink='courseLink'

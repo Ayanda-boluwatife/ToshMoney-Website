@@ -28,14 +28,14 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/courses' element={<HomeTwo />} />
-          <Route path='/front-end' element={<FrontEnd />} />
-          <Route path='/back-end' element={<BackEnd />} />
-          <Route path='/python' element={<Python />} />
-          <Route path='/uiux' element={<Uiux />} />
-          <Route path='/fullstack' element={<FullStack />} />
-          <Route path='/mobile-app' element={<MobileApp/>}/>
-          <Route path='/digital-markting' element={<DigitalMarketing/>}/>
-          <Route path='/wordpress' element={<WordPress/>}/>
+          <Route path='/course/front-end' element={<FrontEnd />} />
+          <Route path='/course/back-end' element={<BackEnd />} />
+          <Route path='/course/python' element={<Python />} />
+          <Route path='/course/uiux' element={<Uiux />} />
+          <Route path='/course/fullstack' element={<FullStack />} />
+          <Route path='/course/mobile-app' element={<MobileApp/>}/>
+          <Route path='/course/digital-markting' element={<DigitalMarketing/>}/>
+          <Route path='/course/wordpress' element={<WordPress/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
           <Route path='/about' element={<About />} />
           <Route path='/career' element={<Career />} />

@@ -6,10 +6,15 @@ import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 const WordPress = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="You will learn to be responsible for both front-end and back-end development, including the implementation of themes and plugins. Your goal here is to learn to create attractive and user-friendly websites (using WordPress) according to client specifications."/>
+        <title>Wordpress Development course | Become a Wordpress Developer</title>
+      </Helmet>
         <Nav
           courseLink='courseLink'
         />

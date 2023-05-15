@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <Wrapper>
       <Helmet>
-        <meta name="description" content="Get in Touch with us by filling the below form"/>
-        <title>Toshconsult inc || Contact Page</title>
+        <meta name="description" content="Get in Touch with Toshconsult Technologies Inc by filling the below form"/>
+        <title>Toshconsult Technologies Inc || Contact Page</title>
       </Helmet>
       <section>
         <Nav

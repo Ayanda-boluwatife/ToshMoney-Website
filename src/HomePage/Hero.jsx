@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import rec2 from '../images/Group 60.png';
 import rec1 from '../images/Group 59.png';
 import rec3 from '../images/Group 61.png';
-import vector from '../images/Vector.png';
-import vec from '../images/vec.png';
 import { Link } from 'react-router-dom';
 
 

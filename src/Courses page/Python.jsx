@@ -13,7 +13,7 @@ const Python = () => {
     <Wrapper>
       <Helmet>
         <meta name="description" content="As a Python full-stack developer, you will be responsible for designing, coding, testing, and deploying software solutions. Our experienced instructors will take you through the whole process."/>
-        <title>Toshconsult inc Python Course Page || Become a Python Developer</title>
+        <title>Python fullstack development course | Become a Python Developer</title>
       </Helmet>
       <section>
       <Nav

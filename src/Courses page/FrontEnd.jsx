@@ -6,10 +6,15 @@ import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 const FrontEnd = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content=" Learn to build the front-end portion of websites and web applications—the part users see and interact with"/>
+        <title>Frontend Development Course | Become a Front Developer</title>
+      </Helmet>
       <section>
         <Nav
           courseLink='courseLink'

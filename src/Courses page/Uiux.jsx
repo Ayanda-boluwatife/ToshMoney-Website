@@ -6,10 +6,15 @@ import Nav from '../HomePage/Nav';
 import TopProps from './TopProps';
 import BackToTop from '../BackToTop';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 const Uiux = () => {
   return (
     <Wrapper>
+      <Helmet>
+        <meta name="description" content="Learn how to work and collaborate with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. You will learn also how to process flows or sitemaps."/>
+        <title>UIUX Design course | Become a UIUX Designer</title>
+      </Helmet>
       <section>
       <Nav
           courseLink='courseLink'

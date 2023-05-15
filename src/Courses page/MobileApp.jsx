@@ -13,7 +13,7 @@ const MobileApp = () => {
     <Wrapper>
       <Helmet>
         <meta name="description" content="As a mobile app developer, you will learn how to use programming languages and development skills to create, test, and develop applications on mobile devices. You will learn how to work in popular operating systems environments like iOS and Android and often take into account UI and UX principles when creating applications.!"/>
-        <title>Toshconsult inc Mobile App Course Page || Become a Mobile App Developer</title>
+        <title>Fullstack mobile app development course | Become a Mobile App Developer</title>
       </Helmet>
       <section>
       <Nav

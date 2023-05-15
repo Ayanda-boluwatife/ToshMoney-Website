@@ -31,7 +31,7 @@ const CoursesThree = () => {
                 seven="✔ Bootsrap"
                 button="Learn More"
                 btn="button-one"
-                link={"/front-end"}
+                link={"/course/front-end"}
             />
             <Props
                 image={Rec1}
@@ -47,7 +47,7 @@ const CoursesThree = () => {
                 eigth="✔ GIT & GITHUB"
                 button=" Learn More"
                 btn="button-two"
-                link={"/back-end"}
+                link={"/course/back-end"}
             />
             <Props
                 image={Rec2}
@@ -63,7 +63,7 @@ const CoursesThree = () => {
                 eight="✔ Javascript"
                 button="Learn More"
                 btn="button-one"
-                link={"/python"}
+                link={"/course/python"}
             />
             <Props
                 image={Rec3}
@@ -78,7 +78,7 @@ const CoursesThree = () => {
                 seven="✔ Wireframe"
                 button="Learn More"
                 btn="button-two"
-                link={"/uiux"}
+                link={"/course/uiux"}
             />
             <Props
                 image={group27}
@@ -98,7 +98,7 @@ const CoursesThree = () => {
                 twleve="✔ Monroose"
                 button="Learn More"
                 btn="button-one"
-                link={"/fullstack"}
+                link={"/course/fullstack"}
             />
             <Props
                 image={group33}
@@ -118,7 +118,7 @@ const CoursesThree = () => {
                 twleve="✔ Monroose"
                 button="Learn More"
                 btn="button-two"
-                link={"/mobile-app"}
+                link={"/course/mobile-app"}
             />
             <Props
                 image={group101}
@@ -136,7 +136,7 @@ const CoursesThree = () => {
                 ten="✔ Using Custom scripts"
                 button="Learn More"
                 btn="button-one"
-                link={"/wordpress"}
+                link={"/course/wordpress"}
             />
             <Props
                 image={group74}
@@ -151,7 +151,7 @@ const CoursesThree = () => {
                 seven="✔ Email Marketing "
                 button="Learn More"
                 btn="button-two"
-                link={"/digital-markting"}
+                link={"/course/digital-markting"}
             />
             
         </div>
