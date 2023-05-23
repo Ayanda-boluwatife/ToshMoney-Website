@@ -24,5 +24,6 @@ const MobileAppService = () => {
   )
 }
 const Wrapper = styled.div`
+  
 `
 export default MobileAppService;
