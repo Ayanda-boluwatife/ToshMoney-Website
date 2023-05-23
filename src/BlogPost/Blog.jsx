@@ -2,7 +2,6 @@ import React from 'react'
 import BackToTop from '../BackToTop'
 import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
-// import CareerHeader from './CareerHeader'
 import styled from 'styled-components'
 
 const Career = () => {
@@ -10,9 +9,8 @@ const Career = () => {
     <Wrapper>
       <section>
         <Nav
-          careerLink='careerLink'
+          blogLink='blogLink'
         />
-        {/* <CareerHeader/> */}
         <Footer/>
         <BackToTop />
       </section>
@@ -20,7 +18,7 @@ const Career = () => {
   )
 }
 const Wrapper = styled.section`
-  .careerLink{
+  .blogLink{
     color: #FB9B02 !important;
   }
 

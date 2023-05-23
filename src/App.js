@@ -8,6 +8,7 @@ import Service from './ServicePage/Service';
 import Contact from './ContactPage/Contact';
 import Faq from './faq/Faq';
 import Register from './RegisterPage/Register';
+import Blog from './BlogPost/Blog';
 
 import FrontEnd from './Courses page/FrontEnd';
 import BackEnd from './Courses page/BackEnd';
@@ -46,6 +47,7 @@ function App() {
           <Route path='/faq1' element={<Faq />} />
           <Route path='/faq2' element={<FaqRedo/>} />
           <Route path='/register-now' element={<Register />} />
+          <Route path='/blog' element={<Blog />} />
         </Routes>
       </Router>
     </div>
