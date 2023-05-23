@@ -16,8 +16,9 @@ const Nav = (Props) => {
                 <li className='nav-link'><a className={Props.aboutLink} href={"/about"}>About</a></li>
                 <li className='nav-link'><a className={Props.courseLink} href={'/courses'}>Courses</a></li>
                 <li className='nav-link'><a className={Props.serviceLink} href={'/service'}>Services</a></li>
-                <li className='nav-link'><a className={Props.careerLink} href={"/career"}>Blog</a></li>
+                <li className='nav-link'><a className={Props.blogLink} href={"/blog"}>Blog</a></li>
                 <li className='nav-link'><a className={Props.contactLink} href={'/contact'}>Contact</a></li>
+                <li className='nav-link'><a className={Props.careerLink} href={'/career'}>Career</a></li>
             </ul>
             <ul className="apply">
                 <a href={'/register-now'}><button className="app">Apply Now</button></a>
@@ -29,12 +30,13 @@ const Nav = (Props) => {
             </button>
         </nav>
         <ul className={`nav-mobile ${menu ? 'mobile-toggler' : 'nav-mobile'}`}>
-            <li className='nav-link'><a className={Props.homeLink} href={'/'}>Home</a></li>
-            <li className='nav-link'><a className={Props.aboutLink} href={"/about"}>About</a></li>
-            <li className='nav-link'><a className={Props.courseLink} href={'/courses'}>Courses</a></li>
-            <li className='nav-link'><a className={Props.serviceLink} href={'/service'}>Services</a></li>
-            <li className='nav-link'><a className={Props.careerLink} href={"/career"}>Blog</a></li>
-            <li className='nav-link'><a className={Props.contactLink} href={'/contact'}>Contact</a></li>
+                <li className='nav-link'><a className={Props.homeLink} href={'/'}>Home</a></li>
+                <li className='nav-link'><a className={Props.aboutLink} href={"/about"}>About</a></li>
+                <li className='nav-link'><a className={Props.courseLink} href={'/courses'}>Courses</a></li>
+                <li className='nav-link'><a className={Props.serviceLink} href={'/service'}>Services</a></li>
+                <li className='nav-link'><a className={Props.blogLink} href={"/blog"}>Blog</a></li>
+                <li className='nav-link'><a className={Props.contactLink} href={'/contact'}>Contact</a></li>
+                <li className='nav-link'><a className={Props.careerLink} href={'/career'}>Career</a></li>
             <a href={'/register-now'}><button className="app">Apply Now</button></a>
         </ul>
     </Wrapper>
