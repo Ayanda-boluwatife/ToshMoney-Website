@@ -3,6 +3,8 @@ import BackToTop from '../BackToTop'
 import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import styled from 'styled-components'
+import BlogHeader from './BlogHeader'
+import MainBlog from './MainBlog'
 
 const Career = () => {
   return (
@@ -11,6 +13,8 @@ const Career = () => {
         <Nav
           blogLink='blogLink'
         />
+        <BlogHeader />
+        <MainBlog />
         <Footer/>
         <BackToTop />
       </section>

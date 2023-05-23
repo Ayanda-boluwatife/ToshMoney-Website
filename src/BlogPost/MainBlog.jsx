@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Trainings from '../Second-Landing-Page/Trainings';
 
-const SecondCareerPage = () => {
+const MainBlog = () => {
   return (
     <Wrapper>
         <div>
@@ -35,4 +35,4 @@ const Wrapper = styled.section`
         font-family: 'Poppins', sans-serif;  
     }
 `
-export default SecondCareerPage;
+export default MainBlog;
