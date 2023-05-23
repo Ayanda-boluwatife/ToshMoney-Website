@@ -30,7 +30,8 @@ const Wrapper = styled.div`
         width: 50%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        text-align: center;
         justify-content: center;
         gap: 30px;
     }
@@ -40,7 +41,7 @@ const Wrapper = styled.div`
         font-size: 35px;
     }
     a{
-        padding: 10px 25px;
+        padding: 13px 25px;
         color: white;
         border: none;
         background-color:#FB9B02;
@@ -48,6 +49,7 @@ const Wrapper = styled.div`
         cursor: pointer;
         font-weight: 800;
         transition: ease-in-out .5s;
+        text-decoration: none;
     }
     a:hover{
         transition: ease-in-out .5s;
