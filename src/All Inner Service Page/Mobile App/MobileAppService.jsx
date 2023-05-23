@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 import Nav from '../../HomePage/Nav';
 import Footer from '../../HomePage/Footer';
 import PropsOne from './PropsOne';

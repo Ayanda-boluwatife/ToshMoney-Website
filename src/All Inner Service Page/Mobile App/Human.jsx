@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import heroImg from '../images/Group 70.png';
 
 const Human = () => {
