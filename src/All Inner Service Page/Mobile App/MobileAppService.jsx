@@ -2,6 +2,8 @@ import React from 'react'
 import Nav from '../../HomePage/Nav';
 import Footer from '../../HomePage/Footer';
 import PropsOne from './PropsOne';
+import Human from './Human';
+import Love from './Love';
 const MobileAppService = () => {
   return (
     <Wrapper>
@@ -12,6 +14,8 @@ const MobileAppService = () => {
           second="Service"
           third="Mobile App"
         />
+        <Human/>
+        <Love/>
         <Footer/>
     </Wrapper>
   )
