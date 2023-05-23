@@ -25,17 +25,24 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-transform: capitalize;
 
     .container{
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         justify-content: center;
         gap: 30px;
     }
-    button{
-        padding: 10px 25px;
+    h1{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+    }
+    a{
+        padding: 13px 25px;
         color: white;
         border: none;
         background-color:#FB9B02;
@@ -43,8 +50,9 @@ const Wrapper = styled.div`
         cursor: pointer;
         font-weight: 800;
         transition: ease-in-out .5s;
+        text-decoration: none;
     }
-   button:hover{
+    a:hover{
         transition: ease-in-out .5s;
         border: 1px solid #FB9B02;
         background-color: white;

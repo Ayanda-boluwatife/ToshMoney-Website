@@ -43,6 +43,13 @@ const Wrapper = styled.div`
         align-items: center;
         
     }
+    .enclosure p{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
     .sub{
         width: 40%;
         text-align: center;
