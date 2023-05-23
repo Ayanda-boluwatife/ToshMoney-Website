@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   }
   .container{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     padding: 40px 70px;
@@ -34,7 +34,7 @@ const Wrapper = styled.div`
     justify-content: center;
   }
   img{
-    height: 70vh;
+    height: 85vh;
   }
   .first{
     width: 100%;
@@ -77,7 +77,6 @@ const Wrapper = styled.div`
     .container{
       flex-direction: column;
       padding: 20px 40px;
-      margin-top: 110px;
       gap: 30px;
     }  
     
