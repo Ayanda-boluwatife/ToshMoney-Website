@@ -9,7 +9,8 @@ const MobileAppService = () => {
         <PropsOne
           header="mobile app development"
           first="Home"
-          second=""
+          second="Service"
+          third="Mobile App"
         />
         <Footer/>
     </Wrapper>

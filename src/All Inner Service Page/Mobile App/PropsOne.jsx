@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import {IoIosArrowForward} from 'react-icons/io';
 
 const PropsOne = (props) => {
   return (
@@ -9,7 +10,7 @@ const PropsOne = (props) => {
                 <div className="sub">
                     <h1>{props.header}</h1>
                 </div>
-                <p>{props.first} {props.second} {props.third}</p>
+                <p>{props.first} <IoIosArrowForward/> {props.second} <IoIosArrowForward/> {props.third}</p>
             </div>
         </div>
     </Wrapper>
