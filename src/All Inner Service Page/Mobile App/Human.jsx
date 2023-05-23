@@ -29,9 +29,12 @@ const Wrapper = styled.div`
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 70px;
+    padding: 40px 70px;
     align-items: center;
     justify-content: center;
+  }
+  img{
+    height: 70vh;
   }
   .first{
     width: 100%;
@@ -73,7 +76,7 @@ const Wrapper = styled.div`
   @media screen and (max-width: 950px) {
     .container{
       flex-direction: column;
-      padding: 40px;
+      padding: 20px 40px;
       margin-top: 110px;
       gap: 30px;
     }  
