@@ -7,7 +7,7 @@ const Business = () => {
     <Wrapper>
       <div className="container">
         <div className="second">
-          <h1>human centric design principles</h1>
+          <h1>business productivity and experiment</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
         <div className="first">
