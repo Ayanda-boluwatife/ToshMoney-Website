@@ -39,7 +39,7 @@ const Footer = () => {
                     <h3>services</h3>
                     <div className="linkers">
                         <Link>Website development</Link>
-                        <a to={'/service/mobile-app'}>mobile app development</a>
+                        <a href={'/service/mobile-app'}>mobile app development</a>
                         <Link>Digital Marketing</Link>
                         <Link>software development</Link>
                         <Link>uI/UX design</Link>
