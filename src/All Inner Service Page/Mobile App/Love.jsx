@@ -34,7 +34,12 @@ const Wrapper = styled.div`
         justify-content: center;
         gap: 30px;
     }
-    button{
+    h1{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+    }
+    a{
         padding: 10px 25px;
         color: white;
         border: none;
@@ -44,7 +49,7 @@ const Wrapper = styled.div`
         font-weight: 800;
         transition: ease-in-out .5s;
     }
-   button:hover{
+    a:hover{
         transition: ease-in-out .5s;
         border: 1px solid #FB9B02;
         background-color: white;
