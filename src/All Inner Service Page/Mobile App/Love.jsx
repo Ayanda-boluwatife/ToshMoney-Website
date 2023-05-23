@@ -25,12 +25,13 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-transform: capitalize;
 
     .container{
         width: 50%;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
         text-align: center;
         justify-content: center;
         gap: 30px;
