@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import heroImg2 from '../images/Group 70 (1).png';
 
-const Business = () => {
+const BusinessUx = () => {
   return (
     <Wrapper>
       <div className="container">
         <div className="second">
-          <h1>responsive mobile app</h1>
+          <h1>business productivity and experiment</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
         <div className="first">
@@ -87,4 +87,4 @@ const Wrapper = styled.div`
   }
 
 `
-export default Business;
+export default BusinessUx;
