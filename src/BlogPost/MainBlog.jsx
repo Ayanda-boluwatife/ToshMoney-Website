@@ -69,7 +69,7 @@ const Wrapper = styled.section`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    gap: 20px;
+    gap: 80px;
 }
 
 .card__1, .card__2, .card__3{
