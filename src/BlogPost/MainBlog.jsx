@@ -68,6 +68,7 @@ const Wrapper = styled.section`
 .main__card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 
 .card__1, .card__2, .card__3{
