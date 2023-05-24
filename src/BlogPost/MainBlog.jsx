@@ -92,6 +92,7 @@ const Wrapper = styled.section`
     transform: scale(120%);
     transition: all .5s ease;
     overflow: hidden;
+    width: 100%;
 }
 `
 export default MainBlog;
