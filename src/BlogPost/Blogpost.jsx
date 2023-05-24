@@ -56,17 +56,19 @@ const BlogPage = () => {
   const displayedPosts = blogPosts.slice(offset, offset + pageSize);
 
   return (
-    <div>
+    <div className="blog-page">
       <h1>Blog Page</h1>
 
       {/* Render blog posts */}
-      {displayedPosts.map((post) => (
-        <div key={post.id}>
-          <img src={post.imageUrl} alt={`Image for ${post.title}`} />
-          <h2>{post.title}</h2>
-          <p>{post.summary}</p>
-        </div>
-      ))}
+      <div className="blog-post-container">
+        {displayedPosts.map((post) => (
+          <div className="blog-post" key={post.id}>
+            <img src={post.imageUrl} alt={`Image for ${post.title}`} />
+            <h2>{post.title}</h2>
+            <p>{post.summary}</p>
+          </div>
+        ))}
+      </div>
 
       {/* Render pagination */}
       <ReactPaginate
@@ -83,5 +85,38 @@ const BlogPage = () => {
     </div>
   );
 };
+
+const Wrapper = style.section`
+.blog-page {
+    text-align: center;
+  }
+  
+  .blog-post-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .blog-post h2 {
+    margin-top: 10px;
+  }
+  
+  .blog-post p {
+    margin-top: 5px;
+  }
+  `
 
 export default BlogPage;

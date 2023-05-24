@@ -4,7 +4,6 @@ import Footer from '../HomePage/Footer'
 import Nav from '../HomePage/Nav'
 import styled from 'styled-components'
 import BlogHeader from './BlogHeader'
-import MainBlog from './MainBlog'
 import BlogPage from './Blogpost'
 
 const Career = () => {
@@ -15,7 +14,6 @@ const Career = () => {
           blogLink='blogLink'
         />
         <BlogHeader />
-        <MainBlog />
         <BlogPage />
         <Footer/>
         <BackToTop />
