@@ -96,11 +96,11 @@ const Wrapper = styled.section`
     
 } */
 
-.card__img img:hover, .card__img img:hover, .card__img img:hover{
+/* .card__img img:hover, .card__img img:hover, .card__img img:hover{
     transform: scale(70px);
     transition: all .5s ease;
     overflow: hidden;
     width: 100%;
-}
+} */
 `
 export default MainBlog;
