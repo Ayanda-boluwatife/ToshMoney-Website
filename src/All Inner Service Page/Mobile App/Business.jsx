@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import heroImg2 from '../images/Group 70 (1).png';
+import heroImg2 from '../images/Group 70 (3).png';
 
 const Business = () => {
   return (
