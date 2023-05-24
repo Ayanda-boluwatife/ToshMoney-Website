@@ -60,5 +60,10 @@ const Wrapper = styled.section`
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
+
+.main__card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 `
 export default MainBlog;
