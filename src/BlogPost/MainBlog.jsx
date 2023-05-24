@@ -52,6 +52,7 @@ const Wrapper = styled.section`
     display: flex;
     gap: 20px;
     align-items: center;
+    padding: 0 20px;
 }
 
 .tab button{
