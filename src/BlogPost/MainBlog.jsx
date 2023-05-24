@@ -73,6 +73,7 @@ const Wrapper = styled.section`
 
 .card__1, .card__2, .card__3{
     width: 100%;
+    border: 1px solid #000;
 }
 
 .card__1 img:hover, .card__2 img:hover, .card__3 img:hover{
