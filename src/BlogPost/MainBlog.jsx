@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import LoveUx from '../All Inner Service Page/Uiux page/LoveUx'
+
 
 const MainBlog = () => {
   return (
@@ -42,6 +44,9 @@ const MainBlog = () => {
                         <p>A true language love story — I've been learning Korean for a whopping 15 years. 15 difficult and exciting years. I can’t imagine a life without</p>
                     </div>
                 </div>
+               </div>
+               <div>
+                <LoveUx />
                </div>
             </div>
         </div>
