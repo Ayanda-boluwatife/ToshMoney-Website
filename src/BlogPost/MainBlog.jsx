@@ -58,6 +58,7 @@ const Wrapper = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .main__header h1{
@@ -68,11 +69,10 @@ const Wrapper = styled.section`
     display: flex;
     gap: 20px;
     align-items: center;
-    padding: 0 20px;
 }
 
 .tab button{
-    padding: 8px 20px;
+    padding: 6px 20px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
@@ -88,11 +88,13 @@ const Wrapper = styled.section`
 .card__1, .card__2, .card__3{
     width: 80%;
     border: 1px solid #000;
+    padding: 10px;
+    background-color: gray;
 }
 
-.card__content{
+/* .card__content{
     
-}
+} */
 
 .card__img img:hover, .card__img img:hover, .card__img img:hover{
     transform: scale(70%);
