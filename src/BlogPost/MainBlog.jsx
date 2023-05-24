@@ -72,10 +72,9 @@ const Wrapper = styled.section`
 }
 
 .main__card{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    gap: 83px;
     overflow: hidden;
 }
 
@@ -92,7 +91,7 @@ const Wrapper = styled.section`
     transform: scale(120%);
     transition: all .5s ease;
     overflow: hidden;
-    width: 100%;
+    /* width: 100%; */
 }
 `
 export default MainBlog;
