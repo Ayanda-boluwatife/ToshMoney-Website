@@ -75,6 +75,7 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: space-around;
     width: 100%;
+    gap: 20px;
     overflow: hidden;
 }
 
@@ -85,13 +86,14 @@ const Wrapper = styled.section`
 
 .card__content{
     padding: 20px;
+    width: 100%;
 }
 
 .card__1 img:hover, .card__2 img:hover, .card__3 img:hover{
     transform: scale(120%);
     transition: all .5s ease;
     overflow: hidden;
-    /* width: 100%; */
+    width: 100%;
 }
 `
 export default MainBlog;
