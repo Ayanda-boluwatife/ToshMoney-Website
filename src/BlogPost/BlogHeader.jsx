@@ -17,7 +17,7 @@ const BlogHeader = () => {
               </div>
               <div className="search">
                 <BsSearch />
-                <input type="search" name="" id="" />
+                <input type="search" name="" id=""  placeholder='Search'/>
               </div>
           </div>
         </div>
@@ -63,12 +63,14 @@ const Wrapper = styled.section`
     input{
       border: none;
       background-color: transparent;
+      outline-color: none;
     }
     .search{
       display: flex;
       align-items: center;
       gap: 5px;
       background-color: white;
+      padding: 10px 30px;
     }
     .sub p{
       font-family: 'Poppins', sans-serif;
