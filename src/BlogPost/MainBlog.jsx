@@ -80,7 +80,7 @@ const Wrapper = styled.section`
 }
 
 .card__1, .card__2, .card__3{
-    width: 100%;
+    width: 80%;
     border: 1px solid #000;
 }
 
