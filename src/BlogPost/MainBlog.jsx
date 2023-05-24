@@ -80,7 +80,7 @@ const Wrapper = styled.section`
 .main__card{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     gap: 20px;
     overflow: hidden;
 }
