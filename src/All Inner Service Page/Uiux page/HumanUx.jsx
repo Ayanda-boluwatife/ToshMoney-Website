@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import heroImg2 from '../images/Group 70 (1).png';
+import heroImg from '../images/Group 70.png';
 
-const Business = () => {
+const HumanUx = () => {
   return (
     <Wrapper>
       <div className="container">
-        <div className="second">
-          <h1>responsive mobile app</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
-        </div>
         <div className="first">
-          <img src={heroImg2} alt={heroImg2} />
+          <img src={heroImg} alt={heroImg} />
+        </div>
+        <div className="second">
+          <h1>human centric design principles</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
       </div>
     </Wrapper>
@@ -87,4 +87,4 @@ const Wrapper = styled.div`
   }
 
 `
-export default Business;
+export default HumanUx;

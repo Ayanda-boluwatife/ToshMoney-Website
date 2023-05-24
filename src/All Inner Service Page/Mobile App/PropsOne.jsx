@@ -44,7 +44,7 @@ const Wrapper = styled.div`
         
     }
     .enclosure p{
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         align-items: center;
         font-weight: 300;
