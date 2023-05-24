@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import {BsSearch} from 'react-icons/bs'
 
 const BlogHeader = () => {
   return (
@@ -7,7 +8,16 @@ const BlogHeader = () => {
         <div className="container">
           <div className="enclosure">
               <div className="sub">
-                <h1>Contact us for more...</h1>
+                <h1>Blog Post</h1>
+              </div>
+              <div className="link">
+                <span>Home</span>
+                <span>|</span>
+                <span>Blog</span>
+              </div>
+              <div className="search">
+                <BsSearch />
+                <input type="search" name="" id="" />
               </div>
           </div>
         </div>
@@ -51,6 +61,10 @@ const Wrapper = styled.section`
     }
     .sub p{
       font-family: 'Poppins', sans-serif;
+    }
+    .link{
+      display: flex;
+      gap: 10px;
     }
     @media screen and (max-width: 950px) {
       .sub{
