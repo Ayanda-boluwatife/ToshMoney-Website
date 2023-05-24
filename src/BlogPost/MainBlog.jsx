@@ -71,7 +71,11 @@ const Wrapper = styled.section`
 }
 
 .card__1, .card__2, .card__3{
-    width: 40%;
+    width: 100%;
+}
+
+.card__1 img:hover, .card__2 img:hover, .card__3 img:hover{
+    transform: scale(120%);
 }
 `
 export default MainBlog;
