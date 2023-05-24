@@ -6,29 +6,31 @@ const MainBlog = () => {
     <Wrapper>
         <div>
             <div className='main'>
-                <h3>Benefits</h3>
-                <h1>Be among the tech maker working toward innovations</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+               <div className="main__header">
+                <h1>Explore Our Blogs</h1>
+                <div className="tab">
+                    <button>Popular</button>
+                    <button>Recent</button>
+                    <button>Past</button>
+                </div>
+               </div>
             </div>
         </div>
     </Wrapper>
   )
 }
 const Wrapper = styled.section`
-    h3{
-        color: #FB9B02;
-        font-weight: 600;
-    }
-    .main{
-      padding: 40px;
-    }
-    h1, h3{
-        font-weight: 600;
-        font-family: 'Raleway', sans-serif; 
-    }
-    p{
-        font-weight: 300;
-        font-family: 'Poppins', sans-serif;  
-    }
+
+.main__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tab{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 `
 export default MainBlog;

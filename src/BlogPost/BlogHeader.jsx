@@ -17,7 +17,7 @@ const BlogHeader = () => {
               </div>
               <div className="search">
                 <BsSearch />
-                <input type="search" name="" id=""  placeholder='Search'/>
+                <input type="search" name="" id=""  placeholder='Search Blog'/>
               </div>
           </div>
         </div>
