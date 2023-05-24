@@ -38,6 +38,10 @@ const MainBlog = () => {
 }
 const Wrapper = styled.section`
 
+.main{
+    padding: 20px;
+}
+
 .main__header{
     display: flex;
     align-items: center;
@@ -64,6 +68,10 @@ const Wrapper = styled.section`
 .main__card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.card__1, .card__2, .card__3{
+    width: 40%;
 }
 `
 export default MainBlog;
