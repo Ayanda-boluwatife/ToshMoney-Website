@@ -64,6 +64,7 @@ const Wrapper = styled.section`
       border: none;
       background-color: transparent;
       outline-color: transparent;
+      padding: 8px;
     }
     .search{
       display: flex;
