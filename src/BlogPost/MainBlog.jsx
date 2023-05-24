@@ -87,10 +87,10 @@ const Wrapper = styled.section`
     justify-content: space-around;
     width: 100%;
     gap: 20px;
+    padding: 20px;
 }
 
 .card__1, .card__2, .card__3{
-    /* width: 80%; */
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 `
