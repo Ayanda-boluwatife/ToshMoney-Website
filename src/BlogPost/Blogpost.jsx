@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
-  const initialPage = 0; // Initial page number
+  const initialPage = 2   ; // Initial page number
 
   const [currentPage, setCurrentPage] = useState(initialPage); // Current page number
 
