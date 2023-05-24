@@ -45,7 +45,7 @@ const Wrapper = styled.section`
 }
 
 .main__header h1{
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 .tab{
@@ -56,7 +56,7 @@ const Wrapper = styled.section`
 
 .tab button{
     padding: 8px 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
 `
