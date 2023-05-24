@@ -58,5 +58,12 @@ const Wrapper = styled.div`
         background-color: white;
         color: #FB9B02;
     }
+
+    @media screen and (max-width: 950px) {
+        .container{
+            width: 100%;
+            padding: 0 10px;
+        }
+    }
 `
 export default Love;
