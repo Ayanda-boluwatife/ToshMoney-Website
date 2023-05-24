@@ -78,6 +78,7 @@ const Wrapper = styled.section`
 
 .card__1 img:hover, .card__2 img:hover, .card__3 img:hover{
     transform: scale(120%);
+    transition: all .5s ease;
 }
 `
 export default MainBlog;
