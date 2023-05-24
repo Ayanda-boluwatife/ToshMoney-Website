@@ -44,6 +44,7 @@ const Wrapper = styled.section`
       height: 40vh;
       background-color: #FEF3C7;
       display: flex;
+      gap: 20px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -58,6 +59,16 @@ const Wrapper = styled.section`
     .sub h1{
       font-size: 35px;
       font-family: 'Raleway', sans-serif;
+    }
+    input{
+      border: none;
+      background-color: transparent;
+    }
+    .search{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background-color: white;
     }
     .sub p{
       font-family: 'Poppins', sans-serif;
