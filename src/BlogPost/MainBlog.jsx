@@ -85,12 +85,12 @@ const Wrapper = styled.section`
 }
 
 .card__content{
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
 
 .card__1 img:hover, .card__2 img:hover, .card__3 img:hover{
-    transform: scale(120%);
+    transform: scale(80%);
     transition: all .5s ease;
     overflow: hidden;
     width: 100%;
