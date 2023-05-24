@@ -82,25 +82,12 @@ const Wrapper = styled.section`
     justify-content: space-around;
     width: 80%;
     gap: 20px;
-    overflow: hidden;
 }
 
 .card__1, .card__2, .card__3{
     /* width: 80%; */
     border: 1px solid #000;
-    /* padding: 10px; */
     background-color: gray;
 }
-
-/* .card__content{
-    
-} */
-
-/* .card__img img:hover, .card__img img:hover, .card__img img:hover{
-    transform: scale(70px);
-    transition: all .5s ease;
-    overflow: hidden;
-    width: 100%;
-} */
 `
 export default MainBlog;
