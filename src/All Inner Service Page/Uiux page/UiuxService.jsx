@@ -11,7 +11,7 @@ const UiuxService = () => {
     <Wrapper>
       <Nav/>
       <PropsOne
-        header="UIUX development"
+        header="UIUX/ Design"
         first="Home"
         second="Service"
         third="UIUX"
