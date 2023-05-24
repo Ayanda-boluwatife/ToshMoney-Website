@@ -91,7 +91,7 @@ const Wrapper = styled.section`
 }
 
 .card__content{
-    padding: 10px;
+    
 }
 
 .card__img img:hover, .card__img img:hover, .card__img img:hover{
