@@ -21,6 +21,7 @@ import WordPress from './Courses page/WordPress';
 import PrivacyPolicy from './HomePage/PrivacyPolicy';
 import FaqRedo from './faq/FaqRedo';
 import MobileAppService from './All Inner Service Page/Mobile App/MobileAppService';
+import UiuxService from './All Inner Service Page/Uiux page/UiuxService';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route path='/career' element={<Career />} />
           <Route path='/service' element={<Service/>}/>
           <Route path='/service/mobile-app' element={<MobileAppService/>}/>
+          <Route path='/service/UIUX' element={<UiuxService/>}/>
           <Route path='/contact' element={<Contact />}/>
           <Route path='/faq1' element={<Faq />} />
           <Route path='/faq2' element={<FaqRedo/>} />
