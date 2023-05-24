@@ -6,6 +6,8 @@ import PropsOne from './PropsOne';
 import HumanUx from './HumanUx';
 import LoveUx from './LoveUx';
 import BusinessUx from './BusinessUx';
+import Portfolio from '../Portfolio page/Portfolio';
+
 const UiuxService = () => {
   return (
     <Wrapper>
@@ -18,6 +20,7 @@ const UiuxService = () => {
       />
       <HumanUx/>
       <BusinessUx/>
+      <Portfolio/>
       <LoveUx/>
       <Footer/>
     </Wrapper>

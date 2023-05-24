@@ -24,18 +24,15 @@ const Wrapper = styled.div`
         padding: 0;
         box-sizing: border-box;
     }
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     .container{
-        width: 70%;
+        width: 100%;
         text-transform: capitalize;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
+        padding: 70px;
     }
     .tab{
         display: flex;
@@ -52,6 +49,12 @@ const Wrapper = styled.div`
     }
     button:hover, .active{
         background-color:#FB9B02;
+    }
+
+    @media screen and (max-width: 950px) {
+        .container{
+            padding: 40px;
+        }
     }
 
 `
