@@ -42,7 +42,7 @@ const Footer = () => {
                         <a href={'/service/mobile-app'}>mobile app development</a>
                         <Link>Digital Marketing</Link>
                         <Link>software development</Link>
-                        <Link>uI/UX design</Link>
+                        <a href={'/service/UIUX'}>uI/UX design</a>
                     </div>
                 </div>
                 <div className='set'>
