@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import 'react-paginate/dist/react-paginate.css';
+// import 'react-paginate/dist/react-paginate.css';
 
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
