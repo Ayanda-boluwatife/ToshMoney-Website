@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import LoveUx from '../All Inner Service Page/Uiux page/LoveUx'
+
 
 const MainBlog = () => {
   return (
@@ -43,6 +45,9 @@ const MainBlog = () => {
                     </div>
                 </div>
                </div>
+               <div>
+                <LoveUx />
+               </div>
             </div>
         </div>
     </Wrapper>
@@ -80,14 +85,13 @@ const Wrapper = styled.section`
 .main__card{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     gap: 20px;
 }
 
 .card__1, .card__2, .card__3{
     /* width: 80%; */
-    border: 1px solid #000;
-    background-color: gray;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 `
 export default MainBlog;
