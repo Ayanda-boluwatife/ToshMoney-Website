@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import LoveUx from '../All Inner Service Page/Uiux page/LoveUx'
+import Love from './Love'
 
 
 const MainBlog = () => {
@@ -46,7 +46,7 @@ const MainBlog = () => {
                 </div>
                </div>
                <div>
-                <LoveUx />
+                <Love />
                </div>
             </div>
         </div>
