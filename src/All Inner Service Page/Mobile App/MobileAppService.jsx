@@ -6,6 +6,7 @@ import PropsOne from './PropsOne';
 import Human from './Human';
 import Love from './Love';
 import Business from './Business';
+import Portfolio from '../Portfolio page/Portfolio';
 const MobileAppService = () => {
   return (
     <Wrapper>
@@ -18,6 +19,7 @@ const MobileAppService = () => {
       />
       <Human/>
       <Business/>
+      <Portfolio/>
       <Love/>
       <Footer/>
     </Wrapper>
