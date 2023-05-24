@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Nav from '../../HomePage/Nav';
 import Footer from '../../HomePage/Footer';
-import PropsOne from './PropsOne';
+import PropsOne from '../Mobile App/PropsOne';
 import HumanUx from './HumanUx';
 import LoveUx from './LoveUx';
 import BusinessUx from './BusinessUx';
