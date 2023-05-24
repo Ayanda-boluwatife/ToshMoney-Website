@@ -63,14 +63,16 @@ const Wrapper = styled.section`
     input{
       border: none;
       background-color: transparent;
-      outline-color: none;
+      outline-color: transparent;
     }
     .search{
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 5px;
       background-color: white;
-      padding: 10px 30px;
+      border-radius: 10px;
+      padding: 10px 25px;
     }
     .sub p{
       font-family: 'Poppins', sans-serif;
