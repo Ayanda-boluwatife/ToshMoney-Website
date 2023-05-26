@@ -132,6 +132,10 @@ const Wrapper = styled.section`
   border-top-left-radius: 10px;
 }
 
+.blog-post img:hover{
+  transform: scale(105%);
+}
+
 .blog-post h2 {
   margin-top: 3px;
   padding: 10px;
