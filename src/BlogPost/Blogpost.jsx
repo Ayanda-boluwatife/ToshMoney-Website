@@ -150,6 +150,9 @@ const Wrapper = styled.section`
   padding: 10px;
   border: none;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination {
