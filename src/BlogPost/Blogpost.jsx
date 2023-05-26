@@ -112,7 +112,7 @@ const Wrapper = styled.section`
 .blog-post-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   margin-bottom: 20px;
   height: fit-content;
   width: fit-content;
