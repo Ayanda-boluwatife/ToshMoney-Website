@@ -113,7 +113,7 @@ const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   height: fit-content;
   width: fit-content;
 }
@@ -133,12 +133,12 @@ const Wrapper = styled.section`
 }
 
 .blog-post h2 {
-  margin-top: 5px;
+  margin-top: 3px;
   padding: 10px;
 }
 
 .blog-post p {
-  margin-top: 5px;
+  margin-top: 3px;
   padding: 10px;
 }
 
