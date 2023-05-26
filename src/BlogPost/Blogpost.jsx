@@ -55,7 +55,7 @@ const BlogPage = () => {
   const displayedPosts = blogPosts.slice(offset, offset + pageSize);
 
   const pageCount = Math.ceil(blogPosts.length / pageSize);
-  const paginationNumbers = Array.from({ length: pageCount }, (_, index) => index + 3);
+  const paginationNumbers = Array.from({ length: pageCount }, (_3, index) => index + 1);
 
   return (
     <Wrapper>
