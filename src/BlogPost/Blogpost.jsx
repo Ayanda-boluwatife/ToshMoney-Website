@@ -114,6 +114,7 @@ const Wrapper = styled.section`
 .blog-post {
   border: 1px solid #ccc;
   padding: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .blog-post img {
