@@ -73,17 +73,26 @@ const BlogPage = () => {
         ))}
       </div>
 
-      {/* Render pagination */}
       <div className="pagination">
+        {currentPage > 0 && (
+          <button className="pagination-button" onClick={() => handlePageChange(currentPage - 1)}>
+            Previous
+          </button>
+        )}
         {paginationNumbers.map((number) => (
           <button
             key={number}
-            className={`pagination-button ${number === currentPage + 1 ? 'active' : ''}`}
-            onClick={() => handlePageChange(number - 1)}
+            className={`pagination-button ${number === currentPage ? 'active' : ''}`}
+            onClick={() => handlePageChange(number)}
           >
-            {number}
+            {number + 1}
           </button>
         ))}
+        {currentPage < pageCount - 1 && (
+          <button className="pagination-button" onClick={() => handlePageChange(currentPage + 1)}>
+            Next
+          </button>
+        )}
       </div>
     </div>
     </Wrapper>
