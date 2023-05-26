@@ -99,6 +99,8 @@ const Wrapper = styled.section`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   margin-bottom: 20px;
+  height: fit-content;
+  width: fit-content;
 }
 
 .blog-post {
