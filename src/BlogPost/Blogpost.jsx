@@ -18,42 +18,48 @@ const BlogPage = () => {
       title: 'How to use chatGPT for UI/UX design: 25 examples',
       summary: 'The practical guide to include AI in your daily workflow Instead of continuing the endless debate “will AI replace designers” lets focus on something practical.',
       imageUrl: '/images/blog__1.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: '/innerblog3'
     },
     {
       id: 2,
       title: 'Bad Bad UI: 10 Common Mistakes in User Interfaces',
       summary: 'We all learn from mistakes, and this rule applies to web designers as well. In this article, we will tell you what mistakes many of them make when creating user interface design.',
       imageUrl: '/images/blog__2.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: '/innerblog2'
     },
     {
       id: 3,
       title: 'Frustrations and Triumphs: My Journey to Learning',
       summary: 'A true language love story — I’ve been learning Korean for a whopping 15 years. 15 difficult and exciting years. I can’t imagine a life without',
       imageUrl: '/images/blog__3.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: "/innerblog3"
     },
     {
       id: 4,
       title: 'UI/UX Design Trends 2023',
       summary: 'Yet another year is coming to a close. Many of the 2022 trends we anticipated, did find their use in digital products across our devices this year.',
       imageUrl: '/images/blog__1.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: "/innerblog4"
     },
     {
       id: 5,
       title: 'Product Design is overtaking UX',
       summary: 'Understanding why UX is not enough and three ways to augment your skills — My job title recently changed to Senior Product Designer',
       imageUrl: '/images/blog__2.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: "/innerblog5"
     },
     {
       id: 6,
       title: '7 Tiny Habits That Can Have a Huge Effect on Your Life',
       summary: 'Break progress into small steps to prevent overwhelm. — Too often, we focus on the big stuff. Someone who never works out is told to hit',
       imageUrl: '/images/blog__3.png',
-      btn: "Read More"
+      btn: "Read More",
+      route: "/innerblog6"
     },
   ];
 
@@ -70,8 +76,8 @@ const BlogPage = () => {
       <div className="blog-post-container">
         {displayedPosts.map((post) => (
           <div className="blog-post" key={post.id}>
-            <a href="/innerblog"><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
-            <a href="/innerblog"><h4>{post.title}</h4></a>
+            <a href={route}><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
+            <a href={route}><h4>{post.title}</h4></a>
             <p>{post.summary}</p>
             <div className='blog-post-btn'>
               <button>{post.btn}</button>
@@ -165,7 +171,6 @@ a{
   padding: 10px 30px;
   border: none;
   border-radius: 10px;
-  background-color: ;
 }
 
 .pagination {
