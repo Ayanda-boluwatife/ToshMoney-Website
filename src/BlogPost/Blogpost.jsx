@@ -120,7 +120,7 @@ const Wrapper = styled.section`
 }
 
 .blog-post {
-  background-color:  #ccc;
+  background-color:  #d120f9;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
@@ -142,7 +142,7 @@ const Wrapper = styled.section`
 
 .blog-post h2 {
   margin-top: 3px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .blog-post p {
