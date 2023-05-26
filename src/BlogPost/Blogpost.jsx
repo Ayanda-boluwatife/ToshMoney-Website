@@ -122,6 +122,7 @@ const Wrapper = styled.section`
   border: 1px solid #ccc;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 .blog-post img {
@@ -130,10 +131,12 @@ const Wrapper = styled.section`
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  transition: all 400ms ease;
 }
 
 .blog-post img:hover{
   transform: scale(105%);
+  transition: all 400ms ease;
 }
 
 .blog-post h2 {
