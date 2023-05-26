@@ -70,8 +70,8 @@ const BlogPage = () => {
       <div className="blog-post-container">
         {displayedPosts.map((post) => (
           <div className="blog-post" key={post.id}>
-            <img src={post.imageUrl} alt={`Image for ${post.title}`} />
-            <h4>{post.title}</h4>
+            <a href="/innerblog"><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
+            <a href="/innerblog"><h4>{post.title}</h4></a>
             <p>{post.summary}</p>
             <div className='blog-post-btn'>
               <button>{post.btn}</button>
