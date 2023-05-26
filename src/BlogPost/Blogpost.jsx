@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
-  const initialPage = 4   ; // Initial page number
+  const initialPage = 0; // Initial page number
 
   const [currentPage, setCurrentPage] = useState(initialPage); // Current page number
 
@@ -55,11 +55,11 @@ const BlogPage = () => {
   const displayedPosts = blogPosts.slice(offset, offset + pageSize);
 
   const pageCount = Math.ceil(blogPosts.length / pageSize);
-  const paginationNumbers = Array.from({ length: pageCount }, (_3, index) => index + 1);
+  const paginationNumbers = Array.from({ length: pageCount }, (_, index) => index);
 
   return (
     <Wrapper>
-      <div className="blog-page">
+    <div className="blog-page">
       <h1>Blog Page</h1>
 
       {/* Render blog posts */}
