@@ -98,7 +98,7 @@ const BlogPage = () => {
 };
 const Wrapper = styled.section`
   .blog-page {
-  /* text-align: center; */
+  text-align: center;
   padding: 20px;
 }
 
