@@ -101,6 +101,7 @@ const BlogPage = () => {
 const Wrapper = styled.section`
   .blog-page {
   text-align: center;
+  padding: 20px;
 }
 
 .blog-post-container {
