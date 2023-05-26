@@ -107,7 +107,7 @@ const BlogPage = () => {
 };
 const Wrapper = styled.section`
   .blog-page {
-  padding: 20px;
+  padding: 40px;
 }
 
 .blog-post-container {
@@ -162,9 +162,10 @@ a{
 }
 
 .blog-post-btn button{
-  padding: 8px 30px;
+  padding: 10px 30px;
   border: none;
   border-radius: 10px;
+  background-color: ;
 }
 
 .pagination {
