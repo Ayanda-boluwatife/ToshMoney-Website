@@ -98,7 +98,7 @@ const BlogPage = () => {
 };
 const Wrapper = styled.section`
   .blog-page {
-  text-align: center;
+  /* text-align: center; */
   padding: 20px;
 }
 
@@ -133,6 +133,7 @@ const Wrapper = styled.section`
 
 .pagination {
   margin-top: 20px;
+  text-align: center;
 }
 
 .pagination-button {
