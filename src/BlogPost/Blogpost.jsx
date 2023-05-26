@@ -73,7 +73,7 @@ const BlogPage = () => {
             <img src={post.imageUrl} alt={`Image for ${post.title}`} />
             <h2>{post.title}</h2>
             <p>{post.summary}</p>
-            <button>{btn}</button>
+            <button>{post.btn}</button>
           </div>
         ))}
       </div>
