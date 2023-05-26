@@ -120,7 +120,7 @@ const Wrapper = styled.section`
 
 .blog-post {
   border: 1px solid #ccc;
-  /* padding: 10px; */
+  border-radius: 10px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -128,6 +128,8 @@ const Wrapper = styled.section`
   width: 100%;
   max-height: 200px;
   object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .blog-post h2 {
