@@ -71,7 +71,7 @@ const BlogPage = () => {
         {displayedPosts.map((post) => (
           <div className="blog-post" key={post.id}>
             <img src={post.imageUrl} alt={`Image for ${post.title}`} />
-            <h2>{post.title}</h2>
+            <h4>{post.title}</h4>
             <p>{post.summary}</p>
             <button>{post.btn}</button>
           </div>
@@ -142,6 +142,8 @@ const Wrapper = styled.section`
 
 .blog-post button{
   padding: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 .pagination {
