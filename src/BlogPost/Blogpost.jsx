@@ -148,6 +148,7 @@ const Wrapper = styled.section`
 .blog-post p {
   margin-top: 3px;
   padding: 10px;
+  font-size: 20px;
 }
 
 .blog-post-btn{
