@@ -138,7 +138,7 @@ const Wrapper = styled.section`
 
 .blog-post h2 {
   margin-top: 3px;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .blog-post p {
