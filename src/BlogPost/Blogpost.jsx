@@ -60,8 +60,6 @@ const BlogPage = () => {
   return (
     <Wrapper>
     <div className="blog-page">
-      <h1>Blog Page</h1>
-
       {/* Render blog posts */}
       <div className="blog-post-container">
         {displayedPosts.map((post) => (
@@ -116,7 +114,6 @@ const Wrapper = styled.section`
 .blog-post {
   border: 1px solid #ccc;
   padding: 10px;
-  text-align: center;
 }
 
 .blog-post img {
