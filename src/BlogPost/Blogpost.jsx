@@ -145,6 +145,10 @@ const Wrapper = styled.section`
   margin-left: 10px;
 }
 
+a{
+  color: #000;
+}
+
 .blog-post p {
   margin-top: 3px;
   padding: 10px;
