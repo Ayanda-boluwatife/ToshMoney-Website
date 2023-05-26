@@ -132,10 +132,16 @@ const Wrapper = styled.section`
 
 .blog-post h2 {
   margin-top: 10px;
+  padding: 10px;
 }
 
 .blog-post p {
   margin-top: 5px;
+  padding: 10px;
+}
+
+.blog-post button{
+  padding: 10px;
 }
 
 .pagination {
