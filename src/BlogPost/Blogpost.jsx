@@ -120,7 +120,7 @@ const Wrapper = styled.section`
 }
 
 .blog-post {
-  background-color:  #d120f9;
+  /* background-color:  #d120f9; */
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
@@ -132,12 +132,12 @@ const Wrapper = styled.section`
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  transition: all 400ms ease;
+  transition: all 500ms ease;
 }
 
 .blog-post img:hover{
   transform: scale(110%);
-  transition: all 400ms ease;
+  transition: all 500ms ease;
 }
 
 .blog-post h2 {
