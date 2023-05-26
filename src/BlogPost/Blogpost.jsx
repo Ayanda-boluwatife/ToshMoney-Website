@@ -73,7 +73,9 @@ const BlogPage = () => {
             <img src={post.imageUrl} alt={`Image for ${post.title}`} />
             <h4>{post.title}</h4>
             <p>{post.summary}</p>
-            <button>{post.btn}</button>
+            <div className='blog-post-btn'>
+              <button>{post.btn}</button>
+            </div>
           </div>
         ))}
       </div>
@@ -105,7 +107,6 @@ const BlogPage = () => {
 };
 const Wrapper = styled.section`
   .blog-page {
-  /* text-align: center; */
   padding: 20px;
 }
 
@@ -135,7 +136,7 @@ const Wrapper = styled.section`
 }
 
 .blog-post img:hover{
-  transform: scale(105%);
+  transform: scale(110%);
   transition: all 400ms ease;
 }
 
@@ -149,13 +150,16 @@ const Wrapper = styled.section`
   padding: 10px;
 }
 
-.blog-post button{
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
+.blog-post-btn{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blog-post-btn button{
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
 }
 
 .pagination {
