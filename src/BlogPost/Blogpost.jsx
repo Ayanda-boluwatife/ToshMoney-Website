@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
@@ -19,7 +20,7 @@ const BlogPage = () => {
       summary: 'The practical guide to include AI in your daily workflow Instead of continuing the endless debate “will AI replace designers” lets focus on something practical.',
       imageUrl: '/images/blog__1.png',
       btn: "Read More",
-      route: '/innerblog3'
+      route: '/innerblog1'
     },
     {
       id: 2,
@@ -76,12 +77,9 @@ const BlogPage = () => {
       <div className="blog-post-container">
         {displayedPosts.map((post) => (
           <div className="blog-post" key={post.id}>
-            <a href={route}><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
-            <a href={route}><h4>{post.title}</h4></a>
+            <a href={post.route}><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
+            <a href={post.route}><h4>{post.title}</h4></a>
             <p>{post.summary}</p>
-            <div className='blog-post-btn'>
-              <button>{post.btn}</button>
-            </div>
           </div>
         ))}
       </div>
@@ -134,7 +132,7 @@ const Wrapper = styled.section`
 
 .blog-post img {
   width: 100%;
-  max-height: 200px;
+  height: fit-content;
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -146,17 +144,18 @@ const Wrapper = styled.section`
   transition: all 500ms ease;
 }
 
-.blog-post h2 {
-  margin-top: 3px;
+.blog-post a h2 {
   margin-left: 10px;
+  
 }
 
 a{
   color: #000;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .blog-post p {
-  margin-top: 3px;
   padding: 10px;
   font-size: 15px;
 }
@@ -188,6 +187,18 @@ a{
 
 .pagination-button.active {
   background: #ccc;
+}
+
+@media screen and (max-width:1024px) {
+  .blog-post-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .blog-post-container{
+    grid-template-columns: 1fr;
+  }
 }
 
 `
