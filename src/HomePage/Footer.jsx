@@ -59,7 +59,7 @@ const Footer = () => {
                     <h3>resources</h3>
                     <div className="linkers">
                         <a href={'/career'}>career</a>
-                        <Link>blog</Link>
+                        <a href='/blog'>blog</a>
                     </div>
                 </div>
             </div>

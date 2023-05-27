@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
-import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
@@ -11,6 +10,9 @@ const BlogPage = () => {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
+
+  // ============ active state ===========
+  const [active, setActive] = useState('#');
 
   // Dummy data with blog post headings, summaries, and image URLs
   const blogPosts = [
@@ -73,6 +75,14 @@ const BlogPage = () => {
   return (
     <Wrapper>
     <div className="blog-page">
+      <div className="explore__blog">
+        <h1>Explore our blog</h1>
+        <div className="btn__group">
+          <button id='#' onClick={() => setActive('#')} className={active === '#' ? 'active' : ''}>Popular</button>
+          <button id='#recent' onClick={() => setActive('#recent')} className={active === '#recent' ? 'active' : ''}>Recent</button>
+          <button id='#sport' onClick={() => setActive('#sport')} className={active === '#sport' ? 'active' : ''}>Sport</button>
+        </div>
+      </div>
       {/* Render blog posts */}
       <div className="blog-post-container">
         {displayedPosts.map((post) => (
@@ -112,6 +122,37 @@ const BlogPage = () => {
 const Wrapper = styled.section`
   .blog-page {
   padding: 40px;
+}
+
+.explore__blog{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__group{
+  display: flex;
+  gap: 20px;
+}
+
+.btn__group button{
+  padding: 8px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #827e77;
+  color: #fff;
+  transition: all 400ms ease;
+}
+
+.btn__group button.active{
+  background-color: #C12DC1;
+  color: #fff;
+}
+
+.explore__blog h1{
+  font-size: 2rem;
 }
 
 .blog-post-container {
@@ -156,20 +197,7 @@ a{
 }
 
 .blog-post p {
-  padding: 10px;
   font-size: 15px;
-}
-
-.blog-post-btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-post-btn button{
-  padding: 10px 30px;
-  border: none;
-  border-radius: 10px;
 }
 
 .pagination {
@@ -193,11 +221,28 @@ a{
   .blog-post-container{
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .explore__blog{
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+  }
 }
 
 @media screen and (max-width:600px) {
   .blog-post-container{
     grid-template-columns: 1fr;
+  }
+
+  .explore__blog{
+    flex-direction: column;
+  }
+
+  .btn__group{
+    gap: 10px;
+  }
+
+  .btn__group button{
+    padding: 8px 20px;
   }
 }
 
