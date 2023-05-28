@@ -1,5 +1,4 @@
 import React from 'react';
-import bgimg from "../images/Group 75.png";
 import styled from 'styled-components';
 
 const LoveUx = () => {
@@ -16,7 +15,7 @@ const Wrapper = styled.div`
 
     width: 100%;
     height: 70vh;
-    background-image: url(${bgimg});
+    background-image: url('/images/Group 75.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
