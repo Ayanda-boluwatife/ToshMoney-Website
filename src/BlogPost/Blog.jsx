@@ -5,6 +5,7 @@ import Nav from '../HomePage/Nav'
 import styled from 'styled-components'
 import BlogHeader from './BlogHeader'
 import BlogPage from './Blogpost'
+import Love from './Love'
 
 const Career = () => {
   return (
@@ -15,6 +16,7 @@ const Career = () => {
         />
         <BlogHeader />
         <BlogPage />
+        <Love />
         <Footer/>
         <BackToTop />
       </section>
