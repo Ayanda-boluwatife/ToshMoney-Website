@@ -5,7 +5,7 @@ const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
   const initialPage = 0; // Initial page number
   const summaryMaxLength = 100;
-  const titleMaxLength = 30;
+  const titleMaxLength = 25;
 
   const [currentPage, setCurrentPage] = useState(initialPage); // Current page number
 
