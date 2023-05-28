@@ -27,6 +27,9 @@ import InnerBlog1 from './BlogPost/InnerBlog1';
 import InnerBlog4 from './BlogPost/InnerBlog4';
 import InnerBlog5 from './BlogPost/InnerBlog5';
 import InnerBlog6 from './BlogPost/InnerBlog6';
+import WebsiteService from './All Inner Service Page/Website page/WebsiteService';
+import SoftwareService from './All Inner Service Page/Software Page/SoftwareService';
+import DigitalMarketingService from './All Inner Service Page/Digital Marketing/DigitalMarketingService';
 
 function App() {
   return (
@@ -49,6 +52,9 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/service/mobile-app' element={<MobileAppService/>}/>
           <Route path='/service/uiux' element={<UiuxService/>}/>
+          <Route path='/service/website-development' element={<WebsiteService/>}/>
+          <Route path='/service/software-development' element={<SoftwareService/>}/>
+          <Route path='/service/digital-markting' element={<DigitalMarketingService/>}/>
           <Route path='/contact' element={<Contact />}/>
           <Route path='/faq1' element={<Faq />} />
           <Route path='/faq2' element={<FaqRedo/>} />
