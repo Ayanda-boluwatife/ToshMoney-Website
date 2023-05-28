@@ -38,10 +38,10 @@ const Footer = () => {
                 <div className='set'>
                     <h3>services</h3>
                     <div className="linkers">
-                        <Link>Website development</Link>
+                        <a href={''}>Website development</a>
                         <a href={'/service/mobile-app'}>mobile app development</a>
-                        <Link>Digital Marketing</Link>
-                        <Link>software development</Link>
+                        <a href={''}>Digital Marketing</a>
+                        <a href={''}>software development</a>
                         <a href={'/service/UIUX'}>uI/UX design</a>
                     </div>
                 </div>
