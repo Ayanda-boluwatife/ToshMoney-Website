@@ -21,18 +21,15 @@ const InnerBlog1 = () => {
             para2= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum, error amet repellendus. Praesentium, debitis nostrum? Est ut consequatur perferendis dignissimos alias quaerat!'
             para3= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum, error amet repellendus. Praesentium, debitis nostrum? Est ut consequatur perferendis dignissimos alias quaerat!'
             para4= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum, error amet repellendus. Praesentium, debitis nostrum? Est ut consequatur perferendis dignissimos alias quaerat!'
-            border1= "Blog post 1"
-            list1= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list2= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list3= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list4= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list5= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            border2= 'Blog post 1'
-            list6= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list7= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list8= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list9= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
-            list10= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum,'
+            para5= 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellat atque debitis at perferendis enim id nostrum, error amet repellendus. Praesentium, debitis nostrum? Est ut consequatur perferendis dignissimos alias quaerat!'
+            para_header1= 'Generate copy for a website or section'
+            para_header2= 'Get ideas for page layers or wireframe'
+            para_header3= 'Ideas to optimize your design workflow'
+            list6= 'Bad Bad UI: 10 Common Mistakes in User Interfaces,'
+            list7= 'Bad Bad UI: 10 Common Mistakes in User Interfaces,'
+            list8= 'Bad Bad UI: 10 Common Mistakes in User Interfaces,'
+            list9= 'Bad Bad UI: 10 Common Mistakes in User Interfaces,'
+            list10= 'Bad Bad UI: 10 Common Mistakes in User Interfaces,'
         />
         <Footer />
     </Wrapper>

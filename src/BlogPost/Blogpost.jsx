@@ -44,7 +44,7 @@ const BlogPage = () => {
       id: 4,
       title: 'UI/UX Design Trends 2023',
       summary: 'Yet another year is coming to a close. Many of the 2022 trends we anticipated, did find their use in digital products across our devices this year.',
-      imageUrl: '/images/blog__1.png',
+      imageUrl: '/images/blog__4.png',
       btn: "Read More",
       route: "/innerblog4"
     },
@@ -52,7 +52,7 @@ const BlogPage = () => {
       id: 5,
       title: 'Product Design is overtaking UX',
       summary: 'Understanding why UX is not enough and three ways to augment your skills — My job title recently changed to Senior Product Designer',
-      imageUrl: '/images/blog__2.png',
+      imageUrl: '/images/blog__5.png',
       btn: "Read More",
       route: "/innerblog5"
     },
@@ -60,7 +60,7 @@ const BlogPage = () => {
       id: 6,
       title: '7 Tiny Habits That Can Have a Huge Effect on Your Life',
       summary: 'Break progress into small steps to prevent overwhelm. — Too often, we focus on the big stuff. Someone who never works out is told to hit',
-      imageUrl: '/images/blog__3.png',
+      imageUrl: '/images/blog__6.png',
       btn: "Read More",
       route: "/innerblog6"
     },

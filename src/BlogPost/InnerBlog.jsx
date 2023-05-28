@@ -12,30 +12,40 @@ const InnerBlog = (props) => {
               <img src={props.blogimg} alt="" />
               <p>{props.para1}</p>
               <p>{props.para2}</p>
-              <p>{props.para3}</p>
-              <p>{props.para4}</p>
+              <ol>
+                <li>
+                  <h1>{props.para_header1}</h1>
+                  <p>{props.para3}</p>
+                </li>
+                <li>
+                  <h1>{props.para_header2}</h1>
+                  <p>{props.para4}</p>
+                </li>
+                <li>
+                  <h1>{props.para_header3}</h1>
+                  <p>{props.para5}</p>
+                </li>
+              </ol>
           </div>
         </div>
 
         <div className='innerblog__grid__2'>
           <div className='border__1'>
-            <h2>{props.border1}</h2>
+            <h2>On this page</h2>
             <ul>
-              <li>{props.list1}</li>
-              <li>{props.list2}</li>
-              <li>{props.list3}</li>
-              <li>{props.list4}</li>
-              <li>{props.list5}</li>
+              <li>{props.para_header1}</li>
+              <li>{props.para_header2}</li>
+              <li>{props.para_header3}</li>
             </ul>
           </div>
           <div className='border__2'>
-          <h2>{props.border2}</h2>
+          <h2>Recommend blogs</h2>
             <ul>
-              <li>{props.list6}</li>
-              <li>{props.list7}</li>
-              <li>{props.list8}</li>
-              <li>{props.list9}</li>
-              <li>{props.list10}</li>
+              <li><a href="#">{props.list6}</a></li>
+              <li><a href="#">{props.list7}</a></li>
+              <li><a href="#">{props.list8}</a></li>
+              <li><a href="#">{props.list9}</a></li>
+              <li><a href="#">{props.list10}</a></li>
             </ul>
           </div>
         </div>
@@ -47,7 +57,7 @@ const Wrapper = styled.section`
 
 padding: 0 4rem;
 display: grid;
-grid-template-columns: 60% 40%;
+grid-template-columns: 75% 25%;
 grid-gap: 2rem;
 margin-bottom: 3rem;
 
@@ -61,6 +71,24 @@ margin-bottom: 3rem;
 
 .border__1 ul li, .border__2 ul li{
   padding: 6px;
+  list-style: none;
+}
+
+.border__1 ul li{
+  font-weight: 500;
+}
+
+.innerblog__main ol{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.border__2 a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .innerblog__grid__2{
