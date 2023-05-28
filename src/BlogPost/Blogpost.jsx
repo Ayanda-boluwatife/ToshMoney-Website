@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const BlogPage = () => {
   const pageSize = 6; // Number of items per page (3 rows * 2 columns)
   const initialPage = 0; // Initial page number
+  const summaryMaxLength = 100;
 
   const [currentPage, setCurrentPage] = useState(initialPage); // Current page number
 
@@ -89,7 +90,7 @@ const BlogPage = () => {
           <div className="blog-post" key={post.id}>
             <a href={post.route}><img src={post.imageUrl} alt={`Image for ${post.title}`} /></a>
             <a href={post.route}><h4>{post.title}</h4></a>
-            <p>{post.summary}</p>
+            <p>{post.summary.length > summaryMaxLength ? `${post.summary.slice(0, summaryMaxLength)}...` : post.summary}</p>
           </div>
         ))}
       </div>
