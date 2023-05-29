@@ -56,10 +56,20 @@ const Wrapper = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 40px 70px;
     }
     .top{
         width: 50%;
         text-align: center;
+    }
+    .grid-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+    }
+    .card{
+        
     }
 `
 export default Client;
