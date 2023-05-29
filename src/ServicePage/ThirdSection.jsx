@@ -17,7 +17,7 @@ const ThirdSection = () => {
                 <h1>MOBILE APP DEVELOPMENT</h1>
                 <p>We build mobile application that will helps strengthen your business by building relevance, familiarity, trust and credibility through your business-customer relationship.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/service/mobile-app'}><button>Learn More</button></a>
                 </div>
             </div>
             <div className='two'>
@@ -27,7 +27,7 @@ const ThirdSection = () => {
                 <h1>WEBSITE DEVELOPMENT</h1>
                 <p>Our team of experts design and develop custom website can will help you generate long-term customer relationships, connect with your customers, generate leads, and boost sales.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/service/website-development'}><button>Learn More</button></a>
                 </div>
             </div>
             <div className='one'>
@@ -37,7 +37,7 @@ const ThirdSection = () => {
                 <h1>UI/UX DESIGN</h1>
                 <p>Our experienced UI/UX designers will help you create a perfect user interface and user experience to keep your website clean, modern, and up-to-date.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/service/uiux'}><button>Learn More</button></a>
                 </div>
             </div>
             <div className='one'>
@@ -47,7 +47,7 @@ const ThirdSection = () => {
                 <h1>SOFTWARE DEVELOPMENT</h1>
                 <p>Having software developed that meets the unique requirements of your business helps your employees work more efficiently and perform their job duties with greater confidence. Our software developers are here to help you.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/service/softwaare-development'}><button>Learn More</button></a>
                 </div>
             </div>
             <div className='two'>
@@ -57,7 +57,7 @@ const ThirdSection = () => {
                 <h1>DIGITAL MARKETING</h1>
                 <p>With our professional digital marketing services, your business can establish brand credibility across a larger market.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/service/digital-marketing'}><button>Learn More</button></a>
                 </div>
             </div>
             <div className='one'>
@@ -67,7 +67,7 @@ const ThirdSection = () => {
                 <h1>Consulting</h1>
                 <p>We will defines the strategies you need to position your business on the market to grow and then execute them via the necessary channels to communicate them to reach your target audience successfully.</p>
                 <div>
-                    <a href={'/contact'}><button>Hire us now</button></a>
+                    <a href={'/contact'}><button>Learn More</button></a>
                 </div>
             </div>
         </div>

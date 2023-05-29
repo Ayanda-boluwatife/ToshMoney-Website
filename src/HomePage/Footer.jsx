@@ -7,6 +7,7 @@ import {FiFacebook} from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const year = new Date().getFullYear()
   return (
     <Wrapper>
         <footer>
@@ -65,12 +66,12 @@ const Footer = () => {
             </div>
             <div className="base">
                 <div className='first'>
-                    <span>2023 copyright by toshconsult.</span>
+                    <span style={{fontWeight:600, color:"black", fontSize:"18px"}}> &copy; {year} Toshconsult Technologies Inc | All Rights Reserved.</span>
                 </div>
                 <div className='second'>
-                    <div><h4>address:</h4> <span>block 20 ibrahim taiwo road, ilorin, kwara, NG</span></div>
-                    <div><h4>phone no.:</h4> <span>+2348103856846</span></div>
-                    <div><h4>email:</h4> <span style={{textTransform: 'lowercase'}}>info@toshconsultinc.com</span></div>
+                    <div><h4>address:</h4> <span style={{fontWeight:600, color:"black", fontSize:"18px"}}>block 20 ibrahim taiwo road, ilorin, kwara, NG</span></div>
+                    <div><h4>phone no.:</h4> <span style={{fontWeight:600, color:"black", fontSize:"18px"}}>+2348103856846</span></div>
+                    <div><h4>email:</h4> <span style={{textTransform: 'lowercase', fontWeight:600, color:"black", fontSize:"18px"}}>info@toshconsultinc.com</span></div>
                 </div>
             </div>
         </footer>

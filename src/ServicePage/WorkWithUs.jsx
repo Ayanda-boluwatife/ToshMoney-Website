@@ -27,7 +27,9 @@ const Wrapper = styled.section`
     }
     p{
         font-weight: 300;
-        font-family: 'Poppins', sans-serif;  
+        font-family: 'Poppins', sans-serif;
+        margin-top: -10px;
+        text-align:center;
     }
    .main{
     background: #C12DC1;
@@ -39,7 +41,7 @@ const Wrapper = styled.section`
     align-items: center;
     padding: 50px;
     width: 90%;
-    line-height: 100%;
+    
    }
    button{
     padding: 10px 25px;

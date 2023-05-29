@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1>
                     access the dream courses of your career.
                 </h1>
-                <div>
+                <div style={{lineHeight:"30px"}}>
                     <p>Become a Globally Certified, Sought-After, and Highly Paid Digital Software Developer.</p>
                     <p>Position yourself to get a well-paid job and help boost any business sales faster.</p>
                 </div>
