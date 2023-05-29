@@ -210,12 +210,7 @@ const PrivacyPolicy = () => {
       <li>
       <p>By email: info@toshconsultinc.com</p>
       </li>
-      <li>
-      <p>By visiting this page on our website: <a href="https://toshconsultinc.com" rel="external nofollow noopener">https://toshconsultinc.com</a></p>
-      </li>
-      <li>
-      <p>By phone number: +2348103856846</p>
-      </li>
+     
       </ul>
 
     </div>
