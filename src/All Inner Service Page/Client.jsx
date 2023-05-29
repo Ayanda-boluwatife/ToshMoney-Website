@@ -49,9 +49,14 @@ const Client = () => {
   )
 }
 const Wrapper = styled.div`
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
     .container{
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -73,16 +78,17 @@ const Wrapper = styled.div`
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
     .img-sect{
         width: 100%;
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 20px;
     }
     .img-sect h1{
-        padding: 20px;
+        padding: 15px 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -92,6 +98,11 @@ const Wrapper = styled.div`
     }
     .active{
         background-color:#FB9B02;
+    }
+    @media screen and (max-width: 950px) {
+        .container{
+            padding: 40px;
+        }
     }
 `
 export default Client;
