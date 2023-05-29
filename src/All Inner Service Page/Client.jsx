@@ -12,7 +12,7 @@ const Client = () => {
             <div className="grid-section">
                 <div className="card">
                     <div className="img-sect">
-                        <h1 className='active'>1</h1>
+                        <h1 style={{backgroundColor:"#FB9B02 !important",}} className='active'>1</h1>
                         <span>---------------</span>
                     </div>
                     <h3>choose our services</h3>
@@ -88,7 +88,7 @@ const Wrapper = styled.div`
         gap: 20px;
     }
     .img-sect h1{
-        padding: 15px 20px;
+        padding: 12px 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -97,7 +97,15 @@ const Wrapper = styled.div`
         color: black;
     }
     .active{
-        background-color:#FB9B02;
+        background-color:#FB9B02 !important;
+    }
+    h1, h3{
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+    }
+    p{
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
     }
     @media screen and (max-width: 950px) {
         .container{
