@@ -7,6 +7,7 @@ import HumanUx from './HumanUx';
 import LoveUx from './LoveUx';
 import BusinessUx from './BusinessUx';
 import Portfolio from '../Portfolio page/Portfolio';
+import Client from '../Client';
 
 const UiuxService = () => {
   return (
@@ -20,6 +21,7 @@ const UiuxService = () => {
       />
       <HumanUx/>
       <BusinessUx/>
+      <Client/>
       <Portfolio/>
       <LoveUx/>
       <Footer/>
