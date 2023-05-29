@@ -80,7 +80,7 @@ const Wrapper = styled.div`
       gap: 30px;
     }  
     .second{
-      min-height: 100%;
+      min-height: 70vh;
     }
     .first img{
       width: 100%;
