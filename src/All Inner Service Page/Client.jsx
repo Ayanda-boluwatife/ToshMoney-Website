@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import line from './images/Line 8.png'
+// import line from './images/Line 8.png'
 
 const Client = () => {
   return (

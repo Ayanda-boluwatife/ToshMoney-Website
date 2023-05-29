@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
+import {Link} from "react-router-dom"
 import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -19,7 +20,10 @@ const Testimony = () => {
   return (
     <Wrapper>
       <div className='word'>
-        <h1>What Our Client Are Saying</h1>
+        <h1>What Our Clients Say</h1>
+      </div>
+      <div className='wreview'>
+        <Link to={"https://g.page/r/Cd_CSBQp0xUnEB0/review"} className='write-review'>Write a review about us</Link>
       </div>
       <Swiper {...params} className='swipe'>
           <SwiperSlide className='SwiperSlide'>
@@ -37,7 +41,7 @@ const Testimony = () => {
           <SwiperSlide className='SwiperSlide'>
             <div className='one'>
               <img src="/images/Eli.png" alt="" />
-              <h1>Adeshina vMubarak</h1>
+              <h1>Adeshina Mubarak</h1>
               <p><em>"Toshconsuit agency did an excellent job by providing me with a speedy and SEO responsive<br/> website for my business; I recommended anyone who needs a website for all<br/> kinds of business; trust me, you won't regret it"</em></p>
             </div>
             <div className='one'>
@@ -59,6 +63,7 @@ const Testimony = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+        {/* <div class="elfsight-app-7fd97825-1145-4cd9-b34a-73960d68c2fa"></div> */}
     </Wrapper>
   )
 }
@@ -75,6 +80,16 @@ padding: 40px;
       background: #FFFFFF;
       border-radius: 14px;
       padding: 30px;
+    }
+    .wreview{
+      text-align:center
+    }
+    .write-review{
+      text-decoration:none;
+      border: 3px solid grey;
+      padding:10px 35px;
+      color:#000;
+      border-radius:5px;
     }
     h1{
       font-family: "Raleway", sans-serif;
