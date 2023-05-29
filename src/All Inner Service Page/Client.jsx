@@ -12,8 +12,8 @@ const Client = () => {
             <div className="grid-section">
                 <div className="card">
                     <div className="img-sect">
-                        <h1 style={{backgroundColor:"#FB9B02 !important",}} className='active'>1</h1>
-                        <span>---------------</span>
+                        <h1 className='active'>1</h1>
+                        <span>----------------------</span>
                     </div>
                     <h3>choose our services</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -21,7 +21,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>2</h1>
-                        <span>---------------</span>
+                        <span>----------------------</span>
                     </div>
                     <h3>request for meeting</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -29,7 +29,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>3</h1>
-                        <span>---------------</span>
+                        <span>----------------------</span>
                     </div>
                     <h3>get custom plan</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -37,7 +37,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>4</h1>
-                        <span>---------------</span>
+                        <span>----------------------</span>
                     </div>
                     <h3>delivery</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -61,8 +61,9 @@ const Wrapper = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 40px 70px;
+        padding: 20px 70px;
         background-color: #FEF3C7;
+        text-transform: capitalize;
     }
     .top{
         width: 50%;
@@ -88,7 +89,7 @@ const Wrapper = styled.div`
         gap: 20px;
     }
     .img-sect h1{
-        padding: 12px 20px;
+        padding: 13px 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -98,6 +99,11 @@ const Wrapper = styled.div`
     }
     .active{
         background-color:#FB9B02 !important;
+        color: white !important;
+    }
+    .img-sect h1:hover{
+        background-color: #FB9B02;
+        color: white;
     }
     h1, h3{
         font-weight: 600;
@@ -109,7 +115,10 @@ const Wrapper = styled.div`
     }
     @media screen and (max-width: 950px) {
         .container{
-            padding: 40px;
+            padding: 20px 40px;
+        }
+        .top{
+            width: 100%;
         }
     }
 `
