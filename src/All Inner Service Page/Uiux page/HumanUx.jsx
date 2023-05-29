@@ -46,6 +46,7 @@ const Wrapper = styled.div`
     gap: 30px;
     text-transform: capitalize;
     overflow: hidden;
+    height: 100%;
   }
   .second h1{
     font-weight: 600;
