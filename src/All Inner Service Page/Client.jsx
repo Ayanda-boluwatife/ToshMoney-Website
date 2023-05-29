@@ -12,7 +12,7 @@ const Client = () => {
             <div className="grid-section">
                 <div className="card">
                     <div className="img-sect">
-                        <h1>1</h1>
+                        <h1 className='active'>1</h1>
                         <img src={line} alt={line} />
                     </div>
                     <h3>choose our services</h3>
@@ -69,7 +69,28 @@ const Wrapper = styled.div`
         grid-gap: 20px;
     }
     .card{
-        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-sect{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .img-sect h1{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+    }
+    .active{
+        background-color:#FB9B02;
     }
 `
 export default Client;

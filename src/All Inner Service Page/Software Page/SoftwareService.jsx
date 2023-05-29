@@ -7,6 +7,7 @@ import Human from './Human';
 import Love from './Love';
 import Business from './Business';
 import Portfolio from '../Portfolio page/Portfolio';
+import Client from '../Client';
 const SoftwareService = () => {
   return (
     <Wrapper>
@@ -19,6 +20,7 @@ const SoftwareService = () => {
       />
       <Human/>
       <Business/>
+      <Client/>
       <Portfolio/>
       <Love/>
       <Footer/>
