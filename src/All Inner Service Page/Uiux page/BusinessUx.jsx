@@ -46,7 +46,6 @@ const Wrapper = styled.div`
     gap: 30px;
     text-transform: capitalize;
     overflow: hidden;
-    height: 100%;
   }
   .second h1{
     font-weight: 600;
@@ -80,7 +79,9 @@ const Wrapper = styled.div`
       padding: 20px 40px;
       gap: 30px;
     }  
-    
+    .second{
+      min-height: 100%;
+    }
     .first img{
       width: 100%;
       height: 100%;
