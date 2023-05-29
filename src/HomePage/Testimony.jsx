@@ -63,7 +63,6 @@ const Testimony = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div class="elfsight-app-7fd97825-1145-4cd9-b34a-73960d68c2fa"></div> */}
     </Wrapper>
   )
 }
