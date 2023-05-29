@@ -13,7 +13,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1 className='active'>1</h1>
-                        <img src={line} alt={line} />
+                        <span>---------------</span>
                     </div>
                     <h3>choose our services</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -21,7 +21,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>2</h1>
-                        <img src={line} alt={line} />
+                        <span>---------------</span>
                     </div>
                     <h3>request for meeting</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -29,7 +29,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>3</h1>
-                        <img src={line} alt={line} />
+                        <span>---------------</span>
                     </div>
                     <h3>get custom plan</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -37,7 +37,7 @@ const Client = () => {
                 <div className="card">
                     <div className="img-sect">
                         <h1>4</h1>
-                        <img src={line} alt={line} />
+                        <span>---------------</span>
                     </div>
                     <h3>delivery</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
@@ -57,6 +57,7 @@ const Wrapper = styled.div`
         align-items: center;
         justify-content: center;
         padding: 40px 70px;
+        background-color: #FEF3C7;
     }
     .top{
         width: 50%;
