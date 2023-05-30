@@ -31,6 +31,7 @@ import WebsiteService from './All Inner Service Page/Website page/WebsiteService
 import SoftwareService from './All Inner Service Page/Software Page/SoftwareService';
 import DigitalMarketingService from './All Inner Service Page/Digital Marketing/DigitalMarketingService';
 import UserContacts from './AdminDashboard/UserContacts';
+import FoundContact from './AdminDashboard/FoundContact';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
           <Route path='/innerblog5' element={<InnerBlog5 />} />
           <Route path='/innerblog6' element={<InnerBlog6 />} />
           <Route path='/contacts' element={<UserContacts/>}/>
+          <Route path='/contacts/:id' element={<FoundContact/>}/>
         </Routes>
       </Router>
     </div>
