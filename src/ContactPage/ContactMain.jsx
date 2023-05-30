@@ -1,7 +1,47 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
+import { Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ContactMain = () => {
+  const [userMsg, setUserMsg] = useState({
+    full_name : '',
+    service:'',
+    budget: '',
+    phone_number:'',
+    whatsapp_number:'',
+    email:'',
+    message: ''
+  })
+
+  const [redirect, setRedirect] = useState(false)
+
+  const handleUserInput = (event)=>{
+    const {name, value} = event.target;
+    setUserMsg((prevData)=>{
+      return{
+        ...prevData,
+        [name]:value
+      }
+    })
+  };
+  
+const handleSubmit = async(event)=>{
+  event.preventDefault();
+  const response = await fetch("https://toshapi.onrender.com/contact",{
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body:JSON.stringify(userMsg)
+})
+if (response.ok){
+  alert("Message sent successfully!")
+  setRedirect(true)
+}
+}
+
+if(redirect){
+  return <Navigate to={"/service"} />
+}
+
   return (
     <Wrapper>
       <div className="container">
@@ -16,46 +56,63 @@ const ContactMain = () => {
         <div className="form-area">
           <p>Fill The Below Form</p>
         </div>
-          <form >
+          <form onSubmit={handleSubmit}>
             <div className='field'>
-              <label htmlFor="">Full Name:</label> 
-              <input type="text" name="" id="" />
+              <label htmlFor="full_name">Full Name:</label> 
+              <input type="text" name="full_name" id="full_name" 
+              onChange={handleUserInput}
+              value={userMsg.full_name}
+              />
             </div>
             <div className="field">
               <label htmlFor="">Select your Services</label>
-              <select name="" id="">
-                <option value="">Mobile App Development</option>
-                <option value="">UIUX Design</option>
-                <option value="">Website Development</option>
-                <option value="">Software Development</option>
-                <option value="">Digital Marketing</option>
+              <select name="service" id="service" 
+              onChange={handleUserInput}
+              value={userMsg.service}
+              >
+                <option>Mobile App Development</option>
+                <option>UIUX Design</option>
+                <option>Website Development</option>
+                <option>Software Development</option>
+                <option>Digital Marketing</option>
               </select>
             </div>
             <div className='field'>
               <label htmlFor="">Your Propose Budget:</label>
-              <select name="" id="">
-                <option value="">20,000 - 50,000</option>
-                <option value="">50,0000 - 80,000</option>
-                <option value="">80,000 - 100,000</option>
-                <option value="">100,000 - 150,000</option>
-                <option value="">150,000 - Above</option>
+              <select name="budget" id="budget" 
+              onChange={handleUserInput}
+              value={userMsg.budget}
+              >
+                <option >20,000 - 50,000</option>
+                <option>50,0000 - 80,000</option>
+                <option>80,000 - 100,000</option>
+                <option>100,000 - 150,000</option>
+                <option>150,000 - Above</option>
               </select>
             </div>
             <div className='field'>
-              <label htmlFor="">Phone Number:</label>
-              <input type="tel" name="" id="" />
+              <label htmlFor="phone_number">Phone Number:</label>
+              <input type="tel" name="phone_number" id="phone_number" 
+              onChange={handleUserInput}
+              value={userMsg.phone_number} />
             </div>
             <div className='field'>
-              <label htmlFor="">WhatsApp Number:</label>
-              <input type="tel" name="" id="" />
+              <label htmlFor="whatsapp_number">WhatsApp Number:</label>
+              <input type="tel" name="whatsapp_number" id="whatsapp_number" 
+              onChange={handleUserInput}
+              value={userMsg.whatsapp_number} />
             </div>
             <div className='field'>
-              <label htmlFor="">Email:</label>
-              <input type="email" name="" id="" />
+              <label htmlFor="email">Email:</label>
+              <input type="email" name="email" id="email" 
+              onChange={handleUserInput}
+              value={userMsg.email} />
             </div>
             <div className='field'>
-              <label htmlFor="">MESSAGE:</label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <label htmlFor="message">MESSAGE:</label>
+              <textarea name="message" id="message" 
+              onChange={handleUserInput}
+              value={userMsg.message} cols="30" rows="10"></textarea>
             </div>
           <div>
             <a href={"/service"}><button type='submit'>Send Now</button></a>
