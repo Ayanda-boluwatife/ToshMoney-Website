@@ -6,7 +6,7 @@ import {useParams} from "react-router-dom";
 const FoundContact = () => {
     const [userData, setUserData] = useState({});
     const {id} = useParams()
-    const getAllContacts = async()=>{
+    const getSingleContacts = async()=>{
         const respons = await fetch(`https://toshapi.onrender.com/api/v1/contacts/${id}`, {
             mode: "cors"
         })
@@ -16,7 +16,8 @@ const FoundContact = () => {
     }
     
     useEffect(()=>{
-        getAllContacts()
+        getSingleContacts()
+        // eslint-disable-next-line 
     },[]);
 
     if (!userData){
