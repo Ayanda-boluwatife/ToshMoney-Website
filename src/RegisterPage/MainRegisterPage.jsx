@@ -5,6 +5,31 @@ import { FiArrowLeft } from 'react-icons/fi';
 
 const MainRegisterPage = () => {
     const [isPop, setIsPop] = useState(false);
+    const [registerMsg, setRegisterMsg] = useState({
+        full_name: "",
+        email: "",
+        gender: "",
+        date_of_birth: "",
+        phone_number: "",
+        contact_address: "",
+        street_address: "",
+        region: "",
+        course: "",
+        course_level: "",
+        preferred_time: "",
+        message: "",
+    });
+
+    const handleChangeInput = (e) => {
+        const {name, value} = e.target;
+        setRegisterMsg((prevData)=>{
+            return{
+                ...prevData,
+                [name]:value
+            }
+        })
+    }
+
   return (
     <Wrapper>
         <div className="container">
@@ -17,97 +42,159 @@ const MainRegisterPage = () => {
             </div>
 
             <div className="form-area">
-                <form action="">
+                <form>
                     <div className='first'>
                         <div className='field'>
-                            <label htmlFor="">Full Name:</label>
-                            <input class="input"type="text" />
+                            <label htmlFor="full_name">Full Name:</label>
+                            <input class="input" type="text" 
+                                name='full_name' 
+                                id='full_name' 
+                                value={registerMsg.full_name} 
+                                onChange={handleChangeInput} 
+                            />
                         </div>
                         <div className='field'>
-                            <label htmlFor="">Email:</label> 
-                            <input class="input"type="email" />
+                            <label htmlFor="email">Email:</label> 
+                            <input class="input" type="email" 
+                                name='email' 
+                                id='email' 
+                                value={registerMsg.email} 
+                                onChange={handleChangeInput} 
+                            />
                         </div>
                     </div>
                     <div className='field'>
                     <h3>Gender</h3>
                     <div className='special'>
-                            <span>Male</span>
-                            <input class="radio" type="radio" name="radio-input" id="" />
+                        <span>Male</span>
+                        <input class="radio" type="radio" name="radio-input"  
+                            value={registerMsg.gender} 
+                            onChange={handleChangeInput} 
+                        />
                     </div>
                     <div className='special'>
-                            <span>Female</span>
-                            <input class="radio" type="radio" name="radio-input" id="" />
+                        <span>Female</span>
+                        <input class="radio" type="radio" name="radio-input"                                
+                            value={registerMsg.gender} 
+                            onChange={handleChangeInput}
+                        />
                     </div>
                     </div>
                     <div className='first'>
                         <div className='field'>
-                            <label htmlFor="">Date Of Birth</label>
-                            <input class="input"type="date" name="" id="" />
+                            <label htmlFor="date_of_birth">Date Of Birth</label>
+                            <input class="input" type="date" 
+                                name='date_of_birth' 
+                                id='date_of_birth' 
+                                value={registerMsg.date_of_birth} 
+                                onChange={handleChangeInput} 
+                            />
                         </div>
                         <div className='field'>
-                            <label htmlFor="">Phone Number</label>
-                            <input class="input"type="number" name="" id="" />
+                            <label htmlFor="phone_number">Phone Number</label>
+                            <input class="input" type="number" 
+                                name='phone_number' 
+                                id='phone_number' 
+                                value={registerMsg.phone_number} 
+                                onChange={handleChangeInput} 
+                            />
                         </div>
                     </div>
                     <div className='field'>
-                        <label htmlFor="">Contact Address</label>
-                        <input class="input"type="text" name="" id="" />
+                        <label htmlFor="contact_address">Contact Address</label>
+                        <input class="input" type="text" 
+                            name='contact_address' 
+                            id='contact_address' 
+                            value={registerMsg.contact_address} 
+                            onChange={handleChangeInput} 
+                        />
                     </div>
                     <div className='first'>
                         <div className='field'>
-                            <label htmlFor="">Street Address</label>
-                            <input class="input"type="text" name="" id="" />
+                            <label htmlFor="street_address">Street Address</label>
+                            <input class="input" type="text" 
+                                name='street_address' 
+                                id='street_address' 
+                                value={registerMsg.street_address} 
+                                onChange={handleChangeInput} 
+                            />
 
                         </div>
                         <div className='field'>
-                            <label htmlFor="">State / Province / Region</label>
-                            <input class="input"type="text" name="" id="" />
+                            <label htmlFor="region">State / Province / Region</label>
+                            <input class="input" type="text"
+                                name='region' 
+                                id='region' 
+                                value={registerMsg.region} 
+                                onChange={handleChangeInput} 
+                            />
                         </div>
                     </div>
                     <div className="application">
                         <h3 className='header'>Course Application</h3>
                         <div className='field'>
-                            <label htmlFor="">Choose Course:</label>
-                            <select name="" id="">
-                                <option value="">Frontend Development</option>
-                                <option value="">Backend Development</option>
-                                <option value="">Python Development</option>
-                                <option value="">Fullstack Development</option>
-                                <option value="">UIUX Design</option>
-                                <option value="">Digital Markrting</option>
-                                <option value="">WordPress Development</option>
+                            <label htmlFor="course">Choose Course:</label>
+                            <select 
+                                name='course' 
+                                id='course' 
+                                value={registerMsg.course} 
+                                onChange={handleChangeInput} 
+                            >
+                                <option>Frontend Development</option>
+                                <option>Backend Development</option>
+                                <option>Python Development</option>
+                                <option>Fullstack Development</option>
+                                <option>UIUX Design</option>
+                                <option>Digital Markrting</option>
+                                <option>WordPress Development</option>
                             </select>
                         </div>
                         <div className="field">
-                            <label htmlFor="">Choose Your Level:</label>
-                            <select name="" id="">
-                                <option value="">Beginner</option>
-                                <option value="">Intermediate</option>
-                                <option value="">Advance</option>git    
+                            <label htmlFor="course_level">Choose Your Level:</label>
+                            <select
+                                name='course_level' 
+                                id='course_level' 
+                                value={registerMsg.course_level} 
+                                onChange={handleChangeInput} 
+                            >
+                                <option>Beginner</option>
+                                <option>Intermediate</option>
+                                <option>Advance</option>    
                             </select>
                         </div>
                         <div className="field">
-                            <label htmlFor="">Preferred Time</label>
-                            <select name="" id="">
-                                <option value="">Morning</option>
-                                <option value="">Afternoon</option>
-                                <option value="">Weekend</option>
+                            <label htmlFor="preferred_time">Preferred Time</label>
+                            <select
+                                name='preferred_time' 
+                                id='preferred_time' 
+                                value={registerMsg.preferred_time} 
+                                onChange={handleChangeInput} 
+                            >
+                                <option>Morning</option>
+                                <option>Afternoon</option>
+                                <option>Weekend</option>
                             </select>
                         </div>
                         <div className='field'>
                             <h3>WHY DO YOU WANT TO LEARN THIS COURSE?</h3>
                             <p>The question is meant to help us familiarize with your interest  and specifics skills.</p>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea  
+                                name='message' 
+                                id='message' 
+                                value={registerMsg.message} 
+                                onChange={handleChangeInput}  cols="30" rows="10"></textarea>
                         </div>
                     </div>
-
-                </form>
-                <div className='submit'>
+                    <div className='submit'>
                     <p>Subtmit your application for our team to review. Our team will get back to you within 24 hours.</p>
                     <div>
-                        <button onClick={()=>setIsPop(!isPop)}>Submit</button>
+                        <button 
+                        // onClick={()=>setIsPop(!isPop)}
+                        >Submit</button>
                     </div>
-                </div>
+                    </div>
+                </form>
+
                 {isPop &&(
                     <div className="common">
                         <div className='pop'>

@@ -40,8 +40,9 @@ const Wrapper = styled.div`
         font-size: 35px;
     }
     .tab{
-        display: flex;
-        flex-direction: row;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         align-items: center;
         justify-content: center;
         gap: 20px;
@@ -58,6 +59,7 @@ const Wrapper = styled.div`
         border-radius: 15px;
         font-weight: 600;
         font-family: 'Raleway', sans-serif;
+        text-transform: capitalize;
     }
     button:hover, .active{
         background-color:#FB9B02;

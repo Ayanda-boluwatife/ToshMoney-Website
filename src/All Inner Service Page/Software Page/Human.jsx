@@ -19,22 +19,19 @@ const Human = () => {
 }
 const Wrapper = styled.div`
 
-  *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   .container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
-    padding: 40px 70px;
+    padding: 0px 70px;
     align-items: center;
     justify-content: center;
-  }
-  img{
-    height: 85vh;
   }
   .first{
     width: 100%;
@@ -47,6 +44,11 @@ const Wrapper = styled.div`
     text-transform: capitalize;
     overflow: hidden;
   }
+  .second h3{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #FB9B02;
+  }
   .second h1{
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
@@ -58,33 +60,22 @@ const Wrapper = styled.div`
     padding: 15px 0;
     line-height: 25px;
   }
-  .second button{
-    padding: 12px 25px;
-    border: none;
-    background-color: #FB9B02;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  .second button:hover{
-    background-color: white;
-    color: #FB9B02;
-    border: 1px solid #FB9B02;
+  img{
+    height: 85vh;
   }
 
 
   @media screen and (max-width: 950px) {
     .container{
       flex-direction: column;
-      padding: 20px 40px;
+      padding: 40px;
+      margin-top: 0px;
       gap: 30px;
     }  
-    
     .first img{
       width: 100%;
       height: 100%;
     }
   }
-
 `
 export default Human;

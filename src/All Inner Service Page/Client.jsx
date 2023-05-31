@@ -96,6 +96,7 @@ const Wrapper = styled.div`
         border-radius: 50%;
         background-color: white;
         color: black;
+        cursor: pointer;
     }
     .active{
         background-color:#FB9B02 !important;
