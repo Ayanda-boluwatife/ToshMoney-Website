@@ -8,7 +8,7 @@ const Business = () => {
       <div className="container">
         <div className="second">
           <h1>responsive mobile app</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>In today's mobile-driven world, a responsive website is essential. We ensure that your website looks and performs flawlessly across all devices and screen sizes. Our responsive web design approach enables seamless user experiences, allowing your visitors to access your content and interact with your website effortlessly, whether they're on a desktop, tablet, or mobile device.</p>
         </div>
         <div className="first">
           <img src={heroImg2} alt={heroImg2} />

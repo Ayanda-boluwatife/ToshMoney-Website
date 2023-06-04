@@ -11,7 +11,7 @@ const Human = () => {
         </div>
         <div className="second">
           <h1>human centric design principles</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>We believe that every website should prioritize the needs and experiences of its users. By incorporating human-centric design principles, we create websites that are intuitive, visually appealing, and tailored to meet the expectations of your target audience. Our team focuses on understanding user behaviors, preferences, and goals to deliver engaging </p>
         </div>
       </div>
     </Wrapper>
