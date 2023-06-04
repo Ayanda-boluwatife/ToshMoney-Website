@@ -21,7 +21,16 @@ const UiuxService = () => {
       />
       <HumanUx/>
       <BusinessUx/>
-      <Client/>
+      <Client
+        headOne=""
+        paraOne=""
+        headTwo=""
+        paraTwo=""
+        headThree=""
+        paraThree=""
+        headFour=""
+        paraFour=""
+      />
       <Portfolio/>
       <LoveUx/>
       <Footer/>

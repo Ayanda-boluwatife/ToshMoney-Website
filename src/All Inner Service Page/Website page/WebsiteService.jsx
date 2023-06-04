@@ -20,7 +20,16 @@ const WebsiteService = () => {
       />
       <Human/>
       <Business/>
-      <Client/>
+      <Client
+        headOne=""
+        paraOne=""
+        headTwo=""
+        paraTwo=""
+        headThree=""
+        paraThree=""
+        headFour=""
+        paraFour=""
+      />
       <Portfolio/>
       <Love/>
       <Footer/>

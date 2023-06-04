@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 // import line from './images/Line 8.png'
 
-const Client = () => {
+const Client = ({Props}) => {
   return (
     <Wrapper>
         <div className="container">
@@ -15,32 +15,32 @@ const Client = () => {
                         <h1 className='active'>1</h1>
                         <span>----------------------</span>
                     </div>
-                    <h3>choose our services</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
+                    <h3>{Props.headOne}</h3>
+                    <p>{Props.paraOne}</p>
                 </div>
                 <div className="card">
                     <div className="img-sect">
                         <h1>2</h1>
                         <span>----------------------</span>
                     </div>
-                    <h3>request for meeting</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
+                    <h3>{Props.headTwo}</h3>
+                    <p>{Props.paraTwo}</p>
                 </div>
                 <div className="card">
                     <div className="img-sect">
                         <h1>3</h1>
                         <span>----------------------</span>
                     </div>
-                    <h3>get custom plan</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
+                    <h3>{Props.headThree}</h3>
+                    <p>{Props.paraThree}</p>
                 </div>
                 <div className="card">
                     <div className="img-sect">
                         <h1>4</h1>
                         <span>----------------------</span>
                     </div>
-                    <h3>delivery</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, </p>
+                    <h3>{Props.headFour}</h3>
+                    <p>{Props.paraFour}</p>
                 </div>
 
             </div>
