@@ -8,7 +8,7 @@ const Business = () => {
       <div className="container">
         <div className="second">
           <h1>responsive mobile app</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>Stay ahead in the mobile-first era with our responsive mobile app development services. We craft mobile apps that adapt flawlessly to different screen sizes and devices, delivering an exceptional user experience across smartphones and tablets.</p>
         </div>
         <div className="first">
           <img src={heroImg2} alt={heroImg2} />

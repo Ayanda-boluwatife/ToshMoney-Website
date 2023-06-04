@@ -8,7 +8,7 @@ const BusinessUx = () => {
       <div className="container">
         <div className="second">
           <h1>business productivity and experiment</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>We understand that UI/UX design goes beyond aesthetics. Our designs are strategically crafted to enhance business productivity and drive results. We focus on optimizing workflows, simplifying complex processes, and creating intuitive interactions that empower users to accomplish tasks efficiently, boosting overall productivity.</p>
         </div>
         <div className="first">
           <img src={heroImg2} alt={heroImg2} />

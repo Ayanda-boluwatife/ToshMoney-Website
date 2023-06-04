@@ -11,7 +11,7 @@ const HumanUx = () => {
         </div>
         <div className="second">
           <h1>human centric design principles</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <p>Immerse your users in a delightful and intuitive digital experience with our human-centric design approach. We place users at the center of our design process, prioritizing their needs, behaviors, and preferences to create interfaces that are visually appealing, easy to navigate, and engage seamlessly.</p>
         </div>
       </div>
     </Wrapper>
