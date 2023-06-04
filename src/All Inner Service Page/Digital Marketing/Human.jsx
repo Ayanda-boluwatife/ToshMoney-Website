@@ -10,8 +10,8 @@ const Human = () => {
           <img src={heroImg} alt={heroImg} />
         </div>
         <div className="second">
-          <h1>human centric design principles</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <h1>Empowering Businesses Through Digital Excellence</h1>
+          <p>Drive your online presence and maximize your reach with our comprehensive digital marketing services. From search engine optimization (SEO) and pay-per-click (PPC) advertising to social media marketing and content strategy, we develop tailored digital marketing campaigns that attract, engage, and convert your target audience.</p>
         </div>
       </div>
     </Wrapper>

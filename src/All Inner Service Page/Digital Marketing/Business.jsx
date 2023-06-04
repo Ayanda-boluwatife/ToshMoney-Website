@@ -7,8 +7,8 @@ const Business = () => {
     <Wrapper>
       <div className="container">
         <div className="second">
-          <h1>responsive mobile app</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.</p>
+          <h1>Redefining Digital Excellence</h1>
+          <p>At Tosh Consult, we go beyond conventional approaches to deliver exceptional digital solutions. Here's what sets us apart</p>
         </div>
         <div className="first">
           <img src={heroImg2} alt={heroImg2} />
