@@ -2,15 +2,15 @@ import React from 'react'
 import styled from 'styled-components';
 import {IoIosArrowForward} from 'react-icons/io';
 
-const PropsOne = (props) => {
+const PropsOne = (Props) => {
   return (
     <Wrapper>
         <div className="container">
             <div className="enclosure">
                 <div className="sub">
-                    <h1>{props.header}</h1>
+                    <h1>{Props.header}</h1>
                 </div>
-                <p>{props.first} <IoIosArrowForward/> {props.second} <IoIosArrowForward/> {props.third}</p>
+                <p>{Props.first} <IoIosArrowForward/> {Props.second} <IoIosArrowForward/> {Props.third}</p>
             </div>
         </div>
     </Wrapper>
