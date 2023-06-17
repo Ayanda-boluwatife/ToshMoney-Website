@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 // import line from './images/Line 8.png'
 
-const Client = ({Props}) => {
+const Client = (Props) => {
   return (
     <Wrapper>
         <div className="container">
