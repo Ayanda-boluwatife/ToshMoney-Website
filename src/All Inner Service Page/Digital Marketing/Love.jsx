@@ -7,7 +7,7 @@ const Love = () => {
     <Wrapper>
         <div className="container">
             <h1>love to build something amazing with us?</h1>
-            <a href={'/contact'}>contact us</a>
+            <a href={'/contact'}> contact us</a>
         </div>
     </Wrapper>
   )
